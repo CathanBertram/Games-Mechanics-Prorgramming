@@ -17,24 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 	SHOOTINGSYSTEM_API UClass* Z_Construct_UClass_AShootingSystemPlayerCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ShootingSystem();
+	ENGINE_API UClass* Z_Construct_UClass_UChildActorComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	SHOOTINGSYSTEM_API UClass* Z_Construct_UClass_UInputable_NoRegister();
+	SHOOTINGSYSTEM_API UClass* Z_Construct_UClass_UInitable_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execLookHorizontalAtRate)
-	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_rate);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->LookHorizontalAtRate_Implementation(Z_Param_rate);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execLookVerticalAtRate)
-	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_rate);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->LookVerticalAtRate_Implementation(Z_Param_rate);
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execLookHorizontal)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_value);
@@ -65,13 +52,6 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->MoveVertical_Implementation(Z_Param_value);
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execInteractReleased)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->InteractReleased_Implementation();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execInteractPressed)
@@ -109,6 +89,13 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		P_THIS->JumpPressed_Implementation();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AShootingSystemPlayerCharacter::execInit)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Init_Implementation();
+		P_NATIVE_END;
+	}
 	static FName NAME_AShootingSystemPlayerCharacter_FirePressed = FName(TEXT("FirePressed"));
 	void AShootingSystemPlayerCharacter::FirePressed()
 	{
@@ -119,15 +106,15 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_FireReleased),NULL);
 	}
+	static FName NAME_AShootingSystemPlayerCharacter_Init = FName(TEXT("Init"));
+	void AShootingSystemPlayerCharacter::Init()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_Init),NULL);
+	}
 	static FName NAME_AShootingSystemPlayerCharacter_InteractPressed = FName(TEXT("InteractPressed"));
 	void AShootingSystemPlayerCharacter::InteractPressed()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_InteractPressed),NULL);
-	}
-	static FName NAME_AShootingSystemPlayerCharacter_InteractReleased = FName(TEXT("InteractReleased"));
-	void AShootingSystemPlayerCharacter::InteractReleased()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_InteractReleased),NULL);
 	}
 	static FName NAME_AShootingSystemPlayerCharacter_JumpPressed = FName(TEXT("JumpPressed"));
 	void AShootingSystemPlayerCharacter::JumpPressed()
@@ -146,26 +133,12 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		Parms.value=value;
 		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_LookHorizontal),&Parms);
 	}
-	static FName NAME_AShootingSystemPlayerCharacter_LookHorizontalAtRate = FName(TEXT("LookHorizontalAtRate"));
-	void AShootingSystemPlayerCharacter::LookHorizontalAtRate(float rate)
-	{
-		ShootingSystemPlayerCharacter_eventLookHorizontalAtRate_Parms Parms;
-		Parms.rate=rate;
-		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_LookHorizontalAtRate),&Parms);
-	}
 	static FName NAME_AShootingSystemPlayerCharacter_LookVertical = FName(TEXT("LookVertical"));
 	void AShootingSystemPlayerCharacter::LookVertical(float value)
 	{
 		ShootingSystemPlayerCharacter_eventLookVertical_Parms Parms;
 		Parms.value=value;
 		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_LookVertical),&Parms);
-	}
-	static FName NAME_AShootingSystemPlayerCharacter_LookVerticalAtRate = FName(TEXT("LookVerticalAtRate"));
-	void AShootingSystemPlayerCharacter::LookVerticalAtRate(float rate)
-	{
-		ShootingSystemPlayerCharacter_eventLookVerticalAtRate_Parms Parms;
-		Parms.rate=rate;
-		ProcessEvent(FindFunctionChecked(NAME_AShootingSystemPlayerCharacter_LookVerticalAtRate),&Parms);
 	}
 	static FName NAME_AShootingSystemPlayerCharacter_MoveHorizontal = FName(TEXT("MoveHorizontal"));
 	void AShootingSystemPlayerCharacter::MoveHorizontal(float value)
@@ -187,14 +160,12 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "FirePressed", &AShootingSystemPlayerCharacter::execFirePressed },
 			{ "FireReleased", &AShootingSystemPlayerCharacter::execFireReleased },
+			{ "Init", &AShootingSystemPlayerCharacter::execInit },
 			{ "InteractPressed", &AShootingSystemPlayerCharacter::execInteractPressed },
-			{ "InteractReleased", &AShootingSystemPlayerCharacter::execInteractReleased },
 			{ "JumpPressed", &AShootingSystemPlayerCharacter::execJumpPressed },
 			{ "JumpReleased", &AShootingSystemPlayerCharacter::execJumpReleased },
 			{ "LookHorizontal", &AShootingSystemPlayerCharacter::execLookHorizontal },
-			{ "LookHorizontalAtRate", &AShootingSystemPlayerCharacter::execLookHorizontalAtRate },
 			{ "LookVertical", &AShootingSystemPlayerCharacter::execLookVertical },
-			{ "LookVerticalAtRate", &AShootingSystemPlayerCharacter::execLookVerticalAtRate },
 			{ "MoveHorizontal", &AShootingSystemPlayerCharacter::execMoveHorizontal },
 			{ "MoveVertical", &AShootingSystemPlayerCharacter::execMoveVertical },
 		};
@@ -246,6 +217,28 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShootingSystemPlayerCharacter, nullptr, "Init", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractPressed_Statics
 	{
 #if WITH_METADATA
@@ -267,28 +260,6 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractPressed_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShootingSystemPlayerCharacter, nullptr, "InteractReleased", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -366,34 +337,6 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics
-	{
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_rate;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::NewProp_rate = { "rate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ShootingSystemPlayerCharacter_eventLookHorizontalAtRate_Parms, rate), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::NewProp_rate,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShootingSystemPlayerCharacter, nullptr, "LookHorizontalAtRate", nullptr, nullptr, sizeof(ShootingSystemPlayerCharacter_eventLookHorizontalAtRate_Parms), Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVertical_Statics
 	{
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
@@ -419,34 +362,6 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVertical_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics
-	{
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_rate;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::NewProp_rate = { "rate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ShootingSystemPlayerCharacter_eventLookVerticalAtRate_Parms, rate), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::NewProp_rate,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShootingSystemPlayerCharacter, nullptr, "LookVerticalAtRate", nullptr, nullptr, sizeof(ShootingSystemPlayerCharacter_eventLookVerticalAtRate_Parms), Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -519,6 +434,27 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_GunChildActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_GunChildActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FPCameraComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_FPCameraComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_BaseLookVerticalRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_BaseLookVerticalRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_BaseLookHorizontalRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_BaseLookHorizontalRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_InteractRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_InteractRange;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -530,14 +466,12 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_FirePressed, "FirePressed" }, // 3705111706
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_FireReleased, "FireReleased" }, // 966617142
+		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_Init, "Init" }, // 2590953538
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractPressed, "InteractPressed" }, // 3399287510
-		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_InteractReleased, "InteractReleased" }, // 3063024602
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_JumpPressed, "JumpPressed" }, // 2106915261
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_JumpReleased, "JumpReleased" }, // 1293861763
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontal, "LookHorizontal" }, // 441016021
-		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookHorizontalAtRate, "LookHorizontalAtRate" }, // 1391191785
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVertical, "LookVertical" }, // 394386690
-		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_LookVerticalAtRate, "LookVerticalAtRate" }, // 3842266648
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_MoveHorizontal, "MoveHorizontal" }, // 1429332401
 		{ &Z_Construct_UFunction_AShootingSystemPlayerCharacter_MoveVertical, "MoveVertical" }, // 1490109682
 	};
@@ -548,8 +482,55 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_GunChildActor_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ShootingSystemPlayerCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_GunChildActor = { "m_GunChildActor", nullptr, (EPropertyFlags)0x004000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingSystemPlayerCharacter, m_GunChildActor), Z_Construct_UClass_UChildActorComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_GunChildActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_GunChildActor_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_FPCameraComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_FPCameraComponent = { "m_FPCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingSystemPlayerCharacter, m_FPCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_FPCameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_FPCameraComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookVerticalRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookVerticalRate = { "m_BaseLookVerticalRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingSystemPlayerCharacter, m_BaseLookVerticalRate), METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookVerticalRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookVerticalRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookHorizontalRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookHorizontalRate = { "m_BaseLookHorizontalRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingSystemPlayerCharacter, m_BaseLookHorizontalRate), METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookHorizontalRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookHorizontalRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_InteractRange_MetaData[] = {
+		{ "Category", "Character" },
+		{ "ModuleRelativePath", "Player/ShootingSystemPlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_InteractRange = { "m_InteractRange", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShootingSystemPlayerCharacter, m_InteractRange), METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_InteractRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_InteractRange_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_GunChildActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_FPCameraComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookVerticalRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_BaseLookHorizontalRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::NewProp_m_InteractRange,
+	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UInputable_NoRegister, (int32)VTABLE_OFFSET(AShootingSystemPlayerCharacter, IInputable), false },
+			{ Z_Construct_UClass_UInitable_NoRegister, (int32)VTABLE_OFFSET(AShootingSystemPlayerCharacter, IInitable), false },
 		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AShootingSystemPlayerCharacter>::IsAbstract,
@@ -560,11 +541,11 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::PropPointers,
 		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::PropPointers),
 		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AShootingSystemPlayerCharacter_Statics::Class_MetaDataParams))
@@ -578,7 +559,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemPlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShootingSystemPlayerCharacter, 2769431250);
+	IMPLEMENT_CLASS(AShootingSystemPlayerCharacter, 1772145911);
 	template<> SHOOTINGSYSTEM_API UClass* StaticClass<AShootingSystemPlayerCharacter>()
 	{
 		return AShootingSystemPlayerCharacter::StaticClass();

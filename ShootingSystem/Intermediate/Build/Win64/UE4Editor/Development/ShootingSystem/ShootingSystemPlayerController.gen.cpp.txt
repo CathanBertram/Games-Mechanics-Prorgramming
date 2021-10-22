@@ -2,4 +2,6 @@ E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\B
 E:\epk\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 E:\epk\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/Player/ShootingSystemPlayerController.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/Interfaces/Initable.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\Initable.generated.h
 E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\ShootingSystemPlayerController.generated.h

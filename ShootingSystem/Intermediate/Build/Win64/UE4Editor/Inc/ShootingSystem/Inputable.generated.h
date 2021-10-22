@@ -15,26 +15,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define ShootingSystem_Source_ShootingSystem_Interfaces_Inputable_h_13_SPARSE_DATA
 #define ShootingSystem_Source_ShootingSystem_Interfaces_Inputable_h_13_RPC_WRAPPERS \
-	virtual void LookHorizontalAtRate_Implementation(float rate) {}; \
-	virtual void LookVerticalAtRate_Implementation(float rate) {}; \
 	virtual void LookHorizontal_Implementation(float value) {}; \
 	virtual void LookVertical_Implementation(float value) {}; \
 	virtual void MoveHorizontal_Implementation(float value) {}; \
 	virtual void MoveVertical_Implementation(float value) {}; \
-	virtual void InteractReleased_Implementation() {}; \
 	virtual void InteractPressed_Implementation() {}; \
 	virtual void FireReleased_Implementation() {}; \
 	virtual void FirePressed_Implementation() {}; \
 	virtual void JumpReleased_Implementation() {}; \
 	virtual void JumpPressed_Implementation() {}; \
  \
-	DECLARE_FUNCTION(execLookHorizontalAtRate); \
-	DECLARE_FUNCTION(execLookVerticalAtRate); \
 	DECLARE_FUNCTION(execLookHorizontal); \
 	DECLARE_FUNCTION(execLookVertical); \
 	DECLARE_FUNCTION(execMoveHorizontal); \
 	DECLARE_FUNCTION(execMoveVertical); \
-	DECLARE_FUNCTION(execInteractReleased); \
 	DECLARE_FUNCTION(execInteractPressed); \
 	DECLARE_FUNCTION(execFireReleased); \
 	DECLARE_FUNCTION(execFirePressed); \
@@ -43,26 +37,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define ShootingSystem_Source_ShootingSystem_Interfaces_Inputable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void LookHorizontalAtRate_Implementation(float rate) {}; \
-	virtual void LookVerticalAtRate_Implementation(float rate) {}; \
 	virtual void LookHorizontal_Implementation(float value) {}; \
 	virtual void LookVertical_Implementation(float value) {}; \
 	virtual void MoveHorizontal_Implementation(float value) {}; \
 	virtual void MoveVertical_Implementation(float value) {}; \
-	virtual void InteractReleased_Implementation() {}; \
 	virtual void InteractPressed_Implementation() {}; \
 	virtual void FireReleased_Implementation() {}; \
 	virtual void FirePressed_Implementation() {}; \
 	virtual void JumpReleased_Implementation() {}; \
 	virtual void JumpPressed_Implementation() {}; \
  \
-	DECLARE_FUNCTION(execLookHorizontalAtRate); \
-	DECLARE_FUNCTION(execLookVerticalAtRate); \
 	DECLARE_FUNCTION(execLookHorizontal); \
 	DECLARE_FUNCTION(execLookVertical); \
 	DECLARE_FUNCTION(execMoveHorizontal); \
 	DECLARE_FUNCTION(execMoveVertical); \
-	DECLARE_FUNCTION(execInteractReleased); \
 	DECLARE_FUNCTION(execInteractPressed); \
 	DECLARE_FUNCTION(execFireReleased); \
 	DECLARE_FUNCTION(execFirePressed); \
@@ -75,17 +63,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	{ \
 		float value; \
 	}; \
-	struct Inputable_eventLookHorizontalAtRate_Parms \
-	{ \
-		float rate; \
-	}; \
 	struct Inputable_eventLookVertical_Parms \
 	{ \
 		float value; \
-	}; \
-	struct Inputable_eventLookVerticalAtRate_Parms \
-	{ \
-		float rate; \
 	}; \
 	struct Inputable_eventMoveHorizontal_Parms \
 	{ \
@@ -157,13 +137,10 @@ public: \
 	static void Execute_FirePressed(UObject* O); \
 	static void Execute_FireReleased(UObject* O); \
 	static void Execute_InteractPressed(UObject* O); \
-	static void Execute_InteractReleased(UObject* O); \
 	static void Execute_JumpPressed(UObject* O); \
 	static void Execute_JumpReleased(UObject* O); \
 	static void Execute_LookHorizontal(UObject* O, float value); \
-	static void Execute_LookHorizontalAtRate(UObject* O, float rate); \
 	static void Execute_LookVertical(UObject* O, float value); \
-	static void Execute_LookVerticalAtRate(UObject* O, float rate); \
 	static void Execute_MoveHorizontal(UObject* O, float value); \
 	static void Execute_MoveVertical(UObject* O, float value); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
@@ -178,13 +155,10 @@ public: \
 	static void Execute_FirePressed(UObject* O); \
 	static void Execute_FireReleased(UObject* O); \
 	static void Execute_InteractPressed(UObject* O); \
-	static void Execute_InteractReleased(UObject* O); \
 	static void Execute_JumpPressed(UObject* O); \
 	static void Execute_JumpReleased(UObject* O); \
 	static void Execute_LookHorizontal(UObject* O, float value); \
-	static void Execute_LookHorizontalAtRate(UObject* O, float rate); \
 	static void Execute_LookVertical(UObject* O, float value); \
-	static void Execute_LookVerticalAtRate(UObject* O, float rate); \
 	static void Execute_MoveHorizontal(UObject* O, float value); \
 	static void Execute_MoveVertical(UObject* O, float value); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }

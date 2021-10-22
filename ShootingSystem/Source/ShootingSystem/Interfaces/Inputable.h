@@ -38,8 +38,6 @@ public:
 	//Interact Functions
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void InteractPressed();
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void InteractReleased();
 
 	//Axis Mappings
 	//Move
@@ -54,8 +52,4 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void LookHorizontal(float value); //Left/Right
 
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void LookVerticalAtRate(float rate); //Up/Down Controller
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void LookHorizontalAtRate(float rate); //Left/Right Controller
 };

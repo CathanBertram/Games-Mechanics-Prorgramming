@@ -8,6 +8,8 @@ E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMov
 E:\epk\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/Interfaces/Initable.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\Initable.generated.h
 E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/Interfaces/Inputable.h
 E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\Inputable.generated.h
 E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\ShootingSystemPlayerCharacter.generated.h

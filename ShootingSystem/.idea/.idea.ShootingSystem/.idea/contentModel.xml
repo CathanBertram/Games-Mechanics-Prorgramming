@@ -48845,12 +48845,21 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ShootingSystem.sln" t="IncludeFlat" />
+      <e p="ShootingSystem.sln.DotSettings.user" t="Include" />
       <e p="ShootingSystem.uproject" t="Include" />
       <e p="Source" t="Include">
         <e p="ShootingSystem" t="Include">
           <e p="Interfaces" t="Include">
+            <e p="Fireable.cpp" t="Include" />
+            <e p="Fireable.h" t="Include" />
+            <e p="GetPlayerController.cpp" t="Include" />
+            <e p="GetPlayerController.h" t="Include" />
+            <e p="Initable.cpp" t="Include" />
+            <e p="Initable.h" t="Include" />
             <e p="Inputable.cpp" t="Include" />
             <e p="Inputable.h" t="Include" />
+            <e p="Interactable.cpp" t="Include" />
+            <e p="Interactable.h" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="ShootingSystemPlayerCharacter.cpp" t="Include" />
@@ -48871,6 +48880,8 @@
             <e p="ShootingSystemProjectile.cpp" t="Include" />
             <e p="ShootingSystemProjectile.h" t="Include" />
           </e>
+          <e p="SystemGamemode.cpp" t="Include" />
+          <e p="SystemGamemode.h" t="Include" />
         </e>
         <e p="ShootingSystem.Target.cs" t="Include" />
         <e p="ShootingSystemEditor.Target.cs" t="Include" />
