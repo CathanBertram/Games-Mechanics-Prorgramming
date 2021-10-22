@@ -1,0 +1,3 @@
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Development\ShootingSystem\Definitions.ShootingSystem.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\Player\ShootingSystemPlayerController.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\ShootingSystemPlayerController.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ShootingSystem.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{77E87D11-4D2B-40F6-94FC-E8DAC74C5D1B}</UniqueIdentifier>
+      <UniqueIdentifier>{54B6C844-CC09-4EED-8BDD-6C0D808F4858}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootingSystem.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4EE9A44E-35D9-4C11-AB80-821D3F9FA285}</UniqueIdentifier>
+      <UniqueIdentifier>{8D9E721B-457B-4ED2-A54A-5CAA2D7FF61D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,40 +30,67 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ShootingSystem">
-      <UniqueIdentifier>{1C139920-C337-431A-8FB1-DC9A07D3C7B0}</UniqueIdentifier>
+      <UniqueIdentifier>{3BBF89D3-0605-4A5D-9A17-E75720846627}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootingSystem\ShootingSystem.Build.cs">
       <Filter>Source\ShootingSystem</Filter>
     </None>
-    <ClCompile Include="..\..\Source\ShootingSystem\ShootingSystem.cpp">
-      <Filter>Source\ShootingSystem</Filter>
+    <Filter Include="Source\ShootingSystem\Interfaces">
+      <UniqueIdentifier>{07668191-4CF6-48A7-8284-2713DEED9F02}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootingSystem\Interfaces\Inputable.cpp">
+      <Filter>Source\ShootingSystem\Interfaces</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ShootingSystem\ShootingSystem.h">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClInclude Include="..\..\Source\ShootingSystem\Interfaces\Inputable.h">
+      <Filter>Source\ShootingSystem\Interfaces</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ShootingSystem\ShootingSystemCharacter.cpp">
-      <Filter>Source\ShootingSystem</Filter>
+    <Filter Include="Source\ShootingSystem\Player">
+      <UniqueIdentifier>{432D3EAD-2AF8-4439-9D86-222D6232DF27}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootingSystem\Player\ShootingSystemPlayerCharacter.cpp">
+      <Filter>Source\ShootingSystem\Player</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ShootingSystem\ShootingSystemCharacter.h">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClInclude Include="..\..\Source\ShootingSystem\Player\ShootingSystemPlayerCharacter.h">
+      <Filter>Source\ShootingSystem\Player</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ShootingSystem\ShootingSystemGameMode.cpp">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClCompile Include="..\..\Source\ShootingSystem\Player\ShootingSystemPlayerController.cpp">
+      <Filter>Source\ShootingSystem\Player</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ShootingSystem\ShootingSystemGameMode.h">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClInclude Include="..\..\Source\ShootingSystem\Player\ShootingSystemPlayerController.h">
+      <Filter>Source\ShootingSystem\Player</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ShootingSystem\ShootingSystemHUD.cpp">
-      <Filter>Source\ShootingSystem</Filter>
+    <Filter Include="Source\ShootingSystem\StarterContent">
+      <UniqueIdentifier>{54EDC9CC-5914-43F4-8504-EDAC00C00004}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystem.cpp">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ShootingSystem\ShootingSystemHUD.h">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClInclude Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystem.h">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ShootingSystem\ShootingSystemProjectile.cpp">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClCompile Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemCharacter.cpp">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ShootingSystem\ShootingSystemProjectile.h">
-      <Filter>Source\ShootingSystem</Filter>
+    <ClInclude Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemCharacter.h">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemGameMode.cpp">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemGameMode.h">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemHUD.cpp">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemHUD.h">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemProjectile.cpp">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootingSystem\StarterContent\ShootingSystemProjectile.h">
+      <Filter>Source\ShootingSystem\StarterContent</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

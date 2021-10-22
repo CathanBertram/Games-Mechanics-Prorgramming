@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ShootingSystem/ShootingSystemProjectile.h"
+#include "ShootingSystem/StarterContent/ShootingSystemProjectile.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemProjectile() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShootingSystemProjectile_OnHit_Statics::Function_MetaDataParams[] = {
 		{ "Comment", "/** called when projectile hits something */" },
-		{ "ModuleRelativePath", "ShootingSystemProjectile.h" },
+		{ "ModuleRelativePath", "StarterContent/ShootingSystemProjectile.h" },
 		{ "ToolTip", "called when projectile hits something" },
 	};
 #endif
@@ -146,12 +146,12 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemProjectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ShootingSystem,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AShootingSystemProjectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AShootingSystemProjectile_OnHit, "OnHit" }, // 4005137166
+		{ &Z_Construct_UFunction_AShootingSystemProjectile_OnHit, "OnHit" }, // 3101159523
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemProjectile_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "ShootingSystemProjectile.h" },
-		{ "ModuleRelativePath", "ShootingSystemProjectile.h" },
+		{ "IncludePath", "StarterContent/ShootingSystemProjectile.h" },
+		{ "ModuleRelativePath", "StarterContent/ShootingSystemProjectile.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -159,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemProjectile() {}
 		{ "Category", "Projectile" },
 		{ "Comment", "/** Sphere collision component */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ShootingSystemProjectile.h" },
+		{ "ModuleRelativePath", "StarterContent/ShootingSystemProjectile.h" },
 		{ "ToolTip", "Sphere collision component" },
 	};
 #endif
@@ -170,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemProjectile() {}
 		{ "Category", "Movement" },
 		{ "Comment", "/** Projectile movement component */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ShootingSystemProjectile.h" },
+		{ "ModuleRelativePath", "StarterContent/ShootingSystemProjectile.h" },
 		{ "ToolTip", "Projectile movement component" },
 	};
 #endif
@@ -206,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShootingSystemProjectile, 3133858823);
+	IMPLEMENT_CLASS(AShootingSystemProjectile, 3314763180);
 	template<> SHOOTINGSYSTEM_API UClass* StaticClass<AShootingSystemProjectile>()
 	{
 		return AShootingSystemProjectile::StaticClass();

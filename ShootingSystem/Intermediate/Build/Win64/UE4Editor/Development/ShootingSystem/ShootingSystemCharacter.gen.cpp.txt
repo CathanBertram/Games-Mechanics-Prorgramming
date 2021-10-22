@@ -1,7 +1,7 @@
 C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Development\ShootingSystem\Definitions.ShootingSystem.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/ShootingSystemCharacter.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/StarterContent/ShootingSystemCharacter.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h

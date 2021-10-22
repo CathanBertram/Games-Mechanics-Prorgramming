@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ShootingSystem/ShootingSystemHUD.h"
+#include "ShootingSystem/StarterContent/ShootingSystemHUD.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemHUD() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShootingSystemHUD_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Rendering Actor Input Replication" },
-		{ "IncludePath", "ShootingSystemHUD.h" },
-		{ "ModuleRelativePath", "ShootingSystemHUD.h" },
+		{ "IncludePath", "StarterContent/ShootingSystemHUD.h" },
+		{ "ModuleRelativePath", "StarterContent/ShootingSystemHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeShootingSystemHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShootingSystemHUD, 1975522002);
+	IMPLEMENT_CLASS(AShootingSystemHUD, 3015292543);
 	template<> SHOOTINGSYSTEM_API UClass* StaticClass<AShootingSystemHUD>()
 	{
 		return AShootingSystemHUD::StaticClass();

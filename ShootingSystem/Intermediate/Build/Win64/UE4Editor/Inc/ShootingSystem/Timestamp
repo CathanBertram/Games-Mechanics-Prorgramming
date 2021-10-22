@@ -1,4 +1,7 @@
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemCharacter.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemGameMode.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemHUD.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemProjectile.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\Interfaces\Inputable.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\Player\ShootingSystemPlayerController.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemCharacter.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemGameMode.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemHUD.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemProjectile.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\Player\ShootingSystemPlayerCharacter.h

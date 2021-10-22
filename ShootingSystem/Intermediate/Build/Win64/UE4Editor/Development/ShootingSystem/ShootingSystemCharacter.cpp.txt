@@ -1,5 +1,5 @@
 C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Development\ShootingSystem\Definitions.ShootingSystem.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemCharacter.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemCharacter.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -7,7 +7,7 @@ C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMot
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\ShootingSystemCharacter.generated.h
-C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\ShootingSystemProjectile.h
+C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem\StarterContent\ShootingSystemProjectile.h
 C:\Users\b012521i\Documents\GitHub\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\ShootingSystemProjectile.generated.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
