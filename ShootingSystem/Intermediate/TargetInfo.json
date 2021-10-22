@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ShootingSystem",
-			"Path": "C:\\Users\\b012521i\\Documents\\GitHub\\Games-Mechanics-Prorgramming\\ShootingSystem\\Source\\ShootingSystem.Target.cs",
+			"Path": "E:\\Github\\MobileTests\\Games-Mechanics-Prorgramming\\ShootingSystem\\Source\\ShootingSystem.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ShootingSystemEditor",
-			"Path": "C:\\Users\\b012521i\\Documents\\GitHub\\Games-Mechanics-Prorgramming\\ShootingSystem\\Source\\ShootingSystemEditor.Target.cs",
+			"Path": "E:\\Github\\MobileTests\\Games-Mechanics-Prorgramming\\ShootingSystem\\Source\\ShootingSystemEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

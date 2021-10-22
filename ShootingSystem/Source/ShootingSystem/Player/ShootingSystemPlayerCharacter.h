@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ShootingSystem/Interfaces/Inputable.h"
+
 #include "ShootingSystemPlayerCharacter.generated.h"
 
 UCLASS()

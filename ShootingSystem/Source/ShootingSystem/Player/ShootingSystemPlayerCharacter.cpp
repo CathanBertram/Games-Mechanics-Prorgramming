@@ -25,3 +25,51 @@ void AShootingSystemPlayerCharacter::SetupPlayerInputComponent(UInputComponent* 
 
 }
 
+void AShootingSystemPlayerCharacter::JumpPressed_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::JumpReleased_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::FirePressed_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::FireReleased_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::InteractPressed_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::InteractReleased_Implementation()
+{
+}
+
+void AShootingSystemPlayerCharacter::MoveVertical_Implementation(float value)
+{
+}
+
+void AShootingSystemPlayerCharacter::MoveHorizontal_Implementation(float value)
+{
+}
+
+void AShootingSystemPlayerCharacter::LookVertical_Implementation(float value)
+{
+}
+
+void AShootingSystemPlayerCharacter::LookHorizontal_Implementation(float value)
+{
+}
+
+void AShootingSystemPlayerCharacter::LookVerticalAtRate_Implementation(float rate)
+{
+}
+
+void AShootingSystemPlayerCharacter::LookHorizontalAtRate_Implementation(float rate)
+{
+}
+
