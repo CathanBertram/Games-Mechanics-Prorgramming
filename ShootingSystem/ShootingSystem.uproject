@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{D93A9B81-48AF-43F3-2DA2-E7A6E769A56C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ShootingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

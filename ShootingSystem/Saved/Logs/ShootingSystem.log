@@ -1,0 +1,1201 @@
+﻿Log file open, 10/22/21 11:12:02
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ShootingSystem
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.191471
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.51.0
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz, GPU: NVIDIA GeForce RTX 3080
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Epic/UE4/UE_4.26.2/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:655][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.22-10.12.03:664][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:664][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.22-10.12.03:665][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.22-10.12.03:665][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.22-10.12.03:665][  0]LogHAL: Display: Platform has ~ 32 GB [34091540480 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.22-10.12.03:665][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.22-10.12.03:665][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.22-10.12.03:666][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Engine.ini]
+[2021.10.22-10.12.03:666][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Config/Windows/Editor.ini]
+[2021.10.22-10.12.03:666][  0]LogInit: Computer: C115-15
+[2021.10.22-10.12.03:666][  0]LogInit: User: b012521i
+[2021.10.22-10.12.03:666][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.10.22-10.12.03:666][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.22-10.12.03:666][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2021.10.22-10.12.03:666][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.22-10.12.03:666][  0]LogMemory: Process Physical Memory: 136.18 MB used, 136.18 MB peak
+[2021.10.22-10.12.03:666][  0]LogMemory: Process Virtual Memory: 120.43 MB used, 120.43 MB peak
+[2021.10.22-10.12.03:666][  0]LogMemory: Physical Memory: 10783.32 MB used,  21728.91 MB free, 32512.23 MB total
+[2021.10.22-10.12.03:666][  0]LogMemory: Virtual Memory: 134193792.00 MB used,  23934.50 MB free, 134217728.00 MB total
+[2021.10.22-10.12.03:670][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.22-10.12.03:685][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.22-10.12.03:686][  0]LogInit: Using OS detected language (en-US).
+[2021.10.22-10.12.03:686][  0]LogInit: Using OS detected locale (en-GB).
+[2021.10.22-10.12.03:689][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.10.22-10.12.03:814][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.22-10.12.03:824][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.22-10.12.03:833][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.22-10.12.03:833][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.22-10.12.03:926][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.22-10.12.03:926][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.22-10.12.03:926][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.22-10.12.03:926][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.22-10.12.04:007][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3080' (Feature Level 11_0)
+[2021.10.22-10.12.04:007][  0]LogD3D11RHI:       10078/0/16256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.10.22-10.12.04:065][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 750' (Feature Level 11_0)
+[2021.10.22-10.12.04:065][  0]LogD3D11RHI:       128/0/16256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.10.22-10.12.04:067][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.22-10.12.04:067][  0]LogD3D11RHI:       0/0/16256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.22-10.12.04:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.10.22-10.12.04:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.22-10.12.04:072][  0]LogD3D11RHI:     GPU DeviceId: 0x2206 (for the marketing name, search the web for "GPU Device Id")
+[2021.10.22-10.12.04:072][  0]LogWindows: EnumDisplayDevices:
+[2021.10.22-10.12.04:072][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3080' (P:1 D:1)
+[2021.10.22-10.12.04:072][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3080' (P:0 D:1)
+[2021.10.22-10.12.04:073][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3080' (P:0 D:0)
+[2021.10.22-10.12.04:073][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3080' (P:0 D:0)
+[2021.10.22-10.12.04:073][  0]LogWindows:    4. 'Intel(R) UHD Graphics 750' (P:0 D:0)
+[2021.10.22-10.12.04:073][  0]LogWindows:    5. 'Intel(R) UHD Graphics 750' (P:0 D:0)
+[2021.10.22-10.12.04:073][  0]LogWindows:    6. 'Intel(R) UHD Graphics 750' (P:0 D:0)
+[2021.10.22-10.12.04:073][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.10.22-10.12.04:073][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3080
+[2021.10.22-10.12.04:073][  0]LogD3D11RHI:   Driver Version: 471.68 (internal:30.0.14.7168, unified:471.68)
+[2021.10.22-10.12.04:073][  0]LogD3D11RHI:      Driver Date: 8-5-2021
+[2021.10.22-10.12.04:073][  0]LogRHI: Texture pool is 7054 MB (70% of 10078 MB)
+[2021.10.22-10.12.04:131][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.22-10.12.04:131][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.22-10.12.04:131][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.22-10.12.04:144][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.10.22-10.12.04:145][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.10.22-10.12.04:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.22-10.12.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.22-10.12.04:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.22-10.12.04:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.22-10.12.04:773][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.22-10.12.04:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.22-10.12.04:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.22-10.12.04:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.22-10.12.04:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.22-10.12.04:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.22-10.12.04:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.22-10.12.04:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.22-10.12.04:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.22-10.12.04:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.10.22-10.12.04:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.10.22-10.12.04:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.10.22-10.12.04:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.10.22-10.12.04:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.22-10.12.04:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.22-10.12.04:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.22-10.12.04:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.22-10.12.04:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.22-10.12.04:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.22-10.12.04:876][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.22-10.12.04:882][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.22-10.12.04:925][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.10.22-10.12.04:925][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Intermediate/Shaders/WorkingDirectory/13280/).
+[2021.10.22-10.12.04:925][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/b012521i/AppData/Local/Temp/UnrealShaderWorkingDir/A2F58D2F49A6969021DD178CE177A9C7/'.
+[2021.10.22-10.12.04:925][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.22-10.12.04:925][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.22-10.12.05:572][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: Loaded boot cache 0.04s 83MB C:/Users/b012521i/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/b012521i/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.22-10.12.05:609][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.22-10.12.05:619][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.22-10.12.05:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.22-10.12.05:619][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.22-10.12.05:624][  0]LogDerivedDataCache: Speed tests for C:/Users/b012521i/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.00 seconds
+[2021.10.22-10.12.05:624][  0]LogDerivedDataCache: Display: Performance to C:/Users/b012521i/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.01ms. RandomReadSpeed=2048.22MBs, RandomWriteSpeed=215.04MBs. Assigned SpeedClass 'Local'
+[2021.10.22-10.12.05:625][  0]LogDerivedDataCache: Using Local data cache path C:/Users/b012521i/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.22-10.12.05:625][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.22-10.12.05:625][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.22-10.12.05:670][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.22-10.12.05:671][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.22-10.12.05:691][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.10.22-10.12.05:903][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.22-10.12.05:903][  0]LogInit: Active device profile: [0000016819612400][0000016818F2DC80 49] Windows
+[2021.10.22-10.12.05:903][  0]LogInit: Profiles: [0000016819612400][0000016818F2DC80 49] Windows, [00000168195B6000][0000016818F34140 49] WindowsNoEditor, [0000016819613100][0000016818F382C0 49] WindowsServer, [00000168195B7700][0000016818F3C440 49] WindowsClient, [0000016819612000][00000168180985C0 49] IOS, [00000168195B7000][000001681809C740 49] iPadAir, [0000016819611200][00000168180A08C0 49] iPadAir2, [0000016819556F00][00000168180AEB80 49] IPadPro, [0000016819557000][00000168180A4BC0 49] iPadAir3, [0000016819612A00][00000168180B8D40 49] iPadAir4, [0000016819556900][00000168180BCEC0 49] iPadMini2, [0000016819610F00][00000168180C1040 49] iPadMini3, [0000016819555800][00000168180C51C0 49] iPadMini4, [0000016819612B00][00000168180C9340 49] iPadMini5, [0000016819596800][0000016818F315C0 49] iPhone6, [0000016819596900][00000168180CD600 49] iPodTouch6, [0000016819557600][0000016818121840 49] iPhone7, [0000016819557700][00000168180D1880 49] iPodTouch7, [0000016819596700][00000168181259C0 49] iPhone5S, [0000016819556500][000001681812DB40 49] iPhone6Plus, [0000016819595400][0000016818131CC0 49] iPhone6S, [0000016819555400][0000016818134180 49] iPhone6SPlus, [0000016819594200][0000016818138300 49] iPhone7Plus, [0000016819557500][000001681813C480 49] iPhoneSE, [0000016819596F00][0000016818140600 49] iPhone8, [0000016819557F00][0000016818144780 49] iPhone8Plus, [0000016819595C00][0000016818148900 49] iPhoneX, [0000016819556200][000001681814CA80 49] iPhoneXS, [0000016819594300][0000016818150C00 49] iPhoneXSMax, [0000016819557C00][0000016818154D80 49] iPhoneXR, [0000016819597D00][0000016818158F00 49] iPhone11, [0000016819555E00][000001681815D080 49] iPhone11Pro, [0000016819597400][0000016818161200 49] iPhone11ProMax, [0000016819556B00][0000016818165380 49] iPhoneSE2, [0000016819596B00][0000016818169500 49] iPhone12Mini, [0000016819554F00][0000016818129640 49] iPhone12, [0000016819596000][000001681816D780 49] iPhone12Pro, [0000016819557300][00000168181718C0 49] iPhone12ProMax, [0000016819556E00][0000016818175A00 49] iPadPro105, [00000168195B5800][0000016818209B80 49] iPadPro129, [0000016819557200][000001681820DD00 49] iPadPro97, [00000168195B4C00][00000168182101C0 49] iPadPro2_129, [0000016819554E00][0000016818214340 49] iPad5, [00000168195B5300][00000168182184C0 49] iPad6, [0000016819555000][000001681821C640 49] iPad7, [00000168195B6100][00000168182207C0 49] iPad8, [00000168195B7D00][0000016818224940 49] iPadPro11, [0000016819597C00][0000016818228AC0 49] iPadPro2_11, [00000168195B4F00][000001681822CC40 49] iPadPro3_129, [0000016819594B00][0000016818230DC0 49] iPadPro4_129, [00000168195B6400][0000016818234F40 49] AppleTV, [0000016819595000][00000168182390C0 49] AppleTV4K, [00000168195B5900][000001681823D240 49] TVOS, [0000016819597F00][00000168182413C0 49] Mac, [00000168195B7C00][0000016818245540 49] MacClient, [0000016819554B00][00000168182496C0 49] MacNoEditor, [00000168195B6800][0000016818179800 49] MacServer, [0000016819556800][000001681824D940 49] Linux, [00000168195B5F00][0000016818251A80 49] LinuxAArch64, [0000016819554900][0000016818259C00 49] LinuxNoEditor, [00000168195B5C00][000001681825C0C0 49] LinuxAArch64NoEditor, [0000016819554100][0000016818260240 49] LinuxClient, [00000168195B4200][00000168182643C0 49] LinuxAArch64Client, [0000016819557B00][0000016818268540 49] LinuxServer, [00000168195B4600][000001681826C6C0 49] LinuxAArch64Server, [0000016819557400][0000016818270840 49] Android, [00000168195B6700][0000016818C849C0 49] Android_Low, [0000016819555700][00000168102AAB40 49] Android_Mid, [00000168195B4B00][00000168102AECC0 49] Android_High, [0000016819555C00][00000168102B2E40 49] Android_Default, [00000168195B4500][00000168102B6FC0 49] Android_Adreno4xx, [0000016819556000][00000168102BB140 49] Android_Adreno5xx_Low, [00000168195B4E00][00000168102BF2C0 49] Android_Adreno5xx, [0000016819556700][00000168102C3440 49] Android_Adreno6xx, [00000168195B6300][00000168102C75C0 49] Android_Adreno6xx_Vulkan, [0000016819557E00][00000168102CB740 49] Android_Mali_T6xx, [00000168195B5E00][0000016818255880 49] Android_Mali_T7xx, [0000016819556600][0000016818C899C0 49] Android_Mali_T8xx, [00000168195B7F00][0000016818C8DB00 49] Android_Mali_G71, [0000016819555900][0000016818C91C40 49] Android_Mali_G72, [00000168195B4300][0000016818C98100 49] Android_Mali_G72_Vulkan, [0000016819557800][0000016818C9C280 49] Android_Mali_G76, [00000168195B5B00][0000016818CA0400 49] Android_Mali_G76_Vulkan, [0000016819555A00][0000016818CA4580 49] Android_Mali_G77, [00000168195B5700][0000016818CA8700 49] Android_Mali_G77_Vulkan, [0000016819555B00][0000016818CAC880 49] Android_Vulkan_SM5, [00000168195B7100][0000016818CB0A00 49] Android_PowerVR_G6xxx, [0000016819554D00][0000016818CB4B80 49] Android_PowerVR_GT7xxx, [00000168195B5A00][0000016818CB8D00 49] Android_PowerVR_GE8xxx, [0000016819557D00][0000016818CBCE80 49] Android_PowerVR_GM9xxx, [00000168195B7800][0000016818CC1000 49] Android_PowerVR_GM9xxx_Vulkan, [0000016819554600][0000016818CC5180 49] Android_TegraK1, [00000168195B7A00][0000016818CC9300 49] Android_Unknown_Vulkan, [0000016819596100][0000016818CCD480 49] Lumin, [0000016819613A00][0000016818CD1600 49] Lumin_Desktop, [0000016819594E00][0000016818CD5780 49] HoloLens, 
+[2021.10.22-10.12.06:005][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.22-10.12.06:005][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.22-10.12.06:005][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.22-10.12.06:005][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.22-10.12.06:005][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.22-10.12.06:021][  0]LogNetVersion: ShootingSystem 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3645295831)
+[2021.10.22-10.12.06:405][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.10.22-10.12.06:441][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.035434 seconds
+[2021.10.22-10.12.06:446][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.10.22-10.12.06:446][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.10.22-10.12.06:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.22-10.12.06:649][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.22-10.12.06:655][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.22-10.12.06:980][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.06:981][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.06:983][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.06:990][  0]LogUProjectInfo: Found projects:
+[2021.10.22-10.12.06:992][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.07:016][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.07:131][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.22-10.12.07:143][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.22-10.12.07:143][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.22-10.12.07:255][  0]LogOcInput: OculusInput pre-init called
+[2021.10.22-10.12.07:410][  0]LogCollectionManager: Loaded 0 collections in 0.001283 seconds
+[2021.10.22-10.12.07:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Collections/' took 0.00s
+[2021.10.22-10.12.07:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/Developers/b012521i/Collections/' took 0.00s
+[2021.10.22-10.12.07:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/Collections/' took 0.00s
+[2021.10.22-10.12.07:463][  0]LogEngine: Initializing Engine...
+[2021.10.22-10.12.07:464][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.22-10.12.07:464][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.22-10.12.07:465][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.10.22-10.12.07:564][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.22-10.12.07:571][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.22-10.12.07:581][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.10.22-10.12.07:585][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.10.22-10.12.07:585][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.10.22-10.12.07:585][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-10.12.07:585][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-10.12.07:585][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-10.12.07:585][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-10.12.07:585][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-10.12.07:586][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-10.12.07:586][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-10.12.07:586][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-10.12.07:586][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-10.12.07:586][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-10.12.07:596][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-10.12.07:596][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-10.12.08:626][  0]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.10.22-10.12.08:628][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-10.12.08:628][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-10.12.08:628][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-10.12.08:629][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.22-10.12.08:629][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-10.12.08:629][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-10.12.08:629][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-10.12.08:629][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-10.12.08:629][  0]LogInit: FAudioDevice initialized.
+[2021.10.22-10.12.08:630][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.10.22-10.12.08:630][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.22-10.12.08:670][  0]LogDerivedDataCache: Saved boot cache 0.04s 86MB C:/Users/b012521i/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.22-10.12.08:670][  0]LogInit: Texture streaming: Enabled
+[2021.10.22-10.12.08:678][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.10.22-10.12.08:681][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.22-10.12.08:681][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.22-10.12.08:682][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.22-10.12.08:694][  0]LogInit: Transaction tracking system initialized
+[2021.10.22-10.12.08:709][  0]BlueprintLog: New page: Editor Load
+[2021.10.22-10.12.08:773][  0]LocalizationService: Localization service is disabled
+[2021.10.22-10.12.08:789][  0]TimingProfiler: Initialize
+[2021.10.22-10.12.08:789][  0]TimingProfiler: OnSessionChanged
+[2021.10.22-10.12.08:789][  0]LoadingProfiler: Initialize
+[2021.10.22-10.12.08:789][  0]LoadingProfiler: OnSessionChanged
+[2021.10.22-10.12.08:789][  0]NetworkingProfiler: Initialize
+[2021.10.22-10.12.08:790][  0]NetworkingProfiler: OnSessionChanged
+[2021.10.22-10.12.08:790][  0]MemoryProfiler: Initialize
+[2021.10.22-10.12.08:790][  0]MemoryProfiler: OnSessionChanged
+[2021.10.22-10.12.08:904][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.10.22-10.12.08:904][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.22-10.12.09:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/' took 0.00s
+[2021.10.22-10.12.09:151][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.10.22-10.12.09:154][  0]SourceControl: Source control is disabled
+[2021.10.22-10.12.09:154][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.558
+[2021.10.22-10.12.09:155][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Epic/UE4/UE_4.26.2/FeaturePacks/StarterContent.upack)
+[2021.10.22-10.12.09:155][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.09:155][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.09:155][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-10.12.09:163][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2021.10.22-10.12.09:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2021.10.22-10.12.09:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2021.10.22-10.12.09:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2021.10.22-10.12.09:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2021.10.22-10.12.09:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2021.10.22-10.12.09:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2021.10.22-10.12.09:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2021.10.22-10.12.09:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2021.10.22-10.12.09:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2021.10.22-10.12.09:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2021.10.22-10.12.09:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2021.10.22-10.12.09:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Collapse01.uasset"
+[2021.10.22-10.12.09:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Collapse02.uasset"
+[2021.10.22-10.12.09:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2021.10.22-10.12.09:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Explosion01.uasset"
+[2021.10.22-10.12.09:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Explosion02.uasset"
+[2021.10.22-10.12.09:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2021.10.22-10.12.09:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Fire01.uasset"
+[2021.10.22-10.12.09:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2021.10.22-10.12.09:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2021.10.22-10.12.09:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2021.10.22-10.12.09:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Light01.uasset"
+[2021.10.22-10.12.09:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2021.10.22-10.12.09:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Light02.uasset"
+[2021.10.22-10.12.09:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2021.10.22-10.12.09:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Smoke01.uasset"
+[2021.10.22-10.12.09:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2021.10.22-10.12.09:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2021.10.22-10.12.09:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2021.10.22-10.12.09:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2021.10.22-10.12.09:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2021.10.22-10.12.09:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2021.10.22-10.12.09:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2021.10.22-10.12.09:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Steam01.uasset"
+[2021.10.22-10.12.09:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2021.10.22-10.12.09:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2021.10.22-10.12.09:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2021.10.22-10.12.09:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2021.10.22-10.12.09:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2021.10.22-10.12.09:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2021.10.22-10.12.09:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2021.10.22-10.12.09:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2021.10.22-10.12.09:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2021.10.22-10.12.09:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2021.10.22-10.12.09:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2021.10.22-10.12.09:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2021.10.22-10.12.09:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2021.10.22-10.12.09:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2021.10.22-10.12.09:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2021.10.22-10.12.09:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2021.10.22-10.12.09:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2021.10.22-10.12.09:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2021.10.22-10.12.09:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2021.10.22-10.12.09:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2021.10.22-10.12.09:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/Minimal_Default.umap"
+[2021.10.22-10.12.09:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2021.10.22-10.12.09:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/StarterMap.umap"
+[2021.10.22-10.12.09:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2021.10.22-10.12.09:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2021.10.22-10.12.09:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2021.10.22-10.12.09:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2021.10.22-10.12.09:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2021.10.22-10.12.09:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2021.10.22-10.12.09:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2021.10.22-10.12.09:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2021.10.22-10.12.09:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2021.10.22-10.12.09:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2021.10.22-10.12.09:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2021.10.22-10.12.09:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2021.10.22-10.12.09:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2021.10.22-10.12.09:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2021.10.22-10.12.09:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2021.10.22-10.12.09:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2021.10.22-10.12.09:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2021.10.22-10.12.09:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2021.10.22-10.12.09:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Glass.uasset"
+[2021.10.22-10.12.09:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2021.10.22-10.12.09:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2021.10.22-10.12.09:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2021.10.22-10.12.09:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2021.10.22-10.12.09:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2021.10.22-10.12.09:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2021.10.22-10.12.09:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2021.10.22-10.12.09:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2021.10.22-10.12.09:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2021.10.22-10.12.09:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2021.10.22-10.12.09:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2021.10.22-10.12.09:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2021.10.22-10.12.09:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2021.10.22-10.12.09:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2021.10.22-10.12.09:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2021.10.22-10.12.09:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2021.10.22-10.12.09:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2021.10.22-10.12.09:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2021.10.22-10.12.09:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2021.10.22-10.12.09:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2021.10.22-10.12.09:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2021.10.22-10.12.09:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2021.10.22-10.12.09:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2021.10.22-10.12.09:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2021.10.22-10.12.09:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2021.10.22-10.12.09:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2021.10.22-10.12.09:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Explosion.uasset"
+[2021.10.22-10.12.09:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Fire.uasset"
+[2021.10.22-10.12.09:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Smoke.uasset"
+[2021.10.22-10.12.09:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Sparks.uasset"
+[2021.10.22-10.12.09:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2021.10.22-10.12.09:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2021.10.22-10.12.09:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2021.10.22-10.12.09:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2021.10.22-10.12.09:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2021.10.22-10.12.09:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2021.10.22-10.12.09:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2021.10.22-10.12.09:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2021.10.22-10.12.09:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2021.10.22-10.12.09:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2021.10.22-10.12.09:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2021.10.22-10.12.09:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/MaterialSphere.uasset"
+[2021.10.22-10.12.09:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Bush.uasset"
+[2021.10.22-10.12.09:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Chair.uasset"
+[2021.10.22-10.12.09:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2021.10.22-10.12.09:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Couch.uasset"
+[2021.10.22-10.12.09:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Door.uasset"
+[2021.10.22-10.12.09:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2021.10.22-10.12.09:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2021.10.22-10.12.09:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2021.10.22-10.12.09:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2021.10.22-10.12.10:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2021.10.22-10.12.10:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2021.10.22-10.12.10:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2021.10.22-10.12.10:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Rock.uasset"
+[2021.10.22-10.12.10:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Shelf.uasset"
+[2021.10.22-10.12.10:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Stairs.uasset"
+[2021.10.22-10.12.10:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_Statue.uasset"
+[2021.10.22-10.12.10:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_TableRound.uasset"
+[2021.10.22-10.12.10:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2021.10.22-10.12.10:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2021.10.22-10.12.10:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2021.10.22-10.12.10:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2021.10.22-10.12.10:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2021.10.22-10.12.10:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2021.10.22-10.12.10:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2021.10.22-10.12.10:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2021.10.22-10.12.10:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2021.10.22-10.12.10:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2021.10.22-10.12.10:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2021.10.22-10.12.10:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2021.10.22-10.12.10:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2021.10.22-10.12.10:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2021.10.22-10.12.10:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2021.10.22-10.12.10:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2021.10.22-10.12.10:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2021.10.22-10.12.10:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2021.10.22-10.12.10:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2021.10.22-10.12.10:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2021.10.22-10.12.10:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2021.10.22-10.12.10:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2021.10.22-10.12.10:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2021.10.22-10.12.10:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2021.10.22-10.12.10:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2021.10.22-10.12.10:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2021.10.22-10.12.10:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2021.10.22-10.12.10:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2021.10.22-10.12.10:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2021.10.22-10.12.10:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2021.10.22-10.12.10:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2021.10.22-10.12.10:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2021.10.22-10.12.10:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2021.10.22-10.12.10:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2021.10.22-10.12.10:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2021.10.22-10.12.10:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2021.10.22-10.12.10:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2021.10.22-10.12.10:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2021.10.22-10.12.10:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2021.10.22-10.12.10:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2021.10.22-10.12.10:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2021.10.22-10.12.10:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2021.10.22-10.12.10:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2021.10.22-10.12.10:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2021.10.22-10.12.10:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2021.10.22-10.12.10:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2021.10.22-10.12.10:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2021.10.22-10.12.10:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2021.10.22-10.12.10:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2021.10.22-10.12.10:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2021.10.22-10.12.10:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2021.10.22-10.12.10:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2021.10.22-10.12.10:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2021.10.22-10.12.10:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2021.10.22-10.12.10:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2021.10.22-10.12.10:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2021.10.22-10.12.10:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2021.10.22-10.12.10:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2021.10.22-10.12.10:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2021.10.22-10.12.10:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2021.10.22-10.12.10:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2021.10.22-10.12.10:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2021.10.22-10.12.10:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2021.10.22-10.12.10:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2021.10.22-10.12.10:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2021.10.22-10.12.10:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2021.10.22-10.12.10:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2021.10.22-10.12.10:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2021.10.22-10.12.10:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2021.10.22-10.12.10:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2021.10.22-10.12.10:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2021.10.22-10.12.10:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Door_M.uasset"
+[2021.10.22-10.12.10:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Door_N.uasset"
+[2021.10.22-10.12.10:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2021.10.22-10.12.10:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2021.10.22-10.12.10:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2021.10.22-10.12.10:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2021.10.22-10.12.10:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2021.10.22-10.12.10:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2021.10.22-10.12.10:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2021.10.22-10.12.10:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2021.10.22-10.12.10:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2021.10.22-10.12.10:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2021.10.22-10.12.10:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2021.10.22-10.12.10:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2021.10.22-10.12.10:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2021.10.22-10.12.10:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2021.10.22-10.12.10:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2021.10.22-10.12.10:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2021.10.22-10.12.10:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2021.10.22-10.12.10:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2021.10.22-10.12.10:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2021.10.22-10.12.10:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2021.10.22-10.12.10:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2021.10.22-10.12.10:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2021.10.22-10.12.10:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2021.10.22-10.12.10:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2021.10.22-10.12.10:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2021.10.22-10.12.10:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2021.10.22-10.12.10:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2021.10.22-10.12.10:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2021.10.22-10.12.10:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2021.10.22-10.12.10:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2021.10.22-10.12.10:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2021.10.22-10.12.10:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2021.10.22-10.12.10:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2021.10.22-10.12.10:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2021.10.22-10.12.10:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2021.10.22-10.12.10:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2021.10.22-10.12.10:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2021.10.22-10.12.11:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2021.10.22-10.12.11:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2021.10.22-10.12.11:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2021.10.22-10.12.11:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2021.10.22-10.12.11:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2021.10.22-10.12.11:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2021.10.22-10.12.11:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2021.10.22-10.12.11:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2021.10.22-10.12.11:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2021.10.22-10.12.11:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2021.10.22-10.12.11:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2021.10.22-10.12.11:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2021.10.22-10.12.11:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2021.10.22-10.12.11:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2021.10.22-10.12.11:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Water_M.uasset"
+[2021.10.22-10.12.11:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Water_N.uasset"
+[2021.10.22-10.12.11:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2021.10.22-10.12.11:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2021.10.22-10.12.11:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2021.10.22-10.12.11:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2021.10.22-10.12.11:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2021.10.22-10.12.11:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2021.10.22-10.12.11:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2021.10.22-10.12.11:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2021.10.22-10.12.11:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2021.10.22-10.12.11:214][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2021.10.22-10.12.11:214][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.10.22-10.12.11:251][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2021.10.22-10.12.11:492][  0]LogSavePackage: Moving '../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Saved/Floor_400x400688ABE4345682A26059DE0A8E73BDD17.tmp' to '../../../../../../Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2021.10.22-10.12.11:493][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2021.10.22-10.12.11:494][  0]LightingResults: New page: Lighting Build
+[2021.10.22-10.12.11:495][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-10.12.11:495][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-10.12.11:495][  0]MapCheck: New page: Map Check
+[2021.10.22-10.12.11:495][  0]LightingResults: New page: Lighting Build
+[2021.10.22-10.12.11:500][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
+[2021.10.22-10.12.11:540][  0]LogTexture: Display: Building textures: DeprecatedTextureD5B55AC7496CD3FBF6154CA3715BB71F (BGRA8, 128X128)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 2048X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
+[2021.10.22-10.12.12:640][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2021.10.22-10.12.12:645][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2021.10.22-10.12.12:646][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.22-10.12.12:653][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.22-10.12.12:660][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.10.22-10.12.12:672][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.22-10.12.12:672][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.197ms to complete.
+[2021.10.22-10.12.12:673][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.181
+[2021.10.22-10.12.12:676][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.084
+[2021.10.22-10.12.12:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.12.12:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.12.12:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.12.12:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.12.12:832][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0096 seconds. Added 3605 classes and 861 folders.
+[2021.10.22-10.12.12:834][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.10.22-10.12.12:835][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-10.12.12:835][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:835][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-10.12.12:835][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.22-10.12.12:836][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.10.22-10.12.12:836][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-10.12.12:836][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:836][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.22-10.12.12:836][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.22-10.12.12:837][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.22-10.12.12:837][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:837][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.22-10.12.12:837][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-10.12.12:838][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.22-10.12.12:838][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.22-10.12.12:838][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:838][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-10.12.12:838][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.10.22-10.12.12:840][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.12:840][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:840][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-10.12.12:840][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-10.12.12:841][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:841][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.22-10.12.12:841][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.10.22-10.12.12:842][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-10.12.12:842][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:842][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-10.12.12:842][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.22-10.12.12:843][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:843][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-10.12.12:843][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-10.12.12:844][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:844][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-10.12.12:844][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2021.10.22-10.12.12:845][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-10.12.12:845][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:845][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-10.12.12:845][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-10.12.12:846][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:846][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.10.22-10.12.12:846][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-10.12.12:847][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:847][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-10.12.12:847][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.10.22-10.12.12:848][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.22-10.12.12:848][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-10.12.12:848][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.22-10.12.12:848][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.10.22-10.12.12:878][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.22-10.12.12:879][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.10.22-10.12.12:922][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.22-10.12.12:924][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.22-10.12.12:936][  0]LogSlate: Took 0.006564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.22-10.12.13:033][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.10.22-10.12.13:076][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.22-10.12.13:186][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.10.22-10.12.13:186][  0]LogLoad: (Engine Initialization) Total time: 10.59 seconds
+[2021.10.22-10.12.13:186][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.22-10.12.13:186][  0]LogInit: First time updating LLM stats...
+[2021.10.22-10.12.13:203][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2021.10.22-10.12.13:203][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.10.22-10.12.13:227][  0]LogAssetRegistry: Asset discovery search completed in 7.5444 seconds
+[2021.10.22-10.12.13:228][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.10.22-10.12.13:314][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.22-10.14.23:657][844]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.22-10.14.23:660][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.22-10.14.23:660][844]PIE: New page: PIE session: FirstPersonExampleMap (22 Oct 2021, 12:14:23)
+[2021.10.22-10.14.23:661][844]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.22-10.14.23:663][844]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.22-10.14.23:663][844]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.22-10.14.23:677][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013869s)
+[2021.10.22-10.14.23:678][844]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.22-10.14.23:678][844]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2021.10.22-10.14.23:678][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015322s)
+[2021.10.22-10.14.23:684][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.10.22-10.14.23:684][844]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-10.14.23:684][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-10.14.23:684][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-10.14.23:685][844]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-10.14.23:685][844]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-10.14.23:687][844]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-10.14.23:687][844]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.22-10.14.23:692][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-10.14.23:692][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-10.14.23:702][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-10.14.23:702][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-10.14.23:702][844]LogInit: FAudioDevice initialized.
+[2021.10.22-10.14.23:702][844]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2021.10.22-10.14.23:711][844]LogLoad: Game class is 'ShootingSystemGameMode'
+[2021.10.22-10.14.23:713][844]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.10.22-11.14.23
+[2021.10.22-10.14.23:714][844]LogWorld: Bringing up level for play took: 0.001157
+[2021.10.22-10.14.23:714][844]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.10.22-10.14.23:715][844]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2021.10.22-10.14.23:716][844]PIE: Server logged in
+[2021.10.22-10.14.23:717][844]PIE: Play in editor total start time 0.057 seconds.
+[2021.10.22-10.14.43:731][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.14.43:731][235]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.22-10.14.43:731][235]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-10.14.43:731][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-10.14.43:741][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.22-10.14.43:742][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-10.14.43:745][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.22-10.14.43:746][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-10.14.43:746][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-10.14.43:759][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.14.43:760][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.10.22-10.14.43:797][239]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.10.22-10.15.10:873][315]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/b012521i/Documents/GitHub/Games-Mechanics-Prorgramming/ShootingSystem/Source/ShootingSystem/ShootingSystemCharacter.h'
+[2021.10.22-10.17.33:953][901]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.22-10.17.33:956][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.22-10.17.33:956][901]PIE: New page: PIE session: FirstPersonExampleMap (22 Oct 2021, 12:17:33)
+[2021.10.22-10.17.33:989][901]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.22-10.17.33:999][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009975s)
+[2021.10.22-10.17.34:000][901]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.10.22-10.17.34:001][901]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2021.10.22-10.17.34:001][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011703s)
+[2021.10.22-10.17.34:006][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.10.22-10.17.34:007][901]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.10.22-10.17.34:007][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-10.17.34:007][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-10.17.34:007][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-10.17.34:007][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-10.17.34:007][901]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-10.17.34:008][901]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-10.17.34:008][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-10.17.34:008][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-10.17.34:008][901]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-10.17.34:008][901]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-10.17.34:011][901]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-10.17.34:011][901]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-10.17.34:017][901]LogAudioMixer: Display: Using Audio Device Headphones (Oculus Virtual Audio Device)
+[2021.10.22-10.17.34:017][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-10.17.34:017][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-10.17.34:017][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-10.17.34:018][901]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.22-10.17.34:018][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-10.17.34:018][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-10.17.34:030][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-10.17.34:030][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-10.17.34:030][901]LogInit: FAudioDevice initialized.
+[2021.10.22-10.17.34:030][901]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2021.10.22-10.17.34:039][901]LogLoad: Game class is 'ShootingSystemGameMode'
+[2021.10.22-10.17.34:041][901]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.10.22-11.17.34
+[2021.10.22-10.17.34:042][901]LogWorld: Bringing up level for play took: 0.001802
+[2021.10.22-10.17.34:042][901]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.10.22-10.17.34:044][901]PIE: Server logged in
+[2021.10.22-10.17.34:044][901]PIE: Play in editor total start time 0.089 seconds.
+[2021.10.22-10.17.40:630][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.17.40:631][685]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.10.22-10.17.40:631][685]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-10.17.40:631][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-10.17.40:636][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.22-10.17.40:637][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-10.17.40:641][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-10.17.40:641][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-10.17.40:642][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-10.17.40:655][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.10.22-10.17.40:705][689]LogPlayLevel: Display: Destroying online subsystem :Context_3
