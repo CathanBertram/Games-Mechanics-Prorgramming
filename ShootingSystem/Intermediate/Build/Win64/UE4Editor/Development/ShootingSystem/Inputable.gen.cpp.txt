@@ -1,5 +1,0 @@
-E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Development\ShootingSystem\Definitions.ShootingSystem.h
-E:\epk\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\epk\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Source\ShootingSystem/Interfaces/Inputable.h
-E:\Github\MobileTests\Games-Mechanics-Prorgramming\ShootingSystem\Intermediate\Build\Win64\UE4Editor\Inc\ShootingSystem\Inputable.generated.h
