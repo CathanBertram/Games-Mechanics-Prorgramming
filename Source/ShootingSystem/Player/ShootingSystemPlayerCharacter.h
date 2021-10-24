@@ -6,7 +6,6 @@
 #include "GameFramework/Character.h"
 #include "ShootingSystem/Interfaces/Initable.h"
 #include "ShootingSystem/Interfaces/Inputable.h"
-
 #include "ShootingSystemPlayerCharacter.generated.h"
 
 UCLASS()
@@ -14,11 +13,11 @@ class SHOOTINGSYSTEM_API AShootingSystemPlayerCharacter : public ACharacter, pub
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UChildActorComponent* m_GunChildActor;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* m_FPCameraComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UChildActorComponent* m_GunChildActor;
 public:
 	// Sets default values for this character's properties
 	AShootingSystemPlayerCharacter();

@@ -2,17 +2,14 @@
 
 
 #include "ShootingSystemPlayerCharacter.h"
-
-
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "ShootingSystem/Interfaces/Equippable.h"
 #include "ShootingSystem/Interfaces/Fireable.h"
-#include "ShootingSystem/Interfaces/GetPlayerController.h"
 #include "ShootingSystem/Interfaces/Interactable.h"
 
-// Sets default values
 AShootingSystemPlayerCharacter::AShootingSystemPlayerCharacter()
 {
  	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.f);
@@ -46,7 +43,7 @@ void AShootingSystemPlayerCharacter::JumpReleased_Implementation()
 
 void AShootingSystemPlayerCharacter::FirePressed_Implementation()
 {
-	AActor* child = m_GunChildActor->GetChildActor();
+	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
 	{
 		IFireable::Execute_FireStart(child);
@@ -55,7 +52,7 @@ void AShootingSystemPlayerCharacter::FirePressed_Implementation()
 
 void AShootingSystemPlayerCharacter::FireReleased_Implementation()
 {
-	AActor* child = m_GunChildActor->GetChildActor();
+	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
 	{
 		IFireable::Execute_FireRelease(child);
@@ -115,4 +112,9 @@ void AShootingSystemPlayerCharacter::LookHorizontal_Implementation(float value)
 void AShootingSystemPlayerCharacter::Init_Implementation()
 {
 	Super::BeginPlay();
+	auto child = m_GunChildActor->GetChildActor();
+	if (UKismetSystemLibrary::DoesImplementInterface(child, UEquippable::StaticClass()))
+	{
+		IEquippable::Execute_Equip(child, m_FPCameraComponent);
+	}
 }
