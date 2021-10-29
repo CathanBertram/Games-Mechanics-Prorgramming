@@ -8,15 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Project/Seperate/Player/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Project/Seperate/Player/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.h" afterDir="false" />
-    </list>
+    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ChildActorComponent.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -404,6 +392,8 @@
       <workItem from="1635099225519" duration="3000" />
       <workItem from="1635101815300" duration="3633000" />
       <workItem from="1635105531690" duration="5235000" />
+      <workItem from="1635502394608" duration="328000" />
+      <workItem from="1635502762604" duration="1863000" />
     </task>
     <servers />
   </component>

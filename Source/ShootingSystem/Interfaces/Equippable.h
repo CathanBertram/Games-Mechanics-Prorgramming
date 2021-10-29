@@ -27,5 +27,5 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void Equip(UCameraComponent* camera);
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void Unequip(UCameraComponent* camera);
+	void Unequip();
 };

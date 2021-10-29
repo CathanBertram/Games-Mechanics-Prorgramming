@@ -39,7 +39,6 @@ void AGun::FireStart_Implementation()
 	
 		if (world->LineTraceSingleByChannel(hit, start,end, ECC_Visibility, collisionParams))
 		{
-
 			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, this->GetInstigatorController(), this, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
 		}
 		
@@ -56,7 +55,7 @@ void AGun::Equip_Implementation(UCameraComponent* camera)
 	cameraReference = camera;
 }
 
-void AGun::Unequip_Implementation(UCameraComponent* camera)
+void AGun::Unequip_Implementation()
 {
 	cameraReference = nullptr;
 }
@@ -65,11 +64,11 @@ void AGun::Unequip_Implementation(UCameraComponent* camera)
 void AGun::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AGun::AddRecoil()
 {
+	
 }
 
 

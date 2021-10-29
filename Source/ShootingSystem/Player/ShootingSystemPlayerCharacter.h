@@ -18,6 +18,7 @@ class SHOOTINGSYSTEM_API AShootingSystemPlayerCharacter : public ACharacter, pub
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UChildActorComponent* m_GunChildActor;
+	
 public:
 	// Sets default values for this character's properties
 	AShootingSystemPlayerCharacter();

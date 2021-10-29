@@ -27,6 +27,7 @@ AShootingSystemPlayerCharacter::AShootingSystemPlayerCharacter()
 	m_GunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("GunSlot"));
 	m_GunChildActor->SetupAttachment(m_FPCameraComponent);
 	m_GunChildActor->CreateChildActor();
+	
 }
 
 #pragma region Inputable_Interface

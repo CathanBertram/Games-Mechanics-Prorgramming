@@ -32,8 +32,8 @@ public:
 	void Equip(UCameraComponent* camera);
 	virtual void Equip_Implementation(UCameraComponent* camera) override;
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void Unequip(UCameraComponent* camera);
-	virtual void Unequip_Implementation(UCameraComponent* camera) override;
+	void Unequip();
+	virtual void Unequip_Implementation() override;
 	
 protected:
 	// Called when the game starts or when spawned
