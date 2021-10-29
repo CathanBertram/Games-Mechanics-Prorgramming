@@ -2,22 +2,19 @@
 
 
 #include "ShootingSystemPlayerCharacter.h"
-#include "Camera/CameraComponent.h"
+
 #include "Components/CapsuleComponent.h"
-#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ShootingSystem/Interfaces/Equippable.h"
 #include "ShootingSystem/Interfaces/Fireable.h"
-#include "ShootingSystem/Interfaces/Interactable.h"
+#include "ShootingSystem/Interfaces/GetGun.h"
+#include "ShootingSystem/Weapon/Gun.h"
 
+// Sets default values
 AShootingSystemPlayerCharacter::AShootingSystemPlayerCharacter()
 {
- 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.f);
+	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.f);
 
-	m_BaseLookHorizontalRate = 45.f;
-	m_BaseLookVerticalRate = 45.f;
-
-	m_InteractRange = 300.f;
 
 	m_FPCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	m_FPCameraComponent->SetupAttachment(GetCapsuleComponent());
@@ -27,22 +24,15 @@ AShootingSystemPlayerCharacter::AShootingSystemPlayerCharacter()
 	m_GunChildActor = CreateDefaultSubobject<UChildActorComponent>(TEXT("GunSlot"));
 	m_GunChildActor->SetupAttachment(m_FPCameraComponent);
 	m_GunChildActor->CreateChildActor();
-	
 }
 
-#pragma region Inputable_Interface
-
-void AShootingSystemPlayerCharacter::JumpPressed_Implementation()
+void AShootingSystemPlayerCharacter::Initialise()
 {
-	Jump();
+	Super::BeginPlay();
+	auto child = m_GunChildActor->GetChildActor();
+	EquipGun(child);
 }
-
-void AShootingSystemPlayerCharacter::JumpReleased_Implementation()
-{
-	StopJumping();
-}
-
-void AShootingSystemPlayerCharacter::FirePressed_Implementation()
+void AShootingSystemPlayerCharacter::FirePressed()
 {
 	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
@@ -51,7 +41,7 @@ void AShootingSystemPlayerCharacter::FirePressed_Implementation()
 	}
 }
 
-void AShootingSystemPlayerCharacter::FireReleased_Implementation()
+void AShootingSystemPlayerCharacter::FireReleased()
 {
 	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
@@ -60,62 +50,43 @@ void AShootingSystemPlayerCharacter::FireReleased_Implementation()
 	}
 }
 
-void AShootingSystemPlayerCharacter::InteractPressed_Implementation()
+void AShootingSystemPlayerCharacter::OnShoot(float xRecoil, float yRecoil)
 {
-	auto const world = GetWorld();
-	if (world != nullptr)
-	{
-		FHitResult hit(ForceInit);
-		auto start = m_FPCameraComponent->GetComponentLocation();
-		auto forward = GetActorForwardVector();
-		auto end = (forward * m_InteractRange) + start;
-
-		FCollisionQueryParams collisionParams;
-
-		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
-		{
-			if (UKismetSystemLibrary::DoesImplementInterface(hit.GetActor(), UInteractable::StaticClass()))
-			{
-				IInteractable::Execute_Interact(hit.GetActor());
-			}
-		}
-
-	}
+	AddControllerPitchInput(xRecoil);
+	AddControllerYawInput(yRecoil);
 }
 
-
-void AShootingSystemPlayerCharacter::MoveVertical_Implementation(float value)
+void AShootingSystemPlayerCharacter::EquipGun(AActor* gunToEquip)
 {
-	if (value != 0.0)
-		AddMovementInput(GetActorForwardVector(), value);
-}
-
-void AShootingSystemPlayerCharacter::MoveHorizontal_Implementation(float value)
-{
-	if (value != 0.0)
-		AddMovementInput(GetActorRightVector(), value);
-}
-
-void AShootingSystemPlayerCharacter::LookVertical_Implementation(float value)
-{
-	if (value != 0.0)
-		AddControllerPitchInput(value);
-}
-
-void AShootingSystemPlayerCharacter::LookHorizontal_Implementation(float value)
-{
-	if (value != 0.0)
-		AddControllerYawInput(value);
-}
-
-#pragma endregion
-
-void AShootingSystemPlayerCharacter::Init_Implementation()
-{
-	Super::BeginPlay();
 	auto child = m_GunChildActor->GetChildActor();
-	if (UKismetSystemLibrary::DoesImplementInterface(child, UEquippable::StaticClass()))
+	if (child != nullptr)
+		UnequipGun(child);
+	
+	if (UKismetSystemLibrary::DoesImplementInterface(gunToEquip, UEquippable::StaticClass()))
 	{
-		IEquippable::Execute_Equip(child, m_FPCameraComponent);
+		IEquippable::Execute_Equip(gunToEquip, m_FPCameraComponent);
+	}
+
+	if (UKismetSystemLibrary::DoesImplementInterface(gunToEquip, UGetGun::StaticClass()))
+	{
+		AGun* gun = IGetGun::Execute_GetGun(gunToEquip);
+		gun->OnShoot.AddDynamic(this, &AShootingSystemPlayerCharacter::OnShoot);
 	}
 }
+
+void AShootingSystemPlayerCharacter::UnequipGun(AActor* gunToUnequip)
+{
+	if (UKismetSystemLibrary::DoesImplementInterface(gunToUnequip, UGetGun::StaticClass()))
+	{
+		auto gun = IGetGun::Execute_GetGun(gunToUnequip);
+		gun->OnShoot.RemoveDynamic(this, &AShootingSystemPlayerCharacter::OnShoot);
+	}
+}
+
+
+
+
+
+
+
+

@@ -21,6 +21,11 @@ AGun::AGun()
 	gunMuzzle->SetupAttachment(gunMesh);
 }
 
+AGun::~AGun()
+{
+	OnShoot.Clear();
+}
+
 void AGun::FireStart_Implementation()
 {
 	const auto world = GetWorld();
@@ -60,6 +65,11 @@ void AGun::Unequip_Implementation()
 	cameraReference = nullptr;
 }
 
+AGun* AGun::GetGun_Implementation()
+{
+	return this;
+}
+
 // Called when the game starts or when spawned
 void AGun::BeginPlay()
 {
@@ -68,7 +78,7 @@ void AGun::BeginPlay()
 
 void AGun::AddRecoil()
 {
-	
+	OnShoot.Broadcast(FMath::RandRange(-.25f,-.60f), FMath::RandRange(-.5f,.5f));
 }
 
 

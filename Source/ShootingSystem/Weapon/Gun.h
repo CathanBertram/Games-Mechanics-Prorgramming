@@ -8,17 +8,21 @@
 #include "GameFramework/Actor.h"
 #include "ShootingSystem/Interfaces/Equippable.h"
 #include "ShootingSystem/Interfaces/Fireable.h"
+#include "ShootingSystem/Interfaces/GetGun.h"
 
 #include "Gun.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnShoot, float, xRecoil, float, yRecoil);
+
 UCLASS()
-class SHOOTINGSYSTEM_API AGun : public AActor, public IFireable, public IEquippable
+class SHOOTINGSYSTEM_API AGun : public AActor, public IFireable, public IEquippable, public IGetGun
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
 	AGun();
+	~AGun();
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void FireStart();
@@ -34,6 +38,12 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void Unequip();
 	virtual void Unequip_Implementation() override;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	AGun* GetGun();
+	virtual AGun* GetGun_Implementation() override;
+	
+	FOnShoot OnShoot;
 	
 protected:
 	// Called when the game starts or when spawned
@@ -54,7 +64,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Weapon Statistics")
 	float roundsPerMinute;
 
-	void AddRecoil();
+	virtual void AddRecoil();
 	
 	UCameraComponent* cameraReference;
 };
