@@ -23,6 +23,7 @@ void AProjectController::SetupInputComponent()
 	InputComponent->BindAction("Fire", IE_Pressed, this, &AProjectController::FirePressed);
 	InputComponent->BindAction("Fire", IE_Released, this, &AProjectController::FireReleased);
 	InputComponent->BindAction("Interact", IE_Pressed, this, &AProjectController::InteractPressed);
+	InputComponent->BindAction("Reload", IE_Pressed, this, &AProjectController::ReloadPressed);
 	
 	InputComponent->BindAxis("MoveVertical", this, &AProjectController::MoveVertical);
 	InputComponent->BindAxis("MoveHorizontal", this, &AProjectController::MoveHorizontal);
@@ -91,6 +92,13 @@ void AProjectController::InteractPressed()
 	auto pawn = GetPawn();
 	if (UKismetSystemLibrary::DoesImplementInterface(pawn, UInputable::StaticClass()))
 		IInputable::Execute_InteractPressed(pawn);
+}
+
+void AProjectController::ReloadPressed()
+{
+	auto pawn = GetPawn();
+	if (UKismetSystemLibrary::DoesImplementInterface(pawn, UInputable::StaticClass()))
+		IInputable::Execute_ReloadPressed(pawn);
 }
 
 void AProjectController::MoveVertical(float value)

@@ -47,6 +47,10 @@ public:
 		void FireReleased();
 	virtual void FireReleased_Implementation() override;
 
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void ReloadPressed();
+	virtual void ReloadPressed_Implementation() override;
+
 	//Interact
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 		void InteractPressed();

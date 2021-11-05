@@ -38,6 +38,8 @@ public:
 	//Interact Functions
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void InteractPressed();
+UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void ReloadPressed();
 
 	//Axis Mappings
 	//Move

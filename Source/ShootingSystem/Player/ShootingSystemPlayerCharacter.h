@@ -23,9 +23,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UChildActorComponent* m_GunChildActor;
 
-	void FirePressed();
-	void FireReleased();
-
+	void FirePress();
+	void FireRelease();
+	void ReloadPress();
 	UFUNCTION()
 	void OnShoot(float xRecoil, float yRecoil);
 

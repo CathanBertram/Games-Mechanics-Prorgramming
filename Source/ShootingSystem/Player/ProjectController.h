@@ -38,7 +38,8 @@ class SHOOTINGSYSTEM_API AProjectController : public APlayerController, public I
 	void JumpPressed(); void JumpReleased();
 	void FirePressed(); void FireReleased();
 	void InteractPressed();
-
+	void ReloadPressed();
+	
 	void MoveVertical(float value);
 	void MoveHorizontal(float value);
 	void LookVertical(float value);

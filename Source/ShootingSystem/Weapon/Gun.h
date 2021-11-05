@@ -9,13 +9,14 @@
 #include "ShootingSystem/Interfaces/Equippable.h"
 #include "ShootingSystem/Interfaces/Fireable.h"
 #include "ShootingSystem/Interfaces/GetGun.h"
+#include "ShootingSystem/Interfaces/Reloadable.h"
 
 #include "Gun.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnShoot, float, xRecoil, float, yRecoil);
 
 UCLASS()
-class SHOOTINGSYSTEM_API AGun : public AActor, public IFireable, public IEquippable, public IGetGun
+class SHOOTINGSYSTEM_API AGun : public AActor, public IFireable, public IEquippable, public IGetGun, public IReloadable
 {
 	GENERATED_BODY()
 	
@@ -31,6 +32,10 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void FireRelease();
 	virtual void FireRelease_Implementation() override;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void Reload();
+	virtual void Reload_Implementation() override;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void Equip(UCameraComponent* camera);
@@ -57,14 +62,30 @@ protected:
 	UPROPERTY(BlueprintReadWrite)
 	class USceneComponent* gunMuzzle;
 
-	UPROPERTY(VisibleAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float damage;
-	UPROPERTY(VisibleAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float range;
-	UPROPERTY(VisibleAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float roundsPerMinute;
+	
+	int curAmmo;
+	int curTotalAmmo;
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	int maxAmmoInMag;
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	int totalAmmoCapacity;
+	
+	bool canShoot;
+	void ResetCanShoot();
 
+	FTimerHandle resetShootTimer;
+	
 	virtual void AddRecoil();
+	void Shoot();
 	
 	UCameraComponent* cameraReference;
+
+private:
+	bool CheckAmmo() {return curAmmo > 0;}
 };

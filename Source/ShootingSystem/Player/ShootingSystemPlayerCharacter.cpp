@@ -8,6 +8,7 @@
 #include "ShootingSystem/Interfaces/Equippable.h"
 #include "ShootingSystem/Interfaces/Fireable.h"
 #include "ShootingSystem/Interfaces/GetGun.h"
+#include "ShootingSystem/Interfaces/Reloadable.h"
 #include "ShootingSystem/Weapon/Gun.h"
 
 // Sets default values
@@ -32,7 +33,7 @@ void AShootingSystemPlayerCharacter::Initialise()
 	auto child = m_GunChildActor->GetChildActor();
 	EquipGun(child);
 }
-void AShootingSystemPlayerCharacter::FirePressed()
+void AShootingSystemPlayerCharacter::FirePress()
 {
 	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
@@ -41,12 +42,21 @@ void AShootingSystemPlayerCharacter::FirePressed()
 	}
 }
 
-void AShootingSystemPlayerCharacter::FireReleased()
+void AShootingSystemPlayerCharacter::FireRelease()
 {
 	auto child = m_GunChildActor->GetChildActor();
 	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
 	{
 		IFireable::Execute_FireRelease(child);
+	}
+}
+
+void AShootingSystemPlayerCharacter::ReloadPress()
+{
+	auto child = m_GunChildActor->GetChildActor();
+	if (UKismetSystemLibrary::DoesImplementInterface(child, UReloadable::StaticClass()))
+	{
+		IReloadable::Execute_Reload(child);
 	}
 }
 

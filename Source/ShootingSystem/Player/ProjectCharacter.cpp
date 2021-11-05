@@ -32,12 +32,17 @@ void AProjectCharacter::JumpReleased_Implementation()
 
 void AProjectCharacter::FirePressed_Implementation()
 {
-	Super::FirePressed();
+	Super::FirePress();
 }
 
 void AProjectCharacter::FireReleased_Implementation()
 {
-	Super::FireReleased();
+	Super::FireRelease();
+}
+
+void AProjectCharacter::ReloadPressed_Implementation()
+{
+	Super::ReloadPress();
 }
 
 void AProjectCharacter::InteractPressed_Implementation()
