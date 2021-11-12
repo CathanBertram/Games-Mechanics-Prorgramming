@@ -105,5 +105,5 @@ protected:
 
 private:
 	bool CheckAmmo() {return curAmmo > 0;}
-	FVector GetBulletSpread();
+	FVector GetBulletDirection();
 };

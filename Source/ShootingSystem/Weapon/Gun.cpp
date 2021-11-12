@@ -85,13 +85,14 @@ void AGun::ResetCanShoot()
 	canShoot = true;
 }
 
-FVector AGun::GetBulletSpread()
+FVector AGun::GetBulletDirection()
 {
 	//Calculate Spread 
 	FVector2D pointInCircle = FMath::RandPointInCircle(15);
-	FVector worldSpaceDirection = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
-	worldSpaceDirection.Normalize();
-	return worldSpaceDirection; 
+	FVector worldSpacePosition = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
+	FVector direction = worldSpacePosition - cameraReference->GetComponentLocation();
+	direction.Normalize();
+	return worldSpacePosition; 
 }
 
 void AGun::AddRecoil()
@@ -122,7 +123,7 @@ void AGun::Shoot()
 		FHitResult hit(ForceInit);
 		// Get Bullet Start Point
 		FVector start = cameraReference->GetComponentLocation();
-		FVector end =  (GetBulletSpread() * maxRange) + start;
+		FVector end =  (GetBulletDirection() * maxRange) + start;
 		
 		const FName traceTag("TraceTag");
 		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
