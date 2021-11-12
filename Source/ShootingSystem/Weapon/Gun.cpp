@@ -85,6 +85,15 @@ void AGun::ResetCanShoot()
 	canShoot = true;
 }
 
+FVector AGun::GetBulletSpread()
+{
+	//Calculate Spread 
+	FVector2D pointInCircle = FMath::RandPointInCircle(15);
+	FVector worldSpaceDirection = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
+	worldSpaceDirection.Normalize();
+	return worldSpaceDirection; 
+}
+
 void AGun::AddRecoil()
 {
 	if (recoilPattern == nullptr)
@@ -112,21 +121,15 @@ void AGun::Shoot()
 	{
 		FHitResult hit(ForceInit);
 		// Get Bullet Start Point
-		auto start = cameraReference->GetComponentLocation();
+		FVector start = cameraReference->GetComponentLocation();
+		FVector end =  (GetBulletSpread() * maxRange) + start;
 		
-		//Calculate Spread //TODO move to own fucntion
-		auto pointInCircle = FMath::RandPointInCircle(15);
-		auto worldSpaceDirection = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
-		worldSpaceDirection.Normalize();
-		// Get Bullet End Point
-		auto end = (worldSpaceDirection * maxRange) + start; 
-	
 		const FName traceTag("TraceTag");
 		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
 		FCollisionQueryParams collisionParams;
 		collisionParams.TraceTag = traceTag;
 	
-		if (world->LineTraceSingleByChannel(hit, start,end, ECC_Visibility, collisionParams))
+		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, this->GetInstigatorController(), this, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
 		}
