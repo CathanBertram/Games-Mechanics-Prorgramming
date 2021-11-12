@@ -13,7 +13,7 @@ void AGun_Auto::FireRepeater()
 	if (isFiring)
 	{
 		Super::Shoot();
-		GetWorldTimerManager().SetTimer(repeatTimer, this, &AGun_Auto::FireRepeater, 60 / roundsPerMinute);
+		GetWorldTimerManager().SetTimer(repeatTimer, this, &AGun_Auto::FireRepeater, TimeBetweenShots());
 	}
 }
 

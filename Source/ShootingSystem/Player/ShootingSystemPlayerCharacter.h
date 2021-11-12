@@ -27,7 +27,7 @@ protected:
 	void FireRelease();
 	void ReloadPress();
 	UFUNCTION()
-	void OnShoot(float xRecoil, float yRecoil);
+	void OnShoot(FVector2D recoil);
 
 	void EquipGun(AActor* gunToEquip);
 	void UnequipGun(AActor* gunToUnequip);

@@ -5,8 +5,6 @@
 
 
 #include "Kismet/GameplayStatics.h"
-#include "Kismet/KismetSystemLibrary.h"
-#include "ShootingSystem/Interfaces/Interactable.h"
 
 // Sets default values
 AGun::AGun()
@@ -22,7 +20,8 @@ AGun::AGun()
 
 	canShoot = true;
 	damage = 10;
-	range = 10000;
+	accurateRange = 10000;
+	maxRange = 10000000;
 	roundsPerMinute = 800;
 	maxAmmoInMag = 30;
 	curAmmo = maxAmmoInMag;
@@ -87,7 +86,21 @@ void AGun::ResetCanShoot()
 
 void AGun::AddRecoil()
 {
-	OnShoot.Broadcast(FMath::RandRange(-.25f,-.60f), FMath::RandRange(-.5f,.5f));
+	return;
+	if (recoilPattern == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Red, TEXT("Weapon Has No Assigned Recoil Pattern"));
+		return;
+	}
+
+	OnShoot.Broadcast(recoilPattern->GetRecoilAtIndex(recoilIndex));
+	recoilIndex++;
+	GetWorldTimerManager().SetTimer(resetRecoilTimer, this, &AGun::ResetRecoil, TimeBetweenShots());
+}
+
+void AGun::ResetRecoil()
+{
+	recoilIndex = 0;
 }
 
 void AGun::Shoot()
@@ -98,10 +111,19 @@ void AGun::Shoot()
 	if (world != nullptr && cameraReference != nullptr)
 	{
 		FHitResult hit(ForceInit);
-		
+		// Get Bullet Start Point
 		auto start = cameraReference->GetComponentLocation();
+		//Calculate Spread
 		auto forward = cameraReference->GetForwardVector();
-		auto end = (forward * 100000) + start; 
+
+		auto distFromCentre = FMath::RandRange(0.f, 15.0f); //Get Distance From Centre of 30cm Dinner Plate
+		auto angleOnCircle = FMath::RandRange(0,360); //Get Random Angle
+		auto x = distFromCentre * FMath::Cos(angleOnCircle); //Calculate xPos
+		auto y = distFromCentre * FMath::Sin(angleOnCircle); //Calculate yPos
+		
+
+		// Get Bullet End Point
+		auto end = (forward * maxRange) + start; 
 	
 		const FName traceTag("TraceTag");
 		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
@@ -119,7 +141,12 @@ void AGun::Shoot()
 	curAmmo--;
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
 
-	GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, 1 / roundsPerMinute);
+	GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, TimeBetweenShots());
+}
+
+float AGun::TimeBetweenShots()
+{
+	return 60 / roundsPerMinute;
 }
 
 

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 
+
+#include "RecoilPattern.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "ShootingSystem/Interfaces/Equippable.h"
@@ -13,7 +15,7 @@
 
 #include "Gun.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnShoot, float, xRecoil, float, yRecoil);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnShoot, FVector2D, recoil);
 
 UCLASS()
 class SHOOTINGSYSTEM_API AGun : public AActor, public IFireable, public IEquippable, public IGetGun, public IReloadable
@@ -61,11 +63,17 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite)
 	class USceneComponent* gunMuzzle;
+	
+#pragma region WeaponFunctionality
+	void Shoot();
+	float TimeBetweenShots();
 
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float damage;
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	float range;
+	float accurateRange;
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	float maxRange;
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float roundsPerMinute;
 	
@@ -75,14 +83,23 @@ protected:
 	int maxAmmoInMag;
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	int totalAmmoCapacity;
-	
+#pragma endregion
+#pragma region RecoilFunctionality
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	URecoilPattern* recoilPattern;
+
+	FTimerHandle resetRecoilTimer;
+	int recoilIndex;
+
+	virtual void AddRecoil();
+	void ResetRecoil();
+#pragma endregion
 	bool canShoot;
 	void ResetCanShoot();
 
 	FTimerHandle resetShootTimer;
 	
-	virtual void AddRecoil();
-	void Shoot();
+	
 	
 	UCameraComponent* cameraReference;
 

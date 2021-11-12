@@ -60,10 +60,10 @@ void AShootingSystemPlayerCharacter::ReloadPress()
 	}
 }
 
-void AShootingSystemPlayerCharacter::OnShoot(float xRecoil, float yRecoil)
+void AShootingSystemPlayerCharacter::OnShoot(FVector2D recoil)
 {
-	AddControllerPitchInput(xRecoil);
-	AddControllerYawInput(yRecoil);
+	AddControllerYawInput(recoil.X);
+	AddControllerPitchInput(recoil.Y);
 }
 
 void AShootingSystemPlayerCharacter::EquipGun(AActor* gunToEquip)
