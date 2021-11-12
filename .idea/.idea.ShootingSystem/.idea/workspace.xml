@@ -8,18 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Project/Seperate/Player/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Project/Seperate/Player/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Project/ShootingSystem/Guns/BP_Gun_Auto.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Project/ShootingSystem/Guns/BP_Gun_Auto.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun_Auto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun_Auto.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformMath.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -418,6 +404,7 @@
       <workItem from="1636587317157" duration="7717000" />
       <workItem from="1636623814854" duration="5092000" />
       <workItem from="1636634217601" duration="696000" />
+      <workItem from="1636715883176" duration="3413000" />
     </task>
     <servers />
   </component>

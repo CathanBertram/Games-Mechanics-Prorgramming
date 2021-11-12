@@ -4,6 +4,7 @@
 #include "Gun.h"
 
 
+#include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
 // Sets default values
@@ -86,7 +87,6 @@ void AGun::ResetCanShoot()
 
 void AGun::AddRecoil()
 {
-	return;
 	if (recoilPattern == nullptr)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Red, TEXT("Weapon Has No Assigned Recoil Pattern"));
@@ -113,17 +113,13 @@ void AGun::Shoot()
 		FHitResult hit(ForceInit);
 		// Get Bullet Start Point
 		auto start = cameraReference->GetComponentLocation();
-		//Calculate Spread
-		auto forward = cameraReference->GetForwardVector();
-
-		auto distFromCentre = FMath::RandRange(0.f, 15.0f); //Get Distance From Centre of 30cm Dinner Plate
-		auto angleOnCircle = FMath::RandRange(0,360); //Get Random Angle
-		auto x = distFromCentre * FMath::Cos(angleOnCircle); //Calculate xPos
-		auto y = distFromCentre * FMath::Sin(angleOnCircle); //Calculate yPos
 		
-
+		//Calculate Spread //TODO move to own fucntion
+		auto pointInCircle = FMath::RandPointInCircle(15);
+		auto worldSpaceDirection = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
+		worldSpaceDirection.Normalize();
 		// Get Bullet End Point
-		auto end = (forward * maxRange) + start; 
+		auto end = (worldSpaceDirection * maxRange) + start; 
 	
 		const FName traceTag("TraceTag");
 		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
