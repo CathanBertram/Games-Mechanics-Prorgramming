@@ -3,12 +3,9 @@
 
 #include "ProjectCharacter.h"
 #include "Camera/CameraComponent.h"
-#include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "ShootingSystem/Interfaces/Equippable.h"
-#include "ShootingSystem/Interfaces/Fireable.h"
-#include "ShootingSystem/Interfaces/Interactable.h"
+#include "ShootingSystem/Sample/Interfaces/Interactable.h"
 
 AProjectCharacter::AProjectCharacter()
 {

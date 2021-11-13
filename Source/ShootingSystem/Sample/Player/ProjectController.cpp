@@ -6,7 +6,7 @@
 
 #include "GameFramework/GameModeBase.h"
 #include "Kismet/GameplayStatics.h"
-#include "ShootingSystem/Interfaces/Inputable.h"
+#include "ShootingSystem/Sample/Interfaces/Inputable.h"
 
 AProjectController::AProjectController()
 {

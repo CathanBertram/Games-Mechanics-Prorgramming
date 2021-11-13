@@ -4,8 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-#include "ShootingSystem/Interfaces/Initable.h"
-
+#include "ShootingSystem/Sample/Interfaces/Initable.h"
 #include "ProjectController.generated.h"
 
 /**

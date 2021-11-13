@@ -5,11 +5,10 @@
 
 #include "Components/CapsuleComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "ShootingSystem/Interfaces/Equippable.h"
-#include "ShootingSystem/Interfaces/Fireable.h"
-#include "ShootingSystem/Interfaces/GetGun.h"
-#include "ShootingSystem/Interfaces/Reloadable.h"
-#include "ShootingSystem/Weapon/Gun.h"
+#include "ShootingSystem/Mechanic/Interfaces/Equippable.h"
+#include "ShootingSystem/Mechanic/Interfaces/Fireable.h"
+#include "ShootingSystem/Mechanic/Interfaces/Reloadable.h"
+#include "ShootingSystem/Mechanic/Weapon/Gun.h"
 
 // Sets default values
 AShootingSystemPlayerCharacter::AShootingSystemPlayerCharacter()

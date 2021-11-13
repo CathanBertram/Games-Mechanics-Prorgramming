@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ShootingSystemPlayerCharacter.h"
-#include "ShootingSystem/Interfaces/Initable.h"
-#include "ShootingSystem/Interfaces/Inputable.h"
+#include "ShootingSystem/Mechanic/Player/ShootingSystemPlayerCharacter.h"
+#include "ShootingSystem/Sample/Interfaces/Initable.h"
+#include "ShootingSystem/Sample/Interfaces/Inputable.h"
 #include "ProjectCharacter.generated.h"
 
 UCLASS()
