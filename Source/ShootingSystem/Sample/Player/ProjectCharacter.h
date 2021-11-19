@@ -72,5 +72,4 @@ public:
 	virtual void LookHorizontal_Implementation(float value) override;
 
 #pragma endregion
-
 };

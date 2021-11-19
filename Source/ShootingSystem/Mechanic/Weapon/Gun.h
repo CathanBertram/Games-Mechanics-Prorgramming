@@ -8,6 +8,7 @@
 #include "RecoilPattern.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
+#include "ShootingSystem/Mechanic/ShootingSystemGamemode.h"
 #include "ShootingSystem/Mechanic/Interfaces/Equippable.h"
 #include "ShootingSystem/Mechanic/Interfaces/Fireable.h"
 #include "ShootingSystem/Mechanic/Interfaces/GetGun.h"
@@ -66,6 +67,8 @@ protected:
 	
 #pragma region WeaponFunctionality
 	void Shoot();
+	void ShootWithGamemode(UWorld* world, AShootingSystemGamemode* gamemode);
+	void ShootWithoutGamemode(UWorld* world);
 	float TimeBetweenShots();
 
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")

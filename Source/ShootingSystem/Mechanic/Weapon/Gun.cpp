@@ -6,6 +6,7 @@
 
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "ShootingSystem/Mechanic/Interfaces/GetShootingSystemGamemode.h"
 
 // Sets default values
 AGun::AGun()
@@ -48,8 +49,15 @@ void AGun::Reload_Implementation()
 {
 	if (curTotalAmmo > maxAmmoInMag)
 	{
+		int usedAmmo = maxAmmoInMag - curAmmo;
 		curAmmo = maxAmmoInMag;
-		curTotalAmmo -= maxAmmoInMag;
+
+		if (UKismetSystemLibrary::DoesImplementInterface(UGameplayStatics::GetGameMode(GetWorld()), UGetShootingSystemGamemode::StaticClass()))
+		{
+			if(IGetShootingSystemGamemode::Execute_GetShootingSystemGamemode(UGameplayStatics::GetGameMode(GetWorld()))->InfiniteAmmo())
+				return;
+		}
+		curTotalAmmo -= usedAmmo;
 		return;
 	}
 
@@ -116,8 +124,56 @@ void AGun::ResetRecoil()
 void AGun::Shoot()
 {
 	if(!canShoot || !CheckAmmo()) return;
-	
+
 	const auto world = GetWorld();
+	if (UKismetSystemLibrary::DoesImplementInterface(UGameplayStatics::GetGameMode(world), UGetShootingSystemGamemode::StaticClass()))
+	{
+		AShootingSystemGamemode* gamemode = IGetShootingSystemGamemode::Execute_GetShootingSystemGamemode(UGameplayStatics::GetGameMode(world));
+		ShootWithGamemode(world, gamemode);
+	}
+	else
+	{
+		ShootWithoutGamemode(world);
+	}
+	
+}
+
+void AGun::ShootWithGamemode(UWorld* world, AShootingSystemGamemode* gamemode)
+{
+	if (world != nullptr && cameraReference != nullptr)
+	{
+		FHitResult hit(ForceInit);
+		// Get Bullet Start Point
+		FVector start = cameraReference->GetComponentLocation();
+		FVector end = FVector::ZeroVector;
+		if (gamemode->BulletSpreadEnabled())
+			end =  (GetBulletDirection() * maxRange) + start;
+		else
+			end = (cameraReference->GetForwardVector() * maxRange) + start;
+		
+		
+		const FName traceTag("TraceTag");
+		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
+		FCollisionQueryParams collisionParams;
+		collisionParams.TraceTag = traceTag;
+	
+		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
+		{
+			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, this->GetInstigatorController(), this, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+		}
+		if (gamemode->RecoilEnabled())
+			AddRecoil();
+	}
+	if (gamemode->ConsumeAmmo())
+		curAmmo--;
+		
+	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
+
+	GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, TimeBetweenShots());
+}
+
+void AGun::ShootWithoutGamemode(UWorld* world)
+{
 	if (world != nullptr && cameraReference != nullptr)
 	{
 		FHitResult hit(ForceInit);
@@ -137,7 +193,7 @@ void AGun::Shoot()
 		
 		AddRecoil();
 	}
-	
+
 	curAmmo--;
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
 
