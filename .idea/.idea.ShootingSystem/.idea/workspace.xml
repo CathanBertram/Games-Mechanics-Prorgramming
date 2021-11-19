@@ -8,10 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShootingSystem.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ShootingSystem.uproject" afterDir="false" />
-    </list>
+    <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +219,16 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
       </configuration_15>
+      <configuration_16>
+        <option name="CONFIGURATION" value="" />
+        <option name="PLATFORM" value="" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ShootingSystem.vcxproj" />
+        <option name="EXE_PATH" value="$(TargetPath)" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_16>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ShootingSystem.vcxproj" />
       <method v="2">
         <option name="Build" />
@@ -410,6 +417,7 @@
       <workItem from="1636715883176" duration="3413000" />
       <workItem from="1636720723378" duration="980000" />
       <workItem from="1636740685498" duration="901000" />
+      <workItem from="1637320419766" duration="2242000" />
     </task>
     <servers />
   </component>

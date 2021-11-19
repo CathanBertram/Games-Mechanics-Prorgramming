@@ -34,10 +34,6 @@ public class ShootingMechanic : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Projects",
-				"InputCore",
-				"UnrealEd",
-				"ToolMenus",
 				"CoreUObject",
 				"Engine",
 				"Slate",

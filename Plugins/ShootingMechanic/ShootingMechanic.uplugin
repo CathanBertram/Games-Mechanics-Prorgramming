@@ -17,7 +17,7 @@
 	"Modules": [
 		{
 			"Name": "ShootingMechanic",
-			"Type": "Editor",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	]

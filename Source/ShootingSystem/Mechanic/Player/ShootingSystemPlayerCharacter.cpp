@@ -2,7 +2,6 @@
 
 
 #include "ShootingSystemPlayerCharacter.h"
-
 #include "Components/CapsuleComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ShootingSystem/Mechanic/Interfaces/Equippable.h"
