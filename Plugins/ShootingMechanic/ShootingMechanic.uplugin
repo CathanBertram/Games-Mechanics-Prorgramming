@@ -19,6 +19,11 @@
 			"Name": "ShootingMechanic",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ShootingMechanicEditors",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	]
 }

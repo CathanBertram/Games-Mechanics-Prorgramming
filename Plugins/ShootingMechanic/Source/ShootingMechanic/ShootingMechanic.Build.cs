@@ -26,8 +26,6 @@ public class ShootingMechanic : ModuleRules
 			new string[]
 			{
 				"Core",
-				"Blutility",
-				"UMG"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
