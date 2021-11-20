@@ -8,6 +8,14 @@ public class ShootingSystem : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "Blutility", "UMG" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ShootingMechanic" });
+		PublicIncludePaths.AddRange(new string[]
+		{
+			"ShootingMechanic/Private", "ShootingMechanic/Public",
+			"ShootingMechanic/Editors","ShootingMechanic/Editors/Public","ShootingMechanic/Editors/Private",
+			"ShootingMechanic/Interfaces","ShootingMechanic/Interfaces/Public","ShootingMechanic/Interfaces/Private",
+			"ShootingMechanic/Player","ShootingMechanic/Player/Public","ShootingMechanic/Player/Private",
+			"ShootingMechanic/Weapon","ShootingMechanic/Weapon/Public","ShootingMechanic/Weapon/Private"
+		});
 	}
 }

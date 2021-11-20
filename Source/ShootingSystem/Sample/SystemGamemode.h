@@ -3,8 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "ShootingSystemGamemode.h"
 #include "GameFramework/GameModeBase.h"
-#include "ShootingSystem/Mechanic/ShootingSystemGamemode.h"
 
 #include "SystemGamemode.generated.h"
 

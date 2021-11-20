@@ -3,7 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ShootingSystem/Mechanic/Player/ShootingSystemPlayerCharacter.h"
+
+#include "ShootingMechanic/Player/Public/ShootingSystemPlayerCharacter.h"
 #include "ShootingSystem/Sample/Interfaces/Initable.h"
 #include "ShootingSystem/Sample/Interfaces/Inputable.h"
 #include "ProjectCharacter.generated.h"
