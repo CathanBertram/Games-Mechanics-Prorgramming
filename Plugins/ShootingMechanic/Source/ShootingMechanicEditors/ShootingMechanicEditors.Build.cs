@@ -10,14 +10,14 @@ public class ShootingMechanicEditors : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				// ... add public include paths required here ...
+
 			}
 		);
 				
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				// ... add other private include paths required here ...
+
 			}
 		);
 			
@@ -26,8 +26,10 @@ public class ShootingMechanicEditors : ModuleRules
 			new string[]
 			{
 				"Core",
+				"UnrealEd",
 				"Blutility",
-				"UMG"
+				"UMG",
+				"ShootingMechanic"
 				// ... add other public dependencies that you statically link with here ...
 			}
 		);

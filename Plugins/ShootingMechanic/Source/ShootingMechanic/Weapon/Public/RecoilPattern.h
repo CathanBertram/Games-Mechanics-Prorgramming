@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class SHOOTINGMECHANIC_API URecoilPattern : public UDataAsset
+class SHOOTINGMECHANIC_API URecoilPattern : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
 
@@ -18,5 +18,7 @@ class SHOOTINGMECHANIC_API URecoilPattern : public UDataAsset
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FVector2D> recoil;
 	public:
-	FVector2D GetRecoilAtIndex(int index); 
+	FVector2D GetRecoilAtIndex(int index);
+	UFUNCTION(BlueprintCallable)
+	void SetRecoil(TArray<FVector2D> newRecoil){recoil = newRecoil;}
 };
