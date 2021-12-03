@@ -24,6 +24,11 @@
 			"Name": "ShootingMechanicEditors",
 			"Type": "Editor",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "RecoilPatternEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	]
 }

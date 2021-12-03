@@ -10,31 +10,24 @@
   <component name="ChangeListManager">
     <list default="true" id="3c2ddcfe-1eff-43d6-9f9c-9f3e31bf5679" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShootingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0002.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD-0002.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0002.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprintExtension-0002.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0002.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControlExtension-0002.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0002.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink-0002.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0002.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLoggingExtension-0002.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RD/UE4Editor-RD-0002.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderBlueprintExtension/UE4Editor-RiderBlueprintExtension-0002.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderGameControlExtension/UE4Editor-RiderGameControlExtension-0002.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLink/UE4Editor-RiderLink-0002.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0001.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UE4Editor/Development/RiderLoggingExtension/UE4Editor-RiderLoggingExtension-0002.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Content/RecoilPatternEditor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/Content/RecoilPatternEditor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Private/tester.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Public/tester.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Weapon/Public/RecoilPattern.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Weapon/Public/RecoilPattern.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/ShootingMechanic.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/ShootingMechanic.uplugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPatternEditorWidget.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPatternFactory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/ShootingMechanicEditors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/ShootingMechanicEditors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPatternEditorWidget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPatternFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/ShootingMechanicEditors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/ShootingMechanicEditors.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/ShootingMechanicEditors.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/ShootingMechanicEditors.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +40,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidget.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Editor/UnrealEd/Classes/Factories/Factory.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Editor/UnrealEd/Private/Factories/Factory.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Epic/UE_4.26/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Player/ShootingSystemPlayerCharacter.cpp" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.h" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Weapon/Gun.cpp" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Editor/RecoilPatternEditor.cpp" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Editor/RecoilPatternEditor.h" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Editors/RecoilPatternEditorWidget.cpp" />
-      <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Editors/RecoilPatternEditorWidget.h" />
       <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Interfaces/GetShootingSystemGamemode.cpp" />
       <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/ShootingSystemGamemode.cpp" />
       <option value="$PROJECT_DIR$/Source/ShootingSystem/Mechanic/Weapon/Gun.h" />
@@ -94,16 +80,23 @@
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/Editor/Private/RecoilPatternEditorWidget.cpp" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/Editor/Public/RecoilPatternEditorWidget.h" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/ShootingMechanicEditors.cs" />
-      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/ShootingMechanic.uplugin" />
       <option value="$PROJECT_DIR$/Source/ShootingSystem/ShootingSystem.Build.cs" />
-      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/ShootingMechanicEditors.h" />
-      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/ShootingMechanicEditors.cpp" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPatternEditorWidget.h" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPatternEditorWidget.cpp" />
-      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/ShootingMechanicEditors.Build.cs" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPatternFactory.h" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPatternFactory.cpp" />
       <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Weapon/Public/RecoilPattern.h" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/ShootingMechanicEditors.cpp" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/ShootingMechanicEditors.h" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/ShootingMechanic.uplugin" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/RecoilPatternEditor.Build.cs" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Public/RecoilPatternFactory.h" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Public/RecoilPatternEditorWidget.h" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Public/RecoilPatternEditor.h" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Private/RecoilPatternEditorWidget.cpp" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Private/RecoilPatternEditor.cpp" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/RecoilPatternEditor/Private/RecoilPatternFactory.cpp" />
+      <option value="$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/ShootingMechanicEditors.Build.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zsFxw0QSmRS8w71u7j21RTZYjt" />
@@ -479,6 +472,9 @@
       <workItem from="1637430632827" duration="1887000" />
       <workItem from="1637517386719" duration="3720000" />
       <workItem from="1637574040244" duration="2445000" />
+      <workItem from="1638363660152" duration="1779000" />
+      <workItem from="1638443047447" duration="1551000" />
+      <workItem from="1638457359493" duration="1641000" />
     </task>
     <servers />
   </component>

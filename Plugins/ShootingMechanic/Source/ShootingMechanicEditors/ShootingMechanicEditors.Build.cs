@@ -29,7 +29,8 @@ public class ShootingMechanicEditors : ModuleRules
 				"UnrealEd",
 				"Blutility",
 				"UMG",
-				"ShootingMechanic"
+				"ShootingMechanic",
+				"RecoilPatternEditor"
 				// ... add other public dependencies that you statically link with here ...
 			}
 		);

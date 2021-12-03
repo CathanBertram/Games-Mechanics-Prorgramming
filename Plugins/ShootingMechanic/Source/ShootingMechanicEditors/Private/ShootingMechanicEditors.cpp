@@ -4,9 +4,9 @@
 
 #define LOCTEXT_NAMESPACE "FShootingMechanicModule"
 
+
 void FShootingMechanicEditorsModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
 void FShootingMechanicEditorsModule::ShutdownModule()
