@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:F:\Epic\UE_4.26\Engine\Build\Windows\Resources\Default-Win64.manifest
+/MANIFESTINPUT:E:\epk\UE_4.26\Engine\Build\Windows\Resources\Default-Win64.manifest
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -18,7 +18,7 @@
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"E:\Visual Studio\VC\Tools\MSVC\14.27.29110\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\lib\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
@@ -33,19 +33,19 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\UE4Editor-RiderLink.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetRegistry\UE4Editor-AssetRegistry.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\MessagingCommon\UE4Editor-MessagingCommon.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEdMessages\UE4Editor-UnrealEdMessages.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"F:\Epic\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\UE4Editor-RD.lib"
+"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
+"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\UE4Editor-RiderLink.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetRegistry\UE4Editor-AssetRegistry.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\MessagingCommon\UE4Editor-MessagingCommon.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEdMessages\UE4Editor-UnrealEdMessages.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"E:\epk\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\UE4Editor-RD.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -70,8 +70,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderBlueprintExtension.dll"
-/IMPLIB:"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension.suppressed.lib"
-/PDB:"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderBlueprintExtension.pdb"
+/OUT:"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderBlueprintExtension.dll"
+/IMPLIB:"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension.suppressed.lib"
+/PDB:"E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Binaries\Win64\UE4Editor-RiderBlueprintExtension.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_RiderBlueprintExtension

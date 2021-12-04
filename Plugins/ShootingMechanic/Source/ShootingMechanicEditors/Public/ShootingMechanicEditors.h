@@ -3,9 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ISMModuleInterface.h"
 #include "Modules/ModuleManager.h"
+#include "UnrealEd.h"
+#include "SlateExtras.h"
+#include "Editor/LevelEditor/Public/LevelEditor.h"
 
-class FShootingMechanicEditorsModule : public IModuleInterface
+
+class FShootingMechanicEditorsModule : public ISMModuleInterface
 {
 public:
 
@@ -13,4 +18,29 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
+	virtual void AddModuleListeners() override;
+
+	static inline FShootingMechanicEditorsModule& Get()
+	{
+		return FModuleManager::LoadModuleChecked< FShootingMechanicEditorsModule >("ShootingMechanicEditors");
+	}
+
+	static inline bool IsAvailable()
+	{
+		return FModuleManager::Get().IsModuleLoaded("ShootingMechanicEditors");
+	}
+
+//Menu Things
+public:
+	void AddMenuExtension(const FMenuExtensionDelegate &extensionDelegate, FName extensionHook, const TSharedPtr<FUICommandList> &CommandList = NULL, EExtensionHook::Position position = EExtensionHook::Before);
+	TSharedRef<FWorkspaceItem> GetMenuRoot() { return menuRoot; };
+
+protected:
+	TSharedPtr<FExtensibilityManager> recoilPatternEditorMenuExtensibilityManager;
+	TSharedPtr<FExtender> menuExtender;
+
+	static TSharedRef<FWorkspaceItem> menuRoot;
+
+	void MakePulldownMenu(FMenuBarBuilder &menuBuilder);
+	void FillPulldownMenu(FMenuBuilder &menuBuilder);
 };

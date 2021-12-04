@@ -2,8 +2,6 @@
 
 #include "RecoilPatternEditor/Public/RecoilPatternEditor.h"
 
-#include "ShootingMechanicEditors.h"
-
 #define LOCTEXT_NAMESPACE "FRecoilPatternEditorModule"
 
 void FRecoilPatternEditorModule::StartupModule()

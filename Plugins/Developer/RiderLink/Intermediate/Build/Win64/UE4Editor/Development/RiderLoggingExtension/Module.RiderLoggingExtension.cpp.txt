@@ -1,74 +1,74 @@
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\Definitions.h
-F:/Github/Games-Mechanics-Prorgramming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.cpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderLoggingExtension.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderOutputDevice.hpp
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\CoreTypes.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Build.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\sal.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\concurrencysal.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\CoreFwd.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\initializer_list
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\yvals_core.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vadefs.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xkeycheck.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstddef
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLoggingExtension\Definitions.h
+E:/Github/MobileTests/Games-Mechanics-Prorgramming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderLoggingExtension.cpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderLoggingExtension.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLoggingExtension\Private\RiderOutputDevice.hpp
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\CoreTypes.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Build.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\concurrencysal.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\CoreFwd.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\initializer_list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vadefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xkeycheck.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstddef
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xtr1common
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\new
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\exception
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\yvals.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xtr1common
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\new
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\exception
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\yvals.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\crtdbg.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_new_debug.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_new.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\crtdefs.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\use_ansi.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\type_traits
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xstddef
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdlib
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_new_debug.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_new.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\type_traits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xstddef
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdlib
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_math.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdlib.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_malloc.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_search.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdlib.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\limits.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\malloc.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_exception.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\eh.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\eh.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_terminate.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\wchar.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\errno.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_string.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wconio.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_stdio_config.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wctype.h
@@ -82,33 +82,33 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wtime.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/stat.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdio.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\stdarg.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\stdarg.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\float.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\string.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\intrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\intrin0.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\setjmp.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\immintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\wmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\nmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\smmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\tmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\pmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\emmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\mmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\zmmintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ammintrin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\stdint.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\intrin0.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\zmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ammintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\stdint.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\tchar.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\intsafe.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winapifamily.h
@@ -119,377 +119,377 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings_u
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\driverspecs.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdv_driverspecs.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\strsafe.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Exec.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IntType.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Models.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Identity.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Array.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Function.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Decay.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Crc.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Char.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
+E:\epk\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
+E:\epk\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+E:\epk\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
+E:\epk\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
+E:\epk\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Exec.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IntType.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Models.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Identity.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Array.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Function.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Decay.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Crc.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Char.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\ctype.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\wctype.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Less.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Sort.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Interval.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Map.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Set.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Optional.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\CoreGlobals.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/LifetimeDefinition.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\functional
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\tuple
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xutility
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\climits
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstring
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\utility
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\typeinfo
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_typeinfo.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xmemory
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdint
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\limits
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cfloat
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cwchar
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdio
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xatomic.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\map
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xtree
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\memory
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\iosfwd
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\mutex
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\chrono
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ratio
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Less.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Sort.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Interval.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Map.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Set.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Optional.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\CoreGlobals.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/LifetimeDefinition.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\functional
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xtree
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\chrono
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ratio
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\time.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xtimec.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\system_error
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\__msvc_system_error_abi.hpp
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cerrno
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\stdexcept
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xstring
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xcall_once.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xerrc.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\atomic
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\thread
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xtimec.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xerrc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\thread
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\process.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_startup.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_startup.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xthreads.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\deque
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vector
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\algorithm
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_startup.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xthreads.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\atomic
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\deque
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vector
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cmath
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\iterator
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
-C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ostream
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ios
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocnum
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\streambuf
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xiosbase
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xtgmath.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\iterator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xiosbase
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\share.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocale
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xfacet
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocinfo
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocinfo.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\locale.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\string
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cctype
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\unordered_map
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xhash
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\list
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xbit_ops.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ctime
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public\BlueprintProvider.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\sstream
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\istream
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\future
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\condition_variable
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ppltasks.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\pplwin.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\pplinterface.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\ppltaskscheduler.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\crtdefs.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\pplcancellation_token.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\locale
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocbuf
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocmes
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocmon
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xloctime
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\codecvt
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\iostream
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\string
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cctype
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\unordered_map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xhash
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xbit_ops.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\unordered_set
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\regex
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\queue
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Regex.h
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
-F:/Github/Games-Mechanics-Prorgramming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp
-F:\Epic\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ctime
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderBlueprintExtension\Public\BlueprintProvider.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\sstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\future
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\condition_variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ppltasks.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\pplwin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\pplinterface.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\ppltaskscheduler.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\pplcancellation_token.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\locale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocbuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocmes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xlocmon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xloctime
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\codecvt
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\iostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\unordered_set
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\regex
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\queue
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Regex.h
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
+E:/Github/MobileTests/Games-Mechanics-Prorgramming/Plugins/Developer/RiderLink/Source/RiderLoggingExtension/Private/RiderOutputDevice.cpp
+E:\epk\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h

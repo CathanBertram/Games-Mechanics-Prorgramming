@@ -1,23 +1,23 @@
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\ActiveSocket.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\SimpleSocket.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/stat.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\sal.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\concurrencysal.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vadefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\concurrencysal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vadefs.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\sys/types.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdlib.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_malloc.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_search.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdlib.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\limits.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdio.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdio.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_stdio_config.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\stdarg.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\stdarg.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\errno.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\io.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_io.h
@@ -28,7 +28,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winapifamily.
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\winpackagefamily.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdkddkver.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\specstrings.h
@@ -45,7 +45,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\guiddef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\string.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memory.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_string.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstring.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\pshpack4.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\poppack.h
@@ -144,17 +144,17 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\qos.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\Ws2tcpip.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\ws2ipdef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\in6addr.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdint
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\yvals.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\yvals_core.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\xkeycheck.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\Host.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\yvals.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xkeycheck.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\crtdbg.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_new_debug.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_new.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\crtdefs.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\use_ansi.h
-E:\Visual Studio\VC\Tools\MSVC\14.27.29110\INCLUDE\stdint.h
-F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_new_debug.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vcruntime_new.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\stdint.h
+E:\Github\MobileTests\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Source\RD\thirdparty\clsocket\src\StatTimer.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\time.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wtime.h

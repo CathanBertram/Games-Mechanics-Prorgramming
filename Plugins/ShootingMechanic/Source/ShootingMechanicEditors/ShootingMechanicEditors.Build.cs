@@ -26,9 +26,18 @@ public class ShootingMechanicEditors : ModuleRules
 			new string[]
 			{
 				"Core",
+				"Engine",
+				"CoreUObject",
+				"InputCore",
+				"LevelEditor",
+				"Slate",
+				"EditorStyle",
+				"AssetTools",
+				"EditorWidgets",
 				"UnrealEd",
-				"Blutility",
-				"UMG",
+				"BlueprintGraph",
+				"AnimGraph",
+				"ComponentVisualizers",
 				"ShootingMechanic",
 				"RecoilPatternEditor"
 				// ... add other public dependencies that you statically link with here ...
@@ -39,10 +48,19 @@ public class ShootingMechanicEditors : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"Core",
 				"CoreUObject",
 				"Engine",
-				"Slate",
+				"AppFramework",
 				"SlateCore",
+				"AnimGraph",
+				"UnrealEd",
+				"KismetWidgets",
+				"MainFrame",
+				"PropertyEditor",
+				"ComponentVisualizers",
+				"ShootingMechanic",
+				"RecoilPatternEditor"
 				// ... add private dependencies that you statically link with here ...	
 			}
 		);
