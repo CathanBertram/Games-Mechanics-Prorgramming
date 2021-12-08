@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ShootingMechanic/Weapon/Public/RecoilPattern.h"
+#include "ShootingMechanic/Public/Weapon/RecoilPattern.h"
 
 FVector2D URecoilPattern::GetRecoilAtIndex(int index)
 {

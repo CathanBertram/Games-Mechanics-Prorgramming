@@ -1,5 +1,5 @@
-﻿#include "ShootingMechanicEditors.h"
-#include "MenuTool.h"
+﻿#include "MenuTool.h"
+#include "ShootingMechanicEditors.h"
 
 #define LOCTEXT_NAMESPACE "MenuTool"
 

@@ -3,7 +3,7 @@
 
 #include "RecoilPatternFactory.h"
 
-#include "ShootingMechanic/Weapon/Public/RecoilPattern.h"
+#include "ShootingMechanic/Public/Weapon/RecoilPattern.h"
 
 URecoilPatternFactory::URecoilPatternFactory()
 {

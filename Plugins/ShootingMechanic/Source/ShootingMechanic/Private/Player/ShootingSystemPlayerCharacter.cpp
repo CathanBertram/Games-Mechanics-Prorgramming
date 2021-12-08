@@ -1,14 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ShootingMechanic/Player/Public/ShootingSystemPlayerCharacter.h"
+#include "ShootingMechanic/Public/Player/ShootingSystemPlayerCharacter.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "ShootingMechanic/Interfaces/Public/Equippable.h"
-#include "ShootingMechanic/Interfaces/Public/Fireable.h"
-#include "ShootingMechanic/Interfaces/Public/GetGun.h"
-#include "ShootingMechanic/Interfaces/Public/Reloadable.h"
-#include "ShootingMechanic/Weapon/Public/Gun.h"
+#include "ShootingMechanic/Public/Interfaces/Equippable.h"
+#include "ShootingMechanic/Public/Interfaces/Fireable.h"
+#include "ShootingMechanic/Public/Interfaces/GetGun.h"
+#include "ShootingMechanic/Public/Interfaces/Reloadable.h"
+#include "ShootingMechanic/Public/Weapon/Gun.h"
 
 class AGun;
 // Sets default values

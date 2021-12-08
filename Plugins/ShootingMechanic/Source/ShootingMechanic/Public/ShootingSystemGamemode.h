@@ -2,7 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ShootingMechanic/Interfaces/Public/GetShootingSystemGamemode.h"
+#include "ShootingMechanic/Public/Interfaces/GetShootingSystemGamemode.h"
 
 
 #include "ShootingSystemGamemode.generated.h"

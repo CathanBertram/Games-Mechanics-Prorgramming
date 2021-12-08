@@ -4,6 +4,7 @@
 
 #include "LevelEditor.h"
 #include "MenuTool.h"
+#include "WindowTool/WindowTool.h"
 
 #define LOCTEXT_NAMESPACE "FShootingMechanicModule"
 
@@ -12,11 +13,11 @@ void FShootingMechanicEditorsModule::StartupModule()
 {
 	if (!IsRunningCommandlet())
 	{
-		FLevelEditorModule& recoilPatternEditorModule = FModuleManager::LoadModuleChecked<FLevelEditorModule>("LevelEditor");
-		recoilPatternEditorMenuExtensibilityManager = recoilPatternEditorModule.GetMenuExtensibilityManager();
+		FLevelEditorModule& levelEditorModule = FModuleManager::LoadModuleChecked<FLevelEditorModule>("LevelEditor");
+		levelEditorMenuExtensibilityManager = levelEditorModule.GetMenuExtensibilityManager();
 		menuExtender = MakeShareable(new FExtender);
 		menuExtender->AddMenuBarExtension("Window", EExtensionHook::After, NULL, FMenuBarExtensionDelegate::CreateRaw(this, &FShootingMechanicEditorsModule::MakePulldownMenu));
-		recoilPatternEditorMenuExtensibilityManager->AddExtender(menuExtender);
+		levelEditorMenuExtensibilityManager->AddExtender(menuExtender);
 	}
 	ISMModuleInterface::StartupModule();
 }
@@ -32,6 +33,7 @@ void FShootingMechanicEditorsModule::AddModuleListeners()
 {
 	// add tools later
 	ModuleListeners.Add(MakeShareable(new MenuTool));
+	ModuleListeners.Add(MakeShareable(new WindowTool));
 }
 
 TSharedRef<FWorkspaceItem> FShootingMechanicEditorsModule::menuRoot = FWorkspaceItem::NewGroup(FText::FromString("Menu Root"));

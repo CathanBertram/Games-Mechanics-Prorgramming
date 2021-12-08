@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 
-#include "ShootingMechanic/Player/Public/ShootingSystemPlayerCharacter.h"
+#include "ShootingMechanic/Public/Player/ShootingSystemPlayerCharacter.h"
 #include "ShootingSystem/Sample/Interfaces/Initable.h"
 #include "ShootingSystem/Sample/Interfaces/Inputable.h"
 #include "ProjectCharacter.generated.h"
@@ -23,10 +23,12 @@ public:
 	void Init();
 	virtual void Init_Implementation() override;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera)
 	float m_BaseLookVerticalRate;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera)
 	float m_BaseLookHorizontalRate;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Camera)
+	float m_MouseSens;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Character)
 	float m_InteractRange;
 	

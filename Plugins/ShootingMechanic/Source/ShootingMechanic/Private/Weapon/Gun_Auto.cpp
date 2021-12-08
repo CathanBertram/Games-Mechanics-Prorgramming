@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ShootingMechanic/Weapon/Public/Gun_Auto.h"
+#include "ShootingMechanic/Public/Weapon/Gun_Auto.h"
 
 AGun_Auto::AGun_Auto()
 {

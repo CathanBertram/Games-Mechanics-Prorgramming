@@ -11,10 +11,7 @@ public class ShootingSystem : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "ShootingMechanic", "ShootingMechanicEditors" });
 		PublicIncludePaths.AddRange(new string[]
 		{
-			"ShootingMechanic/Private", "ShootingMechanic/Public",
-			"ShootingMechanic/Interfaces","ShootingMechanic/Interfaces/Public","ShootingMechanic/Interfaces/Private",
-			"ShootingMechanic/Player","ShootingMechanic/Player/Public","ShootingMechanic/Player/Private",
-			"ShootingMechanic/Weapon","ShootingMechanic/Weapon/Public","ShootingMechanic/Weapon/Private",
+			"ShootingMechanic/Private", "ShootingMechanic/Public"
 		});
 	}
 }

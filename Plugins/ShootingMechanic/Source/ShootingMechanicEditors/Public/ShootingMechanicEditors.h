@@ -36,7 +36,7 @@ public:
 	TSharedRef<FWorkspaceItem> GetMenuRoot() { return menuRoot; };
 
 protected:
-	TSharedPtr<FExtensibilityManager> recoilPatternEditorMenuExtensibilityManager;
+	TSharedPtr<FExtensibilityManager> levelEditorMenuExtensibilityManager;
 	TSharedPtr<FExtender> menuExtender;
 
 	static TSharedRef<FWorkspaceItem> menuRoot;

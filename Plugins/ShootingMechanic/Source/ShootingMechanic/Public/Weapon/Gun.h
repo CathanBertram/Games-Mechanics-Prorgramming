@@ -6,12 +6,13 @@
 
 
 #include "RecoilPattern.h"
+#include "Shoot_Base.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
-#include "ShootingMechanic/Interfaces/Public/Equippable.h"
-#include "ShootingMechanic/Interfaces/Public/Fireable.h"
-#include "ShootingMechanic/Interfaces/Public/GetGun.h"
-#include "ShootingMechanic/Interfaces/Public/Reloadable.h"
+#include "ShootingMechanic/Public/Interfaces/Equippable.h"
+#include "ShootingMechanic/Public/Interfaces/Fireable.h"
+#include "ShootingMechanic/Public/Interfaces/GetGun.h"
+#include "ShootingMechanic/Public/Interfaces/Reloadable.h"
 
 
 
@@ -66,11 +67,12 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite)
 	class USceneComponent* gunMuzzle;
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced, Category = "Weapon Statistics")
+	UShoot_Base* shootType;
+
 #pragma region WeaponFunctionality
 	void Shoot();
-	void ShootWithGamemode(UWorld* world, AShootingSystemGamemode* gamemode);
-	void ShootWithoutGamemode(UWorld* world);
 	float TimeBetweenShots();
 
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
@@ -88,6 +90,9 @@ protected:
 	int maxAmmoInMag;
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	int totalAmmoCapacity;
+
+	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	int projectileCount;
 #pragma endregion
 #pragma region RecoilFunctionality
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
@@ -96,7 +101,6 @@ protected:
 	FTimerHandle resetRecoilTimer;
 	int recoilIndex;
 
-	virtual void AddRecoil();
 	void ResetRecoil();
 #pragma endregion
 	bool canShoot;
@@ -110,5 +114,13 @@ protected:
 
 private:
 	bool CheckAmmo() {return curAmmo > 0;}
-	FVector GetBulletDirection();
+
+public:
+	virtual void AddRecoil();
+	void ConsumeAmmo() {curAmmo--;}
+	UCameraComponent* CameraReference() {return cameraReference;}
+	float Damage() {return damage;}
+	float MaxRange() {return maxRange;}
+	float AccurateRange(){return accurateRange;}
+	int ProjectileCount() {return projectileCount;}
 };

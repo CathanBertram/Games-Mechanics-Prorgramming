@@ -13,7 +13,7 @@ AProjectCharacter::AProjectCharacter()
 {
 	m_BaseLookHorizontalRate = 45.f;
 	m_BaseLookVerticalRate = 45.f;
-
+	m_MouseSens = .46f;
 	m_InteractRange = 300.f;
 }
 
@@ -83,13 +83,13 @@ void AProjectCharacter::MoveHorizontal_Implementation(float value)
 void AProjectCharacter::LookVertical_Implementation(float value)
 {
 	if (value != 0.0)
-		AddControllerPitchInput(value);
+		AddControllerPitchInput(value * m_MouseSens);
 }
 
 void AProjectCharacter::LookHorizontal_Implementation(float value)
 {
 	if (value != 0.0)
-		AddControllerYawInput(value);
+		AddControllerYawInput(value * m_MouseSens);
 }
 
 #pragma endregion
