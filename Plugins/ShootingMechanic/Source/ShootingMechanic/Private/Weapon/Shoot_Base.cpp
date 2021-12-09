@@ -3,16 +3,9 @@
 
 #include "Weapon/Shoot_Base.h"
 
-#include "Interfaces/GetShootingSystemGamemode.h"
 #include "Kismet/GameplayStatics.h"
-
-UShoot_Base::UShoot_Base()
-{
-}
-
-UShoot_Base::~UShoot_Base()
-{
-}
+#include "Kismet/KismetSystemLibrary.h"
+#include "Weapon/Gun.h"
 
 void UShoot_Base::OnShoot(UWorld* world, AGun* gun)
 {
@@ -25,12 +18,13 @@ void UShoot_Base::OnShoot(UWorld* world, AGun* gun)
 	{
 		ShootWithoutGamemode(gun, world);
 	}
+	gun->StartResetShootTimer();
 }
 
 void UShoot_Base::ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGamemode* gamemode)
 {
 	auto cameraReference = gun->CameraReference();
-	if (world != nullptr && cameraReference != nullptr)
+	if (cameraReference != nullptr)
 	{
 		for (int i = 0; i < gun->ProjectileCount(); ++i)
 		{
@@ -58,9 +52,7 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGam
 			gun->ConsumeAmmo();
 		if (gamemode->RecoilEnabled())
 			gun->AddRecoil();
-		
 	}
-	
 }
 
 void UShoot_Base::ShootWithoutGamemode(AGun* gun, UWorld* world)

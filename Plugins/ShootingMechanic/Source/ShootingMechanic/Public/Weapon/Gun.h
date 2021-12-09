@@ -73,7 +73,6 @@ protected:
 
 #pragma region WeaponFunctionality
 	void Shoot();
-	float TimeBetweenShots();
 
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	float damage;
@@ -107,9 +106,6 @@ protected:
 	void ResetCanShoot();
 
 	FTimerHandle resetShootTimer;
-	
-	
-	
 	UCameraComponent* cameraReference;
 
 private:
@@ -123,4 +119,8 @@ public:
 	float MaxRange() {return maxRange;}
 	float AccurateRange(){return accurateRange;}
 	int ProjectileCount() {return projectileCount;}
+	float TimeBetweenShots();
+	void StartResetShootTimer(float cooldown = -1.0f);
+
+
 };

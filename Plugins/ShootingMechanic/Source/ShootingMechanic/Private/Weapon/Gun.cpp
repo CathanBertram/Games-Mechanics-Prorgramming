@@ -36,13 +36,21 @@ AGun::~AGun()
 	OnShoot.Clear();
 }
 
-void AGun::FireStart_Implementation()
+// Called when the game starts or when spawned
+void AGun::BeginPlay()
 {
-	Shoot();
+	Super::BeginPlay();
+	curAmmo = maxAmmoInMag;
+	curTotalAmmo = totalAmmoCapacity;
 }
 
 void AGun::FireRelease_Implementation()
 {
+}
+
+void AGun::FireStart_Implementation()
+{
+	Shoot();
 }
 
 void AGun::Reload_Implementation()
@@ -80,14 +88,6 @@ AGun* AGun::GetGun_Implementation()
 	return this;
 }
 
-// Called when the game starts or when spawned
-void AGun::BeginPlay()
-{
-	Super::BeginPlay();
-	curAmmo = maxAmmoInMag;
-	curTotalAmmo = totalAmmoCapacity;
-}
-
 void AGun::ResetCanShoot()
 {
 	canShoot = true;
@@ -111,14 +111,24 @@ void AGun::ResetRecoil()
 	recoilIndex = 0;
 }
 
+void AGun::StartResetShootTimer(float cooldown)
+{
+	if (cooldown <= 0)
+		GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, TimeBetweenShots());
+	else
+		GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, cooldown);
+}
+
 void AGun::Shoot()
 {
 	if(!canShoot || !CheckAmmo()) return;
-
-	shootType->OnShoot(GetWorld(), this);
+	const auto world = GetWorld();
+	if (world != nullptr)
+	{
+		shootType->OnShoot(world, this);
+	}
 
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
-	GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, TimeBetweenShots());
 }
 
 float AGun::TimeBetweenShots()

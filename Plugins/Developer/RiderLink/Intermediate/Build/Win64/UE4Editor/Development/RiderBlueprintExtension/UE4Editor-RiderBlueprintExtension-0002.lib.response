@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-RiderBlueprintExtension-0002.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
-"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
-/OUT:"F:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension-0002.lib"
+"D:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
+"D:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
+/OUT:"D:\Github\Games-Mechanics-Prorgramming\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension-0002.lib"
 /INCLUDE:IMPLEMENT_MODULE_RiderBlueprintExtension
