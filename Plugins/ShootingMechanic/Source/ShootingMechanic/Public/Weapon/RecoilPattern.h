@@ -13,7 +13,7 @@ UCLASS()
 class SHOOTINGMECHANIC_API URecoilPattern : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
-
+	
 	protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FVector2D> recoil;

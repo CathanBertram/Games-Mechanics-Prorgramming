@@ -95,6 +95,7 @@ void AGun::ResetCanShoot()
 
 void AGun::AddRecoil()
 {
+
 	if (recoilPattern == nullptr)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Red, TEXT("Weapon Has No Assigned Recoil Pattern"));
@@ -122,12 +123,10 @@ void AGun::StartResetShootTimer(float cooldown)
 void AGun::Shoot()
 {
 	if(!canShoot || !CheckAmmo()) return;
-	const auto world = GetWorld();
-	if (world != nullptr)
-	{
-		shootType->OnShoot(world, this);
-	}
 
+	canShoot = false;
+	shootType->OnShoot(this);
+	
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
 }
 

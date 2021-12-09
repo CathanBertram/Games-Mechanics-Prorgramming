@@ -7,24 +7,26 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Weapon/Gun.h"
 
-void UShoot_Base::OnShoot(UWorld* world, AGun* gun)
+void UShoot_Base::OnShoot(AGun* gun)
 {
+	const auto world = GetWorld();
 	if (UKismetSystemLibrary::DoesImplementInterface(UGameplayStatics::GetGameMode(world), UGetShootingSystemGamemode::StaticClass()))
 	{
 		AShootingSystemGamemode* gamemode = IGetShootingSystemGamemode::Execute_GetShootingSystemGamemode(UGameplayStatics::GetGameMode(world));
-		ShootWithGamemode(gun, world, gamemode);
+		ShootWithGamemode(gun, gamemode);
 	}
 	else
 	{
-		ShootWithoutGamemode(gun, world);
+		ShootWithoutGamemode(gun);
 	}
 	gun->StartResetShootTimer();
 }
 
-void UShoot_Base::ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGamemode* gamemode)
+void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode)
 {
+	const auto world = GetWorld();
 	auto cameraReference = gun->CameraReference();
-	if (cameraReference != nullptr)
+	if (world != nullptr && cameraReference != nullptr)
 	{
 		for (int i = 0; i < gun->ProjectileCount(); ++i)
 		{
@@ -55,8 +57,9 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGam
 	}
 }
 
-void UShoot_Base::ShootWithoutGamemode(AGun* gun, UWorld* world)
+void UShoot_Base::ShootWithoutGamemode(AGun* gun)
 {
+	const auto world = GetWorld();
 	auto cameraReference = gun->CameraReference();
 	if (world != nullptr && cameraReference != nullptr)
 	{

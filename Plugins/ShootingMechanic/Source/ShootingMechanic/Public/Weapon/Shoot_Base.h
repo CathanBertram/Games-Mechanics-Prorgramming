@@ -15,16 +15,16 @@ class AGun;
 
 DECLARE_DELEGATE(FFinishShoot)
 
-UCLASS(EditInlineNew, Blueprintable, BlueprintType)
+UCLASS(Blueprintable)
 class SHOOTINGMECHANIC_API UShoot_Base : public UObject
 {
 	GENERATED_BODY()
 public:
-	virtual void OnShoot(UWorld* world, AGun* gun);
+	virtual void OnShoot(AGun* gun);
 	FFinishShoot finishShoot;
 protected:
-	virtual void ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGamemode* gamemode);
-	virtual void ShootWithoutGamemode(AGun* gun, UWorld* world);
+	virtual void ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode);
+	virtual void ShootWithoutGamemode(AGun* gun);
 	FVector GetBulletDirection(UCameraComponent* cameraReference, float accurateRange);
 
 	UPROPERTY(EditAnywhere)

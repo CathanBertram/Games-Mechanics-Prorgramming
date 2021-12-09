@@ -9,15 +9,17 @@
 /**
  * 
  */
-UCLASS(EditInlineNew, Blueprintable)
+UCLASS(Blueprintable)
 class SHOOTINGMECHANIC_API UShoot_Burst : public UShoot_Base
 {
 	GENERATED_BODY()
 	
 protected:
-	virtual void OnShoot(UWorld* world, AGun* gun) override;
-	virtual void ShootWithoutGamemode(AGun* gun, UWorld* world) override;
-	virtual void ShootWithGamemode(AGun* gun, UWorld* world, AShootingSystemGamemode* gamemode) override;
+	virtual void OnShoot(AGun* gun) override;
+	UFUNCTION()
+	virtual void ShootWithoutGamemode(AGun* gun) override;
+	UFUNCTION()
+	virtual void ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode) override;
 
 	UPROPERTY(EditAnywhere)
 	int burstProjectileCount;
