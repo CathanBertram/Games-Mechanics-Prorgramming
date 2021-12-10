@@ -16,6 +16,7 @@ class SHOOTINGMECHANIC_API UFireModeModuleBase : public UWeaponModuleBase
 {
 	GENERATED_BODY()
 public:
+	UFireModeModuleBase();
 	UFUNCTION(BlueprintCallable)
 	virtual void OnFirePressed(AGun* gun) {};
 	UFUNCTION(BlueprintCallable)

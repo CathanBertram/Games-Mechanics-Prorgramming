@@ -25,6 +25,8 @@ AGun::AGun()
 	curAmmo = maxAmmoInMag;
 	totalAmmoCapacity = 120;
 	curTotalAmmo = totalAmmoCapacity;
+
+	fireMode = NewObject<UFireModeModuleBase>();
 }
 
 AGun::~AGun()
