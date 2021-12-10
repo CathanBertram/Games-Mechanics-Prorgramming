@@ -19,14 +19,29 @@ UCLASS(Blueprintable)
 class SHOOTINGMECHANIC_API UShoot_Base : public UObject
 {
 	GENERATED_BODY()
+protected:
+	UShoot_Base();
+	
 public:
 	virtual void OnShoot(AGun* gun);
 	FFinishShoot finishShoot;
 protected:
 	virtual void ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode);
 	virtual void ShootWithoutGamemode(AGun* gun);
-	FVector GetBulletDirection(UCameraComponent* cameraReference, float accurateRange);
+	FVector GetBulletDirection(UCameraComponent* cameraReference);
+
+	void ConsumeAmmo();
+	void AddRecoil();
+	
 
 	UPROPERTY(EditAnywhere)
-	float test;
+	float damage;
+	UPROPERTY(EditAnywhere)
+	float accurateRange;
+	UPROPERTY(EditAnywhere)
+	float maxRange;
+	UPROPERTY(EditAnywhere)
+	float roundsPerMinute;
+public:
+	float TimeBetweenShots() { return 60 / roundsPerMinute; }
 };

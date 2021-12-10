@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_solution_notification" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -86,6 +86,7 @@
       <workItem from="1638995500481" duration="4270000" />
       <workItem from="1639048009393" duration="4665000" />
       <workItem from="1639069867687" duration="5484000" />
+      <workItem from="1639100146244" duration="3894000" />
     </task>
     <servers />
   </component>

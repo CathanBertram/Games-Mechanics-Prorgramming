@@ -1,0 +1,107 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "Weapon/WeaponModules/ShootModules/Shoot_Base.h"
+#include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "Weapon/Gun.h"
+
+UShoot_Base::UShoot_Base()
+{
+	damage = 10;
+	accurateRange = 10000;
+	maxRange = 10000000;
+	roundsPerMinute = 800;
+}
+
+void UShoot_Base::OnShoot(AGun* gun)
+{
+	const auto world = GetWorld();
+	if (UKismetSystemLibrary::DoesImplementInterface(UGameplayStatics::GetGameMode(world), UGetShootingSystemGamemode::StaticClass()))
+	{
+		AShootingSystemGamemode* gamemode = IGetShootingSystemGamemode::Execute_GetShootingSystemGamemode(UGameplayStatics::GetGameMode(world));
+		ShootWithGamemode(gun, gamemode);
+	}
+	else
+	{
+		ShootWithoutGamemode(gun);
+	}
+	gun->StartResetShootTimer();
+}
+
+void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode)
+{
+	const auto world = GetWorld();
+	auto cameraReference = gun->CameraReference();
+	if (world != nullptr && cameraReference != nullptr)
+	{
+		FHitResult hit(ForceInit);
+		// Get Bullet Start Point
+		FVector start = cameraReference->GetComponentLocation();
+		FVector end = FVector::ZeroVector;
+		if (gamemode->BulletSpreadEnabled())
+			end =  (GetBulletDirection(cameraReference) * maxRange) + start;
+		else
+			end = (cameraReference->GetForwardVector() * maxRange) + start;
+	
+	
+		const FName traceTag("TraceTag");
+		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
+		FCollisionQueryParams collisionParams;
+		collisionParams.TraceTag = traceTag;
+
+		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
+		{
+			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+		}
+		
+		if (gamemode->ConsumeAmmo())
+			gun->ConsumeAmmo();
+		if (gamemode->RecoilEnabled())
+			gun->AddRecoil();
+	}
+}
+
+void UShoot_Base::ShootWithoutGamemode(AGun* gun)
+{
+	const auto world = GetWorld();
+	auto cameraReference = gun->CameraReference();
+	if (world != nullptr && cameraReference != nullptr)
+	{
+		FHitResult hit(ForceInit);
+		// Get Bullet Start Point
+		FVector start = cameraReference->GetComponentLocation();
+		FVector end =  (GetBulletDirection(cameraReference) * maxRange) + start;
+	
+		const FName traceTag("TraceTag");
+		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
+		FCollisionQueryParams collisionParams;
+		collisionParams.TraceTag = traceTag;
+
+		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
+		{
+			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+		}
+		
+		gun->ConsumeAmmo();
+		gun->AddRecoil();
+	}
+}
+
+FVector UShoot_Base::GetBulletDirection(UCameraComponent* cameraReference)
+{
+	//Calculate Spread 
+	FVector2D pointInCircle = FMath::RandPointInCircle(15);
+	FVector worldSpacePosition = (pointInCircle.X * cameraReference->GetRightVector()) + (pointInCircle.Y * cameraReference->GetUpVector()) + (accurateRange * cameraReference->GetForwardVector());
+	FVector direction = worldSpacePosition - cameraReference->GetComponentLocation();
+	direction.Normalize();
+	return worldSpacePosition; 
+}
+
+void UShoot_Base::ConsumeAmmo()
+{
+}
+
+void UShoot_Base::AddRecoil()
+{
+}

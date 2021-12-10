@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(Blueprintable)
+UCLASS(Blueprintable, EditInlineNew)
 class SHOOTINGMECHANIC_API UShoot_Burst : public UShoot_Base
 {
 	GENERATED_BODY()

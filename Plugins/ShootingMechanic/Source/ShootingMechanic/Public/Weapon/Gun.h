@@ -6,14 +6,13 @@
 
 
 #include "RecoilPattern.h"
-#include "Shoot_Base.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Actor.h"
 #include "ShootingMechanic/Public/Interfaces/Equippable.h"
 #include "ShootingMechanic/Public/Interfaces/Fireable.h"
 #include "ShootingMechanic/Public/Interfaces/GetGun.h"
 #include "ShootingMechanic/Public/Interfaces/Reloadable.h"
-
+#include "WeaponModules/ShootModules/Shoot_Base.h"
 
 
 #include "Gun.generated.h"
@@ -30,7 +29,7 @@ public:
 	// Sets default values for this actor's properties
 	AGun();
 	~AGun();
-
+	
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void FireStart();
 	virtual void FireStart_Implementation() override;
@@ -68,20 +67,11 @@ protected:
 	UPROPERTY(BlueprintReadWrite)
 	class USceneComponent* gunMuzzle;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
 	UShoot_Base* shootType;
 
 #pragma region WeaponFunctionality
 	void Shoot();
-
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	float damage;
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	float accurateRange;
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	float maxRange;
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	float roundsPerMinute;
 	
 	int curAmmo;
 	int curTotalAmmo;
@@ -90,11 +80,10 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
 	int totalAmmoCapacity;
 
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
-	int projectileCount;
+	
 #pragma endregion
 #pragma region RecoilFunctionality
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere)
 	URecoilPattern* recoilPattern;
 
 	FTimerHandle resetRecoilTimer;
@@ -115,11 +104,7 @@ public:
 	virtual void AddRecoil();
 	void ConsumeAmmo() {curAmmo--;}
 	UCameraComponent* CameraReference() {return cameraReference;}
-	float Damage() {return damage;}
-	float MaxRange() {return maxRange;}
-	float AccurateRange(){return accurateRange;}
-	int ProjectileCount() {return projectileCount;}
-	float TimeBetweenShots();
+	
 	void StartResetShootTimer(float cooldown = -1.0f);
 
 

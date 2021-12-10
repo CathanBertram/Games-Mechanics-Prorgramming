@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Weapon/Shoot_Burst.h"
+#include "Weapon/WeaponModules/ShootModules/Shoot_Burst.h"
 
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -26,7 +26,7 @@ void UShoot_Burst::OnShoot(AGun* gun)
 		resetShootDelegate.BindUFunction(this, FName("ShootWithoutGamemode"), gun);
 		ShootWithoutGamemode(gun);
 	}
-	gun->StartResetShootTimer(burstResetCooldown + (gun->TimeBetweenShots() * burstProjectileCount));
+	gun->StartResetShootTimer(burstResetCooldown + (TimeBetweenShots() * burstProjectileCount));
 
 }
 
@@ -37,7 +37,7 @@ void UShoot_Burst::ShootWithoutGamemode(AGun* gun)
 	if (bulletIndex >= burstProjectileCount)
 		return;
 	
-	auto t = gun->TimeBetweenShots();
+	auto t = TimeBetweenShots();
 	GetWorld()->GetTimerManager().SetTimer(resetShootHandle, resetShootDelegate, t, false);
 }
 
@@ -48,6 +48,6 @@ void UShoot_Burst::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* Gamemod
 	if (bulletIndex >= burstProjectileCount)
 		return;
 	
-	auto t = gun->TimeBetweenShots();
+	auto t = TimeBetweenShots();
 	GetWorld()->GetTimerManager().SetTimer(resetShootHandle, resetShootDelegate, t, false);
 }

@@ -20,15 +20,11 @@ AGun::AGun()
 	gunMuzzle->SetupAttachment(gunMesh);
 
 	canShoot = true;
-	damage = 10;
-	accurateRange = 10000;
-	maxRange = 10000000;
-	roundsPerMinute = 800;
+
 	maxAmmoInMag = 30;
 	curAmmo = maxAmmoInMag;
 	totalAmmoCapacity = 120;
 	curTotalAmmo = totalAmmoCapacity;
-	projectileCount = 1;
 }
 
 AGun::~AGun()
@@ -104,7 +100,7 @@ void AGun::AddRecoil()
 
 	OnShoot.Broadcast(recoilPattern->GetRecoilAtIndex(recoilIndex));
 	recoilIndex++;
-	GetWorldTimerManager().SetTimer(resetRecoilTimer, this, &AGun::ResetRecoil, TimeBetweenShots());
+	GetWorldTimerManager().SetTimer(resetRecoilTimer, this, &AGun::ResetRecoil, shootType->TimeBetweenShots());
 }
 
 void AGun::ResetRecoil()
@@ -115,7 +111,7 @@ void AGun::ResetRecoil()
 void AGun::StartResetShootTimer(float cooldown)
 {
 	if (cooldown <= 0)
-		GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, TimeBetweenShots());
+		GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, shootType->TimeBetweenShots());
 	else
 		GetWorldTimerManager().SetTimer(resetShootTimer, this, &AGun::ResetCanShoot, cooldown);
 }
@@ -130,9 +126,5 @@ void AGun::Shoot()
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
 }
 
-float AGun::TimeBetweenShots()
-{
-	return 60 / roundsPerMinute;
-}
 
 
