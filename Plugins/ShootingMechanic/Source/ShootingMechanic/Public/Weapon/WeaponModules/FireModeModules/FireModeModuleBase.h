@@ -17,10 +17,7 @@ class SHOOTINGMECHANIC_API UFireModeModuleBase : public UWeaponModuleBase
 	GENERATED_BODY()
 public:
 	UFireModeModuleBase();
-	UFUNCTION(BlueprintCallable)
-	virtual void OnFirePressed(AGun* gun) {};
-	UFUNCTION(BlueprintCallable)
-	virtual void OnFireReleased(AGun* gun) {};
+	
 
 	virtual void Shoot(AGun* gun) {};
 
@@ -28,4 +25,12 @@ public:
 	
 	UPROPERTY(EditAnywhere, Instanced)
 	UShoot_Base* shootType;
+
+	virtual void OnActivate(AGun* gun) override;
+	virtual void OnDeactivate(AGun* gun) override;
+protected:
+	UFUNCTION(BlueprintCallable)
+	virtual void OnFirePressed(AGun* gun) {};
+	UFUNCTION(BlueprintCallable)
+	virtual void OnFireReleased(AGun* gun) {};
 };

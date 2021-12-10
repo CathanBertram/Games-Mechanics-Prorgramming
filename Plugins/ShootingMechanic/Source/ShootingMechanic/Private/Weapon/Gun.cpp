@@ -46,7 +46,7 @@ void AGun::BeginPlay()
 
 void AGun::FireRelease_Implementation()
 {
-	fireMode->OnFireReleased(this);
+	fireMode->OnDeactivate(this);
 }
 
 void AGun::FireStart_Implementation()
@@ -54,7 +54,7 @@ void AGun::FireStart_Implementation()
 	if(!canShoot || !CheckAmmo()) return;
 
 	canShoot = false;
-	fireMode->OnFirePressed(this);
+	fireMode->OnActivate(this);
 	
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, FString::Printf(TEXT("CurAmmo: %d"), curAmmo));
 }

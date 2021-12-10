@@ -22,4 +22,7 @@ protected:
 public:
 	TEnumAsByte<WeaponModuleType> ModuleType() {return moduleType;}
 	virtual void Initialise(AGun* gun) {};
+
+	virtual void OnActivate(AGun* gun) {};
+	virtual void OnDeactivate(AGun* gun) {};
 };

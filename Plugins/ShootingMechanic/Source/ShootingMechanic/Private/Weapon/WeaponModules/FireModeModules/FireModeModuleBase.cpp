@@ -13,3 +13,13 @@ void UFireModeModuleBase::Initialise(AGun* Gun)
 	Super::Initialise(Gun);
 	shootType->Initialise(Gun);
 }
+
+void UFireModeModuleBase::OnActivate(AGun* Gun)
+{
+	OnFirePressed(Gun);
+}
+
+void UFireModeModuleBase::OnDeactivate(AGun* Gun)
+{
+	OnFireReleased(Gun);
+}
