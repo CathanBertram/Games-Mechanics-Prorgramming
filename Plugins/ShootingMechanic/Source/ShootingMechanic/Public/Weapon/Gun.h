@@ -12,6 +12,7 @@
 #include "ShootingMechanic/Public/Interfaces/Fireable.h"
 #include "ShootingMechanic/Public/Interfaces/GetGun.h"
 #include "ShootingMechanic/Public/Interfaces/Reloadable.h"
+#include "WeaponModules/FireModeModules/FireModeModuleBase.h"
 #include "WeaponModules/ShootModules/Shoot_Base.h"
 
 
@@ -68,10 +69,9 @@ protected:
 	class USceneComponent* gunMuzzle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
-	UShoot_Base* shootType;
+	UFireModeModuleBase* fireMode;
 
 #pragma region WeaponFunctionality
-	void Shoot();
 	
 	int curAmmo;
 	int curTotalAmmo;
@@ -97,10 +97,8 @@ protected:
 	FTimerHandle resetShootTimer;
 	UCameraComponent* cameraReference;
 
-private:
-	bool CheckAmmo() {return curAmmo > 0;}
-
 public:
+	bool CheckAmmo() {return curAmmo > 0;}
 	virtual void AddRecoil();
 	void ConsumeAmmo() {curAmmo--;}
 	UCameraComponent* CameraReference() {return cameraReference;}

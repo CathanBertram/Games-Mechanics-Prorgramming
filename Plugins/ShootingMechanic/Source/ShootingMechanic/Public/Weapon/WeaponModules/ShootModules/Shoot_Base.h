@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "ShootingSystemGamemode.h"
 #include "UObject/NoExportTypes.h"
+#include "Weapon/WeaponModules/WeaponModuleBase.h"
 #include "Shoot_Base.generated.h"
 
 class UCameraComponent;
@@ -16,7 +17,7 @@ class AGun;
 DECLARE_DELEGATE(FFinishShoot)
 
 UCLASS(Blueprintable)
-class SHOOTINGMECHANIC_API UShoot_Base : public UObject
+class SHOOTINGMECHANIC_API UShoot_Base : public UWeaponModuleBase
 {
 	GENERATED_BODY()
 protected:
@@ -33,7 +34,6 @@ protected:
 	void ConsumeAmmo();
 	void AddRecoil();
 	
-
 	UPROPERTY(EditAnywhere)
 	float damage;
 	UPROPERTY(EditAnywhere)

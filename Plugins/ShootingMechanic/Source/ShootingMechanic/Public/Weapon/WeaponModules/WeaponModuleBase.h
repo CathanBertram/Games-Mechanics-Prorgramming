@@ -7,6 +7,7 @@
 #include "UObject/NoExportTypes.h"
 #include "WeaponModuleBase.generated.h"
 
+class AGun;
 /**
  * 
  */
@@ -20,5 +21,5 @@ protected:
 
 public:
 	TEnumAsByte<WeaponModuleType> ModuleType() {return moduleType;}
-	virtual void Initialise() {};
+	virtual void Initialise(AGun* gun) {};
 };
