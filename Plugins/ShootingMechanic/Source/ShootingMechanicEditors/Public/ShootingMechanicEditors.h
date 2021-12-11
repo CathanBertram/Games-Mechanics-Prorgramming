@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "IAssetTypeActions.h"
 #include "ISMModuleInterface.h"
 #include "Modules/ModuleManager.h"
 #include "UnrealEd.h"
@@ -43,4 +44,6 @@ protected:
 
 	void MakePulldownMenu(FMenuBarBuilder &menuBuilder);
 	void FillPulldownMenu(FMenuBuilder &menuBuilder);
+
+	TArray<TSharedPtr<IAssetTypeActions>> createdAssetTypeActions;
 };
