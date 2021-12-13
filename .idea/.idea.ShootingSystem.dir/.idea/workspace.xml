@@ -13,8 +13,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../UE4/UE_4.26/Engine/Source/Editor/PropertyEditor/Private/UserInterface/PropertyEditor/SPropertyEditorAsset.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UE4/UE_4.26/Engine/Source/Editor/PropertyEditor/Private/PropertyCustomizationHelpers.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/ShootingMechanic.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPattern/RecoilPatternTargetPoint.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPattern/RecoilPatternEditorMode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanic/Public/Weapon/RecoilPattern.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPattern/SRecoilPatternEditorWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Public/RecoilPattern/SRecoilPatternEditorWidget.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/ShootingMechanic/Source/ShootingMechanicEditors/Private/RecoilPattern/RecoilPatternEditorMode.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20UtRjgH95GZhG8F0DKuzK6QXKY" />
   <component name="ProjectViewState">
@@ -26,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="do_not_show_solution_notification" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -92,6 +109,10 @@
       <workItem from="1639169229079" duration="1219000" />
       <workItem from="1639237959668" duration="176000" />
       <workItem from="1639241209483" duration="3552000" />
+      <workItem from="1639324868583" duration="1670000" />
+      <workItem from="1639326801388" duration="10069000" />
+      <workItem from="1639392503331" duration="1369000" />
+      <workItem from="1639406058497" duration="9880000" />
     </task>
     <servers />
   </component>

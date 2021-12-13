@@ -7,7 +7,8 @@
 #include "LevelEditor.h"
 #include "MenuTool.h"
 #include "Gun/GunTypeActions.h"
-#include "Gun/RecoilPatternTypeActions.h"
+#include "RecoilPattern/RecoilPatternEditorTool.h"
+#include "RecoilPattern/RecoilPatternTypeActions.h"
 #include "WindowTool/WindowTool.h"
 
 #define LOCTEXT_NAMESPACE "FShootingMechanicModule"
@@ -64,6 +65,7 @@ void FShootingMechanicEditorsModule::AddModuleListeners()
 	// add tools later
 	ModuleListeners.Add(MakeShareable(new MenuTool));
 	ModuleListeners.Add(MakeShareable(new WindowTool));
+	ModuleListeners.Add(MakeShareable(new RecoilPatternEditorTool));
 }
 
 TSharedRef<FWorkspaceItem> FShootingMechanicEditorsModule::menuRoot = FWorkspaceItem::NewGroup(FText::FromString("Menu Root"));
