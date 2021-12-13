@@ -15,9 +15,9 @@ class SHOOTINGMECHANIC_API URecoilPattern : public UPrimaryDataAsset
 	GENERATED_BODY()
 	
 	protected:
+	public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (MakeEditWidget))
 	TArray<FVector2D> recoil;
-	public:
 	FVector2D GetRecoilAtIndex(int index);
 	TArray<FVector2D> GetRecoil(){return recoil;}
 	

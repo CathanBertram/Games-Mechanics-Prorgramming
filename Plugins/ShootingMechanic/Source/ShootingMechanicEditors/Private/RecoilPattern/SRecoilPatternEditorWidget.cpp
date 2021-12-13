@@ -9,6 +9,7 @@
 #include "PropertyCustomizationHelpers.h"
 #include "SAssetDropTarget.h"
 #include "SlateOptMacros.h"
+#include "Components/SlateWrapperTypes.h"
 #include "PropertyEditor/Private/SDetailsView.h"
 #include "RecoilPattern/RecoilPatternEditorMode.h"
 #include "RecoilPattern/RecoilPatternEditorTool.h"
@@ -96,6 +97,7 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 			.VAlign(VAlign_Center)
 			[
 				SNew(SEditableText)
+				.OnTextChanged(this, &SRecoilPatternEditorWidget::OnTextChanged)
 			]
 			+ SHorizontalBox::Slot()
 			.AutoWidth()
@@ -161,8 +163,13 @@ void SRecoilPatternEditorWidget::OnSetRecoilPattern()
 
 FReply SRecoilPatternEditorWidget::CreateNewRecoilPattern()
 {
-	GetEdMode()->CreateRecoilPattern(recoilPatternNameTextBox.GetText());
+	GetEdMode()->CreateRecoilPattern(recoilPatternName);
 	return FReply::Handled();
+}
+
+void SRecoilPatternEditorWidget::OnTextChanged(const FText& NewText)
+{
+	recoilPatternName = NewText;
 }
 
 

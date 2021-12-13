@@ -368,9 +368,11 @@ void FRecoilPatternEditorMode::CreateRecoilPattern(FText text)
 	URecoilPatternFactory* factory = NewObject<URecoilPatternFactory>();
 
 	FAssetToolsModule& AssetToolsModule = FAssetToolsModule::GetModule();
-	URecoilPattern* asset = Cast<URecoilPattern>(AssetToolsModule.Get().CreateAssetWithDialog(factory->GetSupportedClass(), factory));
-	asset->SetRecoil(GetRecoilFromPoints());
-
+	UObject* asset = AssetToolsModule.Get().CreateAssetWithDialog(factory->GetSupportedClass(), factory);
+	
+	URecoilPattern* assetAsRecoilPattern = Cast<URecoilPattern>(asset);
+	assetAsRecoilPattern->recoil = GetRecoilFromPoints();
+	
 	TArray<UObject*> ObjectsToSync;
 	ObjectsToSync.Add(asset);
 	GEditor->SyncBrowserToObjects(ObjectsToSync);
@@ -385,8 +387,9 @@ TArray<FVector2D> FRecoilPatternEditorMode::GetRecoilFromPoints()
 		FVector2D point = FVector2D::ZeroVector;
 		for (int j = 0; j <= i; j++)
 		{
-			point += FVector2D(points[j].X * 0.01f, points[j].Z * 0.01f);
+			point -= FVector2D(-points[j].X * 0.001f, points[j].Z * 0.001f);
 		}
+		recoil.Add(point);
 	}
 	return recoil;
 }

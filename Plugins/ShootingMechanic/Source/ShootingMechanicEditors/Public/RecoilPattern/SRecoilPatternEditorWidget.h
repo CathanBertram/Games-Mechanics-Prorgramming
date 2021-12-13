@@ -34,5 +34,7 @@ public:
 
 	void OnSetRecoilPattern();
 	FReply CreateNewRecoilPattern();
-	SEditableText recoilPatternNameTextBox;
+	
+	void OnTextChanged(const FText& NewText);
+	FText recoilPatternName;
 };
