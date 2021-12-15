@@ -85,6 +85,16 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 				.OnClicked(this, &SRecoilPatternEditorWidget::OnRemovePoint)
 				.IsEnabled(this, &SRecoilPatternEditorWidget::CanRemovePoint)
 			]
+			+ SHorizontalBox::Slot()
+			.AutoWidth()
+			.VAlign(VAlign_Center)
+			.Padding(0, 0, 2, 0)
+			[
+				SNew(SButton)
+				.Text(FText::FromString("Clear All Points"))
+				.OnClicked(this, &SRecoilPatternEditorWidget::OnClearAllPoints)
+				.IsEnabled(this, &SRecoilPatternEditorWidget::CanRemovePoint)
+			]
 		]
 		+ SVerticalBox::Slot()
 		.AutoHeight()
@@ -96,8 +106,9 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 			.Padding(2, 0, 0, 0)
 			.VAlign(VAlign_Center)
 			[
-				SNew(SEditableText)
-				.OnTextChanged(this, &SRecoilPatternEditorWidget::OnTextChanged)
+				SNew(SButton)
+				.Text(FText::FromString("Toggle Point Selection"))
+				.OnClicked(this, &SRecoilPatternEditorWidget::TogglePointSelection)
 			]
 			+ SHorizontalBox::Slot()
 			.AutoWidth()
@@ -107,6 +118,7 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 				SNew(SButton)
 				.Text(FText::FromString("Create New Recoil Pattern"))
 				.OnClicked(this, &SRecoilPatternEditorWidget::CreateNewRecoilPattern)
+				.IsEnabled(this, &SRecoilPatternEditorWidget::CanAddPoint)
 			]
 		]
 	]
@@ -140,6 +152,12 @@ bool SRecoilPatternEditorWidget::CanRemovePoint() const
 	return GetEdMode()->CanRemovePoint();
 }
 
+FReply SRecoilPatternEditorWidget::OnClearAllPoints()
+{
+	GetEdMode()->ClearPoints();
+	return FReply::Handled();
+}
+
 FReply SRecoilPatternEditorWidget::OnLoadMap()
 {
 	FEditorFileUtils::LoadMap(TEXT("/ShootingMechanic/Maps/RecoilPatternEditor.mapname"), false, true);
@@ -163,13 +181,14 @@ void SRecoilPatternEditorWidget::OnSetRecoilPattern()
 
 FReply SRecoilPatternEditorWidget::CreateNewRecoilPattern()
 {
-	GetEdMode()->CreateRecoilPattern(recoilPatternName);
+	GetEdMode()->CreateRecoilPattern();
 	return FReply::Handled();
 }
 
-void SRecoilPatternEditorWidget::OnTextChanged(const FText& NewText)
+FReply SRecoilPatternEditorWidget::TogglePointSelection()
 {
-	recoilPatternName = NewText;
+	GetEdMode()->TogglePointSelection();
+	return FReply::Handled();
 }
 
 

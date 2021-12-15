@@ -28,6 +28,7 @@ public:
 	bool CanAddPoint() const;
 	FReply OnRemovePoint();
 	bool CanRemovePoint() const;
+	FReply OnClearAllPoints();
 	FReply OnLoadMap();
 	FReply OnSelectAsset();
 	bool CanSelectAsset() const;
@@ -35,6 +36,5 @@ public:
 	void OnSetRecoilPattern();
 	FReply CreateNewRecoilPattern();
 	
-	void OnTextChanged(const FText& NewText);
-	FText recoilPatternName;
+	FReply TogglePointSelection();
 };

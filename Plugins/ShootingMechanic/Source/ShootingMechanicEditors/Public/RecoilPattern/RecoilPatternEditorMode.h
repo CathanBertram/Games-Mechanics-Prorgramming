@@ -22,7 +22,6 @@ class SHOOTINGMECHANICEDITORS_API FRecoilPatternEditorMode : public FEdMode
 public:
 	FRecoilPatternEditorMode();
 	~FRecoilPatternEditorMode();
-
 	
 	const static FEditorModeID EM_Example;
 
@@ -49,6 +48,7 @@ public:
 
 	virtual void Render(const FSceneView* View, FViewport* Viewport, FPrimitiveDrawInterface* PDI) override;
 	virtual bool HandleClick(FEditorViewportClient* InViewportClient, HHitProxy *HitProxy, const FViewportClick &Click) override;
+	void ClickAddPoint();
 	
 	TSharedPtr<FUICommandList> recoilPatternEditorModeActions;
 	virtual bool InputKey(FEditorViewportClient* ViewportClient, FViewport* Viewport, FKey Key, EInputEvent Event) override;
@@ -58,8 +58,12 @@ public:
 	TWeakObjectPtr<ARecoilPatternTargetPoint> currentSelectedTarget;
 	int32 currentSelectedIndex = -1;
 
-	void CreateRecoilPattern(FText text);
+	void CreateRecoilPattern();
 	TArray<FVector2D> GetRecoilFromPoints();
 	void OnChangeSelectedRecoilPattern(URecoilPattern* recoilPattern);
 	URecoilPattern* selectedRecoilPattern;
+
+	void TogglePointSelection();
+	bool pointSelection = true;
+
 };

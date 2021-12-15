@@ -110,7 +110,7 @@ void AGun::AddRecoil()
 
 	OnShoot.Broadcast(recoilPattern->GetRecoilAtIndex(recoilIndex));
 	recoilIndex++;
-	GetWorldTimerManager().SetTimer(resetRecoilTimer, this, &AGun::ResetRecoil, fireMode->shootType->TimeBetweenShots());
+	GetWorldTimerManager().SetTimer(resetRecoilTimer, this, &AGun::ResetRecoil, fireMode->shootType->TimeBetweenShots() * 2.f);
 }
 
 void AGun::ResetRecoil()

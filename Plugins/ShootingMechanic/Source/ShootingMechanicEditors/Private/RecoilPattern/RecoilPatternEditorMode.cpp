@@ -118,7 +118,8 @@ void FRecoilPatternEditorMode::AddPoint(FVector pos)
 
 		// add new point, slightly in front of camera
 		FEditorViewportClient* client = (FEditorViewportClient*)GEditor->GetActiveViewport()->GetClient();
-		
+
+		// pos.Y = 0;
 		actor->Modify();
 		actor->points.Add(pos);
 		// auto select this new point
@@ -187,7 +188,8 @@ void FRecoilPatternEditorMode::SelectAsset()
 
 void FRecoilPatternEditorMode::ClearPoints()
 {
-	currentSelectedTarget->points.Empty();
+	if (HasValidSelection())
+		currentSelectedTarget->points.Empty();
 }
 
 bool FRecoilPatternEditorMode::InputDelta(FEditorViewportClient* InViewportClient, FViewport* InViewport,
@@ -214,17 +216,26 @@ bool FRecoilPatternEditorMode::InputDelta(FEditorViewportClient* InViewportClien
 
 bool FRecoilPatternEditorMode::ShowModeWidgets() const
 {
-	return true;
+	if (pointSelection)
+		return true;
+	else
+		return false;
 }
 
 bool FRecoilPatternEditorMode::ShouldDrawWidget() const
 {
-	return true;
+	if (pointSelection)
+		return true;
+	else
+		return false;
 }
 
 bool FRecoilPatternEditorMode::UsesTransformWidget() const
 {
-	return true;
+	if (pointSelection)
+		return true;
+	else
+		return false;
 }
 
 FVector FRecoilPatternEditorMode::GetWidgetLocation() const
@@ -278,7 +289,14 @@ bool FRecoilPatternEditorMode::HandleClick(FEditorViewportClient* InViewportClie
 	const FViewportClick& Click)
 {
 	bool isHandled = false;
+	SelectAsset();
 
+	if (!pointSelection)
+	{
+		ClickAddPoint();
+		return true;
+	}
+	
 	if (HitProxy)
 	{
 		if (HitProxy->IsA(HRecoilPatternPointProxy::StaticGetType()))
@@ -291,6 +309,10 @@ bool FRecoilPatternEditorMode::HandleClick(FEditorViewportClient* InViewportClie
 			{
 				SelectPoint(actor, index);
 			}
+		}
+		else
+		{
+			ClickAddPoint();
 		}
 	}
 
@@ -307,8 +329,25 @@ bool FRecoilPatternEditorMode::HandleClick(FEditorViewportClient* InViewportClie
 				FPopupTransitionEffect(FPopupTransitionEffect::ContextMenu));
 		}
 	}
-
+	
 	return isHandled;
+}
+
+void FRecoilPatternEditorMode::ClickAddPoint()
+{
+	FEditorViewportClient* client = (FEditorViewportClient*)GEditor->GetActiveViewport()->GetClient();
+	auto cursorWorldLoc = client->GetCursorWorldLocationFromMousePos();
+	FVector pos = FVector::ZeroVector;
+	FHitResult hit(ForceInit);
+	FCollisionQueryParams collisionParams;
+	auto endPos = cursorWorldLoc.GetOrigin() + cursorWorldLoc.GetDirection() * 1000.f;
+	if (GetWorld()->LineTraceSingleByChannel(hit, cursorWorldLoc.GetOrigin(), endPos, ECC_Visibility, collisionParams))
+	{
+		pos = hit.Location;
+	}
+
+	FVector newPoint = cursorWorldLoc.GetOrigin();
+	AddPoint(pos);
 }
 
 void FRecoilPatternEditorMode::MapCommands()
@@ -363,7 +402,7 @@ TSharedPtr<SWidget> FRecoilPatternEditorMode::GenerateContextMenu(FEditorViewpor
 	return MenuWidget;
 }
 
-void FRecoilPatternEditorMode::CreateRecoilPattern(FText text)
+void FRecoilPatternEditorMode::CreateRecoilPattern()
 {
 	URecoilPatternFactory* factory = NewObject<URecoilPatternFactory>();
 
@@ -385,10 +424,15 @@ TArray<FVector2D> FRecoilPatternEditorMode::GetRecoilFromPoints()
 	for (int i = 0; i < points.Num(); ++i)
 	{
 		FVector2D point = FVector2D::ZeroVector;
-		for (int j = 0; j <= i; j++)
+		if (i <= 0)
+			point = FVector2D(points[i].X * 0.01f, -(points[i].Z * 0.01f));
+		else
 		{
-			point -= FVector2D(-points[j].X * 0.001f, points[j].Z * 0.001f);
+			auto x = (points[i].X - points[i-1].X) *  0.01f;
+			auto y = (points[i].Z - points[i-1].Z) *  0.01f;
+			point = FVector2D(x, -y);
 		}
+
 		recoil.Add(point);
 	}
 	return recoil;
@@ -411,3 +455,10 @@ void FRecoilPatternEditorMode::OnChangeSelectedRecoilPattern(URecoilPattern* rec
 	}
 	
 }
+
+void FRecoilPatternEditorMode::TogglePointSelection()
+{
+	pointSelection = !pointSelection;
+}
+
+
