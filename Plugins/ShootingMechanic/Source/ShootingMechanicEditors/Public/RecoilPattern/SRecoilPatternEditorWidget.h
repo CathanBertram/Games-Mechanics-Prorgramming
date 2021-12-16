@@ -21,7 +21,7 @@ public:
 
 	/** Constructs this widget with InArgs */
 	void Construct(const FArguments& InArgs);
-
+    
 	class FRecoilPatternEditorMode* GetEdMode() const;
 	
 	FReply OnAddPoint();
@@ -32,9 +32,15 @@ public:
 	FReply OnLoadMap();
 	FReply OnSelectAsset();
 	bool CanSelectAsset() const;
-
-	void OnSetRecoilPattern();
+	
 	FReply CreateNewRecoilPattern();
 	
 	FReply TogglePointSelection();
+	
+	TSharedPtr<FAssetThumbnailPool> assetThumbnailPool;
+
+	FAssetData assetData;
+	FString GetPath();
+	void OnRecoilPatternSelected(const FAssetData& AssetData);
+	
 };

@@ -20,6 +20,7 @@ BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 
 void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 {
+    assetThumbnailPool = MakeShareable(new FAssetThumbnailPool(24));
 	ChildSlot
 	[
 	SNew(SScrollBox)
@@ -96,6 +97,17 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 				.IsEnabled(this, &SRecoilPatternEditorWidget::CanRemovePoint)
 			]
 		]
+		+ SVerticalBox::Slot()
+         .AutoHeight()
+         .Padding(0.f, 5.f, 0.f, 0.f)
+         [
+			SNew(SObjectPropertyEntryBox)
+			.AllowedClass(URecoilPattern::StaticClass())
+			.AllowClear(true)
+			.ObjectPath(&SRecoilPatternEditorWidget::GetPath)
+			.OnObjectChanged(this, &SRecoilPatternEditorWidget::OnRecoilPatternSelected)
+			.ThumbnailPool(assetThumbnailPool)
+		]	
 		+ SVerticalBox::Slot()
 		.AutoHeight()
 		.Padding(0.f, 5.f, 0.f, 0.f)
@@ -175,10 +187,6 @@ bool SRecoilPatternEditorWidget::CanSelectAsset() const
 	return !GetEdMode()->CanAddPoint();
 }
 
-void SRecoilPatternEditorWidget::OnSetRecoilPattern()
-{
-}
-
 FReply SRecoilPatternEditorWidget::CreateNewRecoilPattern()
 {
 	GetEdMode()->CreateRecoilPattern();
@@ -189,6 +197,20 @@ FReply SRecoilPatternEditorWidget::TogglePointSelection()
 {
 	GetEdMode()->TogglePointSelection();
 	return FReply::Handled();
+}
+
+FString SRecoilPatternEditorWidget::GetPath()
+{
+	if (assetData.IsValid())
+	{
+		return assetData.ObjectPath.ToString();
+	}
+	return "";
+}
+
+void SRecoilPatternEditorWidget::OnRecoilPatternSelected(const FAssetData& AssetData)
+{
+	assetData = AssetData;
 }
 
 
