@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "ShootingSystemGamemode.h"
 #include "UObject/NoExportTypes.h"
+#include "Weapon/WeaponModules/GetShootBaseModule.h"
 #include "Weapon/WeaponModules/WeaponModuleBase.h"
 #include "Shoot_Base.generated.h"
 
@@ -17,7 +18,7 @@ class AGun;
 DECLARE_DELEGATE(FFinishShoot)
 
 UCLASS(Blueprintable)
-class SHOOTINGMECHANIC_API UShoot_Base : public UWeaponModuleBase
+class SHOOTINGMECHANIC_API UShoot_Base : public UWeaponModuleBase, public IGetShootBaseModule
 {
 	GENERATED_BODY()
 protected:
@@ -26,6 +27,12 @@ protected:
 public:
 	virtual void OnShoot(AGun* gun);
 	FFinishShoot finishShoot;
+
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	UShoot_Base* GetShootBaseModule();
+	virtual UShoot_Base* GetShootBaseModule_Implementation() override;
+	
 protected:
 	virtual void ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode);
 	virtual void ShootWithoutGamemode(AGun* gun);

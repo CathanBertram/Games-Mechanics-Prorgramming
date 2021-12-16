@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "EdMode.h"
+#include "IContentBrowserSingleton.h"
 #include "RecoilPatternTargetPoint.h"
 #include "Weapon/RecoilPattern.h"
 
@@ -65,5 +66,9 @@ public:
 
 	void TogglePointSelection();
 	bool pointSelection = true;
+
+	void SaveAsset(URecoilPattern* recoilPattern);
+	
+	float scale = 100;
 
 };

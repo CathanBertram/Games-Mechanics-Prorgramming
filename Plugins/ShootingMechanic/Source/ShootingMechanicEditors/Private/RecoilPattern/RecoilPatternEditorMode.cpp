@@ -425,11 +425,11 @@ TArray<FVector2D> FRecoilPatternEditorMode::GetRecoilFromPoints()
 	{
 		FVector2D point = FVector2D::ZeroVector;
 		if (i <= 0)
-			point = FVector2D(points[i].X * 0.01f, -(points[i].Z * 0.01f));
+			point = FVector2D(points[i].X / scale, -(points[i].Z / scale));
 		else
 		{
-			auto x = (points[i].X - points[i-1].X) *  0.01f;
-			auto y = (points[i].Z - points[i-1].Z) *  0.01f;
+			auto x = (points[i].X - points[i-1].X) / scale;
+			auto y = (points[i].Z - points[i-1].Z) / scale;
 			point = FVector2D(x, -y);
 		}
 
@@ -447,18 +447,23 @@ void FRecoilPatternEditorMode::OnChangeSelectedRecoilPattern(URecoilPattern* rec
 	for (int i = 0; i < recoil.Num(); ++i)
 	{
 		if (i == 0)
-			AddPoint(FVector(recoil[i].X, 0, recoil[i].Y));
+			AddPoint(FVector(recoil[i].X * scale, 0, -recoil[i].Y* scale));
 		else
 		{
-			AddPoint(FVector(recoil[i].X + currentSelectedTarget->points[i-1].X, 0, recoil[i].Y + currentSelectedTarget->points[i-1].Z));
+			AddPoint(FVector(recoil[i].X * scale + currentSelectedTarget->points[i-1].X, 0, -recoil[i].Y * scale + currentSelectedTarget->points[i-1].Z));
 		}
 	}
-	
 }
 
 void FRecoilPatternEditorMode::TogglePointSelection()
 {
 	pointSelection = !pointSelection;
+}
+
+void FRecoilPatternEditorMode::SaveAsset(URecoilPattern* recoilPattern)
+{
+	recoilPattern->recoil.Empty();
+	recoilPattern->recoil = GetRecoilFromPoints();
 }
 
 

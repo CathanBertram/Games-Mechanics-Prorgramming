@@ -13,6 +13,8 @@
 #include "ShootingMechanic/Public/Interfaces/GetGun.h"
 #include "ShootingMechanic/Public/Interfaces/Reloadable.h"
 #include "WeaponModules/FireModeModules/FireModeModuleBase.h"
+#include "WeaponModules/OnFireModule/OnFireModuleBase.h"
+#include "WeaponModules/OnHitModule/OnHitModuleBase.h"
 #include "WeaponModules/ShootModules/Shoot_Base.h"
 
 
@@ -39,6 +41,16 @@ public:
 	void FireRelease();
 	virtual void FireRelease_Implementation() override;
 
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFireStart();
+	virtual void AltFireStart_Implementation() override;
+	
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFireRelease();
+	virtual void AltFireRelease_Implementation() override;
+
+	
+	
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void Reload();
 	virtual void Reload_Implementation() override;
@@ -96,6 +108,11 @@ protected:
 
 	FTimerHandle resetShootTimer;
 	UCameraComponent* cameraReference;
+
+
+	TArray<UOnFireModuleBase*> onFireModules;
+	TArray<UOnHitModuleBase*> onHitModules;
+	UWeaponModuleBase* altFireModule;
 
 public:
 	bool CheckAmmo() {return curAmmo > 0;}

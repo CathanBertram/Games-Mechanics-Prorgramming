@@ -49,6 +49,29 @@ void AGun::FireRelease_Implementation()
 	fireMode->OnDeactivate(this);
 }
 
+void AGun::AltFireStart_Implementation()
+{
+	switch (altFireModule->ModuleType())
+	{
+	case WeaponModuleType::Default:
+		break;
+	case WeaponModuleType::Shoot:
+		break;
+	case WeaponModuleType::FireMode:
+		break;
+	case WeaponModuleType::OnFire:
+		break;
+	case WeaponModuleType::OnHit:
+		break;
+	default: break;
+	}
+}
+
+void AGun::AltFireRelease_Implementation()
+{
+	
+}
+
 void AGun::FireStart_Implementation()
 {
 	if(!canShoot || !CheckAmmo()) return;

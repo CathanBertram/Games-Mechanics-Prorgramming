@@ -60,7 +60,7 @@ public class ShootingMechanicEditors : ModuleRules
 				"PropertyEditor",
 				"ComponentVisualizers",
 				"ShootingMechanic",
-				"RecoilPatternEditor"
+				"RecoilPatternEditor", "AITestSuite"
 				// ... add private dependencies that you statically link with here ...	
 			}
 		);

@@ -8,6 +8,7 @@
 
 UShoot_Base::UShoot_Base()
 {
+	moduleType = WeaponModuleType::Shoot;
 	damage = 10;
 	accurateRange = 10000;
 	maxRange = 10000000;
@@ -27,6 +28,11 @@ void UShoot_Base::OnShoot(AGun* gun)
 		ShootWithoutGamemode(gun);
 	}
 	gun->StartResetShootTimer();
+}
+
+UShoot_Base* UShoot_Base::GetShootBaseModule_Implementation()
+{
+	return this;
 }
 
 void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode)

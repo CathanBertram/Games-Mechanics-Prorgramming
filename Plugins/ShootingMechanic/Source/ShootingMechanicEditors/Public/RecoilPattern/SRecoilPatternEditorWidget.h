@@ -32,6 +32,9 @@ public:
 	FReply OnLoadMap();
 	FReply OnSelectAsset();
 	bool CanSelectAsset() const;
+
+	FReply OnSaveAsset();
+	bool CanSaveAsset() const;
 	
 	FReply CreateNewRecoilPattern();
 	
@@ -40,7 +43,7 @@ public:
 	TSharedPtr<FAssetThumbnailPool> assetThumbnailPool;
 
 	FAssetData assetData;
-	FString GetPath();
+	FString GetPath() const;
 	void OnRecoilPatternSelected(const FAssetData& AssetData);
 	
 };

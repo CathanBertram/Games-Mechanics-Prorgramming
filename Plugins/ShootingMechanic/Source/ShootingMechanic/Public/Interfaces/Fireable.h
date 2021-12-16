@@ -26,4 +26,9 @@ public:
 	void FireStart();
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void FireRelease();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFireStart();
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFireRelease();
 };

@@ -12,12 +12,15 @@ class AGun;
  * 
  */
 UCLASS(Blueprintable, Abstract)
-class SHOOTINGMECHANIC_API UFireModeModuleBase : public UWeaponModuleBase
+class SHOOTINGMECHANIC_API UFireModeModuleBase : public UWeaponModuleBase, public IGetFireModeBaseModule
 {
 	GENERATED_BODY()
 public:
 	UFireModeModuleBase();
-	
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	UFireModeModuleBase* GetFireModeBaseModule();
+	virtual UFireModeModuleBase* GetFireModeBaseModule_Implementation() override;
 
 	virtual void Shoot(AGun* gun) {};
 

@@ -5,10 +5,12 @@
  * 
  */
 UENUM()
-enum WeaponModuleType
+enum class WeaponModuleType : uint8
 {
  Default UMETA(DisplayName = "Default"),
  FireMode  UMETA(DisplayName = "Fire Mode"),
- ShootType UMETA(DisplayName = "Shoot Type")
+ Shoot UMETA(DisplayName = "Shoot Type"),
+ OnFire UMETA(DisplayName = "OnFire Type"),
+ OnHit UMETA(DisplayName = "OnHit Type")
 };
 

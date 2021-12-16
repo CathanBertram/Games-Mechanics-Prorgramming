@@ -6,6 +6,12 @@
 UFireModeModuleBase::UFireModeModuleBase()
 {
 	shootType = NewObject<UShoot_Base>();
+	moduleType = WeaponModuleType::FireMode;
+}
+
+UFireModeModuleBase* UFireModeModuleBase::GetFireModeBaseModule_Implementation()
+{
+	return this;
 }
 
 void UFireModeModuleBase::Initialise(AGun* Gun)
