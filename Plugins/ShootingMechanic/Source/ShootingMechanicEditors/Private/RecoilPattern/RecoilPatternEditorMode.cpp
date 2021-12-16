@@ -408,9 +408,12 @@ void FRecoilPatternEditorMode::CreateRecoilPattern()
 
 	FAssetToolsModule& AssetToolsModule = FAssetToolsModule::GetModule();
 	UObject* asset = AssetToolsModule.Get().CreateAssetWithDialog(factory->GetSupportedClass(), factory);
-	
-	URecoilPattern* assetAsRecoilPattern = Cast<URecoilPattern>(asset);
-	assetAsRecoilPattern->recoil = GetRecoilFromPoints();
+
+	if (IsValid(asset))
+	{
+		URecoilPattern* assetAsRecoilPattern = Cast<URecoilPattern>(asset);
+		assetAsRecoilPattern->recoil = GetRecoilFromPoints();
+	}
 	
 	TArray<UObject*> ObjectsToSync;
 	ObjectsToSync.Add(asset);
