@@ -108,11 +108,14 @@ protected:
 
 	FTimerHandle resetShootTimer;
 	UCameraComponent* cameraReference;
-
-
-	TArray<UOnFireModuleBase*> onFireModules;
-	TArray<UOnHitModuleBase*> onHitModules;
+	
+	UPROPERTY(EditAnywhere, Instanced)
 	UWeaponModuleBase* altFireModule;
+public:
+	UPROPERTY(EditAnywhere, Instanced)
+	TArray<UOnFireModuleBase*> onFireModules;
+	UPROPERTY(EditAnywhere, Instanced)
+	TArray<UOnHitModuleBase*> onHitModules;
 
 public:
 	bool CheckAmmo() {return curAmmo > 0;}

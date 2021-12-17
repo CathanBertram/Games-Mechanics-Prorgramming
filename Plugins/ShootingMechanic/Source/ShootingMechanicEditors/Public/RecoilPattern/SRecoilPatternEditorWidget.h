@@ -39,6 +39,7 @@ public:
 	FReply CreateNewRecoilPattern();
 	
 	FReply TogglePointSelection();
+	FReply ToggleDrawPoints();
 	
 	TSharedPtr<FAssetThumbnailPool> assetThumbnailPool;
 

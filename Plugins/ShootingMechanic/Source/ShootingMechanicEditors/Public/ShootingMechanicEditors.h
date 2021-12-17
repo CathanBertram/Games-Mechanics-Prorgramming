@@ -42,8 +42,5 @@ protected:
 
 	static TSharedRef<FWorkspaceItem> menuRoot;
 
-	void MakePulldownMenu(FMenuBarBuilder &menuBuilder);
-	void FillPulldownMenu(FMenuBuilder &menuBuilder);
-
 	TArray<TSharedPtr<IAssetTypeActions>> createdAssetTypeActions;
 };

@@ -11,7 +11,7 @@ class AGun;
 /**
  * 
  */
-UCLASS(Blueprintable, Abstract)
+UCLASS(Blueprintable, Abstract, EditInlineNew)
 class SHOOTINGMECHANIC_API UWeaponModuleBase : public UObject
 {
 	GENERATED_BODY()

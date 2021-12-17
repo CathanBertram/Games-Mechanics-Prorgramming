@@ -59,6 +59,14 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+			for (auto t : gun->onHitModules)
+			{
+				if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnHitBaseModule::StaticClass()))
+				{
+					GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, TEXT("do"));
+					IGetOnHitBaseModule::Execute_GetOnHitModule(t)->DoHit(gun,hit);
+				}
+			}
 		}
 		
 		if (gamemode->ConsumeAmmo())

@@ -21,4 +21,10 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	UOnHitModuleBase* GetOnHitModule();
 	virtual UOnHitModuleBase* GetOnHitModule_Implementation() override;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void OnHit(AGun* gun, FHitResult hit);
+	virtual void OnHit_Implementation(AGun* gun, FHitResult hit);
+
+	void DoHit(AGun* gun, FHitResult hit);
 };

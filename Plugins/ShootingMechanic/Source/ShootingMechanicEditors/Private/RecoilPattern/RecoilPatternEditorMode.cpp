@@ -274,8 +274,9 @@ void FRecoilPatternEditorMode::Render(const FSceneView* View, FViewport* Viewpor
 				{
 					lineEnd = actor->points[i-1];
 				}
+				if(drawPoints)
+					PDI->DrawPoint(t, color, 15.f, SDPG_Foreground);
 				
-				PDI->DrawPoint(t, color, 15.f, SDPG_Foreground);
 				PDI->DrawLine(t, lineEnd, color, SDPG_Foreground);
 				PDI->SetHitProxy(NULL);
 			}

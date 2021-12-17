@@ -123,6 +123,15 @@ void SRecoilPatternEditorWidget::Construct(const FArguments& InArgs)
 				.Text(FText::FromString("Toggle Point Selection"))
 				.OnClicked(this, &SRecoilPatternEditorWidget::TogglePointSelection)
 			]
+			+ SHorizontalBox::Slot()
+			.AutoWidth()
+			.Padding(2, 0, 0, 0)
+			.VAlign(VAlign_Center)
+			[
+				SNew(SButton)
+				.Text(FText::FromString("Toggle Draw Points"))
+				.OnClicked(this, &SRecoilPatternEditorWidget::ToggleDrawPoints)
+			]
 		]
 		+ SVerticalBox::Slot()
 		.AutoHeight()
@@ -224,6 +233,12 @@ FReply SRecoilPatternEditorWidget::CreateNewRecoilPattern()
 FReply SRecoilPatternEditorWidget::TogglePointSelection()
 {
 	GetEdMode()->TogglePointSelection();
+	return FReply::Handled();
+}
+
+FReply SRecoilPatternEditorWidget::ToggleDrawPoints()
+{
+	GetEdMode()->ToggleDrawPoints();
 	return FReply::Handled();
 }
 

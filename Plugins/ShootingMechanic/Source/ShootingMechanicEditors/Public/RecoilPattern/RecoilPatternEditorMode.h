@@ -66,6 +66,8 @@ public:
 
 	void TogglePointSelection();
 	bool pointSelection = true;
+	void ToggleDrawPoints() {drawPoints = !drawPoints;}
+	bool drawPoints = true;
 
 	void SaveAsset(URecoilPattern* recoilPattern);
 	
