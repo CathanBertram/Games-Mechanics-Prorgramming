@@ -21,4 +21,10 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	UOnFireModuleBase* GetOnFireModule();
 	virtual UOnFireModuleBase* GetOnFireModule_Implementation() override;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void OnFire(AGun* gun, FVector endLoc);
+	virtual void OnFire_Implementation(AGun* gun, FVector endLoc);
+
+	void DoFire(AGun* gun, FVector endLoc);
 };

@@ -12,3 +12,12 @@ UOnFireModuleBase* UOnFireModuleBase::GetOnFireModule_Implementation()
 {
 	return this;
 }
+
+void UOnFireModuleBase::OnFire_Implementation(AGun* gun, FVector endLoc)
+{
+}
+
+void UOnFireModuleBase::DoFire(AGun* gun, FVector endLoc)
+{
+	OnFire(gun, endLoc);
+}

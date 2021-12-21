@@ -17,7 +17,7 @@ AGun::AGun()
 	gunMesh->SetupAttachment(root);
 
 	gunMuzzle = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzlePosition"));
-	gunMuzzle->SetupAttachment(gunMesh);
+	gunMuzzle->SetupAttachment(root);
 
 	canShoot = true;
 

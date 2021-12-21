@@ -56,6 +56,14 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 		FCollisionQueryParams collisionParams;
 		collisionParams.TraceTag = traceTag;
 
+		for (auto t : gun->onFireModules)
+		{
+			if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnFireBaseModule::StaticClass()))
+			{
+				IGetOnFireBaseModule::Execute_GetOnFireModule(t)->DoFire(gun, end);
+			}
+		}
+
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
@@ -63,7 +71,6 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 			{
 				if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnHitBaseModule::StaticClass()))
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, TEXT("do"));
 					IGetOnHitBaseModule::Execute_GetOnHitModule(t)->DoHit(gun,hit);
 				}
 			}
@@ -92,9 +99,24 @@ void UShoot_Base::ShootWithoutGamemode(AGun* gun)
 		FCollisionQueryParams collisionParams;
 		collisionParams.TraceTag = traceTag;
 
+		for (auto t : gun->onFireModules)
+		{
+			if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnFireBaseModule::StaticClass()))
+			{
+				IGetOnFireBaseModule::Execute_GetOnFireModule(t)->DoFire(gun, end);
+			}
+		}
+
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+			for (auto t : gun->onHitModules)
+			{
+				if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnHitBaseModule::StaticClass()))
+				{
+					IGetOnHitBaseModule::Execute_GetOnHitModule(t)->DoHit(gun,hit);
+				}
+			}
 		}
 		
 		gun->ConsumeAmmo();
