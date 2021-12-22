@@ -41,14 +41,17 @@ protected:
 	void ConsumeAmmo();
 	void AddRecoil();
 	
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float damage;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float accurateRange;
-	UPROPERTY(EditAnywhere)
-	float maxRange;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadOnly)
+	float maxProjectileRange;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float roundsPerMinute;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UCurveFloat* damageDropOffCurve;
+	
 public:
 	float TimeBetweenShots() { return 60 / roundsPerMinute; }
 };

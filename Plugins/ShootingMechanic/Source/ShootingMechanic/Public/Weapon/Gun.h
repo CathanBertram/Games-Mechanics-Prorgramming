@@ -84,37 +84,40 @@ protected:
 	UFireModeModuleBase* fireMode;
 
 #pragma region WeaponFunctionality
-	
+	UPROPERTY(BlueprintReadOnly)
 	int curAmmo;
+	UPROPERTY(BlueprintReadOnly)
 	int curTotalAmmo;
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Weapon Statistics")
 	int maxAmmoInMag;
-	UPROPERTY(EditAnywhere, Category = "Weapon Statistics")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Weapon Statistics")
 	int totalAmmoCapacity;
 
 	
 #pragma endregion
 #pragma region RecoilFunctionality
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	URecoilPattern* recoilPattern;
 
 	FTimerHandle resetRecoilTimer;
+	UPROPERTY(BlueprintReadOnly)
 	int recoilIndex;
 
 	void ResetRecoil();
 #pragma endregion
+	UPROPERTY(BlueprintReadOnly)
 	bool canShoot;
 	void ResetCanShoot();
 
 	FTimerHandle resetShootTimer;
 	UCameraComponent* cameraReference;
 	
-	UPROPERTY(EditAnywhere, Instanced)
+	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
 	UWeaponModuleBase* altFireModule;
 public:
-	UPROPERTY(EditAnywhere, Instanced)
+	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
 	TArray<UOnFireModuleBase*> onFireModules;
-	UPROPERTY(EditAnywhere, Instanced)
+	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
 	TArray<UOnHitModuleBase*> onHitModules;
 
 public:

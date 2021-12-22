@@ -11,7 +11,7 @@ UShoot_Base::UShoot_Base()
 	moduleType = WeaponModuleType::Shoot;
 	damage = 10;
 	accurateRange = 10000;
-	maxRange = 10000000;
+	maxProjectileRange = 10000000;
 	roundsPerMinute = 800;
 }
 
@@ -46,9 +46,9 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 		FVector start = cameraReference->GetComponentLocation();
 		FVector end = FVector::ZeroVector;
 		if (gamemode->BulletSpreadEnabled())
-			end =  (GetBulletDirection(cameraReference) * maxRange) + start;
+			end =  (GetBulletDirection(cameraReference) * maxProjectileRange) + start;
 		else
-			end = (cameraReference->GetForwardVector() * maxRange) + start;
+			end = (cameraReference->GetForwardVector() * maxProjectileRange) + start;
 	
 	
 		const FName traceTag("TraceTag");
@@ -66,7 +66,13 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
-			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+			float tDamage;
+			if (damageDropOffCurve)
+				tDamage = damage * (damageDropOffCurve->GetFloatValue(FVector::Distance(start, hit.Location) * 0.001f) );
+			else
+				tDamage = damage;
+		
+			UGameplayStatics::ApplyDamage(hit.GetActor(), tDamage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
 			for (auto t : gun->onHitModules)
 			{
 				if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnHitBaseModule::StaticClass()))
@@ -92,7 +98,7 @@ void UShoot_Base::ShootWithoutGamemode(AGun* gun)
 		FHitResult hit(ForceInit);
 		// Get Bullet Start Point
 		FVector start = cameraReference->GetComponentLocation();
-		FVector end =  (GetBulletDirection(cameraReference) * maxRange) + start;
+		FVector end =  (GetBulletDirection(cameraReference) * maxProjectileRange) + start;
 	
 		const FName traceTag("TraceTag");
 		world->DebugDrawTraceTag = traceTag; //Draws arrow at hit point
@@ -109,7 +115,13 @@ void UShoot_Base::ShootWithoutGamemode(AGun* gun)
 
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
-			UGameplayStatics::ApplyDamage(hit.GetActor(), damage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
+			float tDamage;
+			if (damageDropOffCurve)
+				tDamage = damage * (damageDropOffCurve->FloatCurve.Eval(FVector::Distance(start, hit.Location) * 0.001f) );
+			else
+				tDamage = damage;
+			
+			UGameplayStatics::ApplyDamage(hit.GetActor(), tDamage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
 			for (auto t : gun->onHitModules)
 			{
 				if (UKismetSystemLibrary::DoesImplementInterface(t, UGetOnHitBaseModule::StaticClass()))

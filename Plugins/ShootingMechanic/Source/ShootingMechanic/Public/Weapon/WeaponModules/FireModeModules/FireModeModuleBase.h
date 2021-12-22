@@ -26,7 +26,7 @@ public:
 
 	virtual void Initialise(AGun* gun) override;
 	
-	UPROPERTY(EditAnywhere, Instanced)
+	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
 	UShoot_Base* shootType;
 
 	virtual void OnActivate(AGun* gun) override;
