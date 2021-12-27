@@ -51,25 +51,15 @@ void AGun::FireRelease_Implementation()
 
 void AGun::AltFireStart_Implementation()
 {
-	switch (altFireModule->ModuleType())
-	{
-	case WeaponModuleType::Default:
-		break;
-	case WeaponModuleType::Shoot:
-		break;
-	case WeaponModuleType::FireMode:
-		break;
-	case WeaponModuleType::OnFire:
-		break;
-	case WeaponModuleType::OnHit:
-		break;
-	default: break;
-	}
+	if(!canShoot || !CheckAmmo()) return;
+
+	canShoot = false;
+	altFireModule->OnActivate(this);
 }
 
 void AGun::AltFireRelease_Implementation()
 {
-	
+	altFireModule->OnDeactivate(this);
 }
 
 void AGun::FireStart_Implementation()

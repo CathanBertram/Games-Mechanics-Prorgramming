@@ -35,6 +35,11 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void FireReleased();
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void AltFirePressed();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void AltFireReleased();
+	
 	//Interact Functions
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void InteractPressed();

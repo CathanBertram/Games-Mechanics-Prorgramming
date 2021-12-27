@@ -51,6 +51,13 @@ public:
 	virtual void FireReleased_Implementation() override;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFirePressed();
+	virtual void AltFirePressed_Implementation() override;
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void AltFireReleased();
+	virtual void AltFireReleased_Implementation() override;
+	
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void ReloadPressed();
 	virtual void ReloadPressed_Implementation() override;
 

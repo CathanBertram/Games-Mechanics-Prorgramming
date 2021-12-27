@@ -11,7 +11,7 @@ FVector2D URecoilPattern::GetRecoilAtIndex(int index)
 		return FVector2D::ZeroVector;
 	}
 	
-	if (index > recoil.Num())
+	if (index >= recoil.Num())
 	{
 		return recoil[FMath::RandRange(0,recoil.Num())];
 	}

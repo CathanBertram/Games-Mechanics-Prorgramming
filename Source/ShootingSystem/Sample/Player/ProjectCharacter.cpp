@@ -39,6 +39,16 @@ void AProjectCharacter::FireReleased_Implementation()
 	Super::FireRelease();
 }
 
+void AProjectCharacter::AltFirePressed_Implementation()
+{
+	Super::AltFirePress();
+}
+
+void AProjectCharacter::AltFireReleased_Implementation()
+{
+	Super::AltFireRelease();
+}
+
 void AProjectCharacter::ReloadPressed_Implementation()
 {
 	Super::ReloadPress();

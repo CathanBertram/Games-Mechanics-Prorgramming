@@ -25,6 +25,8 @@ protected:
 
 	void FirePress();
 	void FireRelease();
+	void AltFirePress();
+	void AltFireRelease();
 	void ReloadPress();
 	UFUNCTION()
 	void OnShoot(FVector2D recoil);

@@ -113,7 +113,7 @@ protected:
 	UCameraComponent* cameraReference;
 	
 	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
-	UWeaponModuleBase* altFireModule;
+	UFireModeModuleBase* altFireModule;
 public:
 	UPROPERTY(EditAnywhere, Instanced, BlueprintReadOnly)
 	TArray<UOnFireModuleBase*> onFireModules;

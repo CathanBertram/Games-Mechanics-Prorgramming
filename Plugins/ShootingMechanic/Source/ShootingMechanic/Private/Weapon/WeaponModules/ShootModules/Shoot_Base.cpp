@@ -63,15 +63,18 @@ void UShoot_Base::ShootWithGamemode(AGun* gun, AShootingSystemGamemode* gamemode
 				IGetOnFireBaseModule::Execute_GetOnFireModule(t)->DoFire(gun, end);
 			}
 		}
-
+		
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			float tDamage;
-			if (damageDropOffCurve)
-				tDamage = damage * (damageDropOffCurve->GetFloatValue(FVector::Distance(start, hit.Location) * 0.001f) );
+			if (IsValid(damageDropOffCurve))
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, TEXT("no"));
+                tDamage = damage * (damageDropOffCurve->GetFloatValue(FVector::Distance(start, hit.Location) * 0.001f) );
+            }
 			else
 				tDamage = damage;
-		
+			
 			UGameplayStatics::ApplyDamage(hit.GetActor(), tDamage, gun->GetInstigatorController(), gun, TSubclassOf<UDamageType>(UDamageType::StaticClass()));
 			for (auto t : gun->onHitModules)
 			{
@@ -116,8 +119,11 @@ void UShoot_Base::ShootWithoutGamemode(AGun* gun)
 		if (world->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
 		{
 			float tDamage;
-			if (damageDropOffCurve)
-				tDamage = damage * (damageDropOffCurve->FloatCurve.Eval(FVector::Distance(start, hit.Location) * 0.001f) );
+			if (IsValid(damageDropOffCurve))
+			{
+			    GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, TEXT("no"));
+			    tDamage = damage * (damageDropOffCurve->FloatCurve.Eval(FVector::Distance(start, hit.Location) * 0.001f) );
+			}
 			else
 				tDamage = damage;
 			

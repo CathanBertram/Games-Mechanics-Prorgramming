@@ -51,6 +51,24 @@ void AShootingSystemPlayerCharacter::FireRelease()
 	}
 }
 
+void AShootingSystemPlayerCharacter::AltFirePress()
+{
+	auto child = m_GunChildActor->GetChildActor();
+	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
+	{
+		IFireable::Execute_AltFireStart(child);
+	}
+}
+
+void AShootingSystemPlayerCharacter::AltFireRelease()
+{
+	auto child = m_GunChildActor->GetChildActor();
+	if (UKismetSystemLibrary::DoesImplementInterface(child, UFireable::StaticClass()))
+	{
+		IFireable::Execute_AltFireRelease(child);
+	}
+}
+
 void AShootingSystemPlayerCharacter::ReloadPress()
 {
 	auto child = m_GunChildActor->GetChildActor();
