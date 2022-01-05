@@ -21,6 +21,8 @@ void AProjectController::SetupInputComponent()
 	InputComponent->BindAction("Jump", IE_Pressed, this, &AProjectController::JumpPressed);
 	InputComponent->BindAction("Jump", IE_Released, this, &AProjectController::JumpReleased);
 	InputComponent->BindAction("Fire", IE_Pressed, this, &AProjectController::FirePressed);
+	InputComponent->BindAction("AltFire", IE_Released, this, &AProjectController::AltFireReleased);
+	InputComponent->BindAction("AltFire", IE_Pressed, this, &AProjectController::AltFirePressed);
 	InputComponent->BindAction("Fire", IE_Released, this, &AProjectController::FireReleased);
 	InputComponent->BindAction("Interact", IE_Pressed, this, &AProjectController::InteractPressed);
 	InputComponent->BindAction("Reload", IE_Pressed, this, &AProjectController::ReloadPressed);
@@ -85,6 +87,20 @@ void AProjectController::FireReleased()
 	auto pawn = GetPawn();
 	if (UKismetSystemLibrary::DoesImplementInterface(pawn, UInputable::StaticClass()))
 		IInputable::Execute_FireReleased(pawn);
+}
+
+void AProjectController::AltFirePressed()
+{
+	auto pawn = GetPawn();
+	if (UKismetSystemLibrary::DoesImplementInterface(pawn, UInputable::StaticClass()))
+		IInputable::Execute_AltFirePressed(pawn);
+}
+
+void AProjectController::AltFireReleased()
+{
+	auto pawn = GetPawn();
+	if (UKismetSystemLibrary::DoesImplementInterface(pawn, UInputable::StaticClass()))
+		IInputable::Execute_AltFireReleased(pawn);
 }
 
 void AProjectController::InteractPressed()

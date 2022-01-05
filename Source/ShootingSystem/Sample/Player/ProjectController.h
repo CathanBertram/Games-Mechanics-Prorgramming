@@ -36,6 +36,7 @@ class SHOOTINGSYSTEM_API AProjectController : public APlayerController, public I
 	private:
 	void JumpPressed(); void JumpReleased();
 	void FirePressed(); void FireReleased();
+	void AltFirePressed(); void AltFireReleased();
 	void InteractPressed();
 	void ReloadPressed();
 	
